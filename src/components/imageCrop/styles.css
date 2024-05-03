@@ -1,0 +1,12 @@
+
+.squarePreview {
+  width: 189px;
+  height: 126px;
+  /* border-radius: 100%; */
+}
+
+.circularCropPreview {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}

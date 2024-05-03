@@ -1,0 +1,12 @@
+
+/* .CustomAutoComplete-Wrapper .MuiAutocomplete-endAdornment {
+    top: calc(50% - 20px);
+} */
+
+/* Media-query */
+@media only screen and (max-width: 767px) {
+    .mediaSliderPop .MuiDialog-paper {width: 100%;max-width: 100%;}
+    .mediaSliderPop .MuiDialog-paper .MuiDialogContent-root {padding: 2rem 2rem 0rem;}
+    .mediaSliderPop .dots {top: 59%;}
+}
+

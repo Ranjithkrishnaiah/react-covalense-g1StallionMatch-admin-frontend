@@ -1,0 +1,230 @@
+.lr-popup{
+    position: relative;
+}
+.custfield:focus{
+    border-color: red !important;
+}
+.social li:hover{
+    background: none;
+}
+.dialogPopup .popup-btn{
+    padding: 0;
+    margin-left: auto;
+    text-transform:inherit;
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+
+}
+
+.dialogPopup .popup-btn:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.SDradio{
+    padding: 0px !important;
+}
+
+.terms{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+.dialogPopup .terms-btn{
+    padding: 0;
+    text-transform:inherit;
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.dialogPopup .terms-btn:hover{
+    background: none;
+    text-decoration: none;
+}
+
+.lr-btn{
+     font-family: 'Synthese-Regular';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      padding: 0 1rem;
+      text-transform: none;
+      background-color: #1D472E;
+      height: 48px;
+      border-radius: 4px;
+      letter-spacing: -0.01rem;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 1rem auto 0 auto;
+  }
+
+  .lr-btn:hover{
+    background-color: #007142
+  }
+  
+
+  .lr-btn:disabled{
+      background-color: #B0B6AF;
+      color: #FFFFFF;
+  }
+
+  .pwdhints{
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    color: #161716;
+  }
+
+  .pwdhints i{
+    position: relative;
+    top: 5px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .eye-icon:eye-outlined{
+      color: #1D472E;
+  }
+  .update-email {
+    padding-top: 20px;
+}
+.update-email .update-email-user {
+    margin-bottom: 20px;
+}
+
+.forgot-password-box .lr-btn {
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 1rem;
+    text-transform: none;
+    background-color: #1D472E;
+    height: 48px;
+    border-radius: 4px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+.forgot-password-box  .lr-btn-outline{
+    background: none;
+    color: #161716;
+    border: 1px solid #007142;
+    padding: 0px 6px;
+} 
+
+.forgot-password-box .lr-btn-outline:hover {
+    background: #007142;
+    color: #fff;
+    border-color: #007142;
+}
+
+.forgot-class-align {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 11px;
+}
+
+.forgot-password-box .lr-btn:hover {
+    background-color: #007142;
+}
+
+
+
+.lr-btn-outline {
+    background: none;
+    color: #1D472E;
+    border: 1px solid #007142;
+    border-radius: 4px;
+    text-transform: inherit;
+}
+
+.lr-btn-outline:hover {
+    color: #fff;
+}
+.lr-btn-outline:disabled {
+    color: #626E60;
+    border: 1px solid #B0B6AF;
+    background: none;
+}
+
+/* congratulation-box */
+.congratulation-box {padding-top: 32px;line-height: 24px;}
+
+.dialogPopup 
+ .congratulation-box label {
+    font-family: 'Synthese-Book';
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.regis-success{ position: relative;}
+.regis-success h4{
+    font-family:'Synthese-Regular';
+    letter-spacing: -0.01em;
+    color: #1D472E;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px
+}
+.regis-success h6{
+    font-family:'Synthese-Book';
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px
+}
+
+.regis-success a{
+    font-weight: 700;
+    color: #007142;
+    text-decoration: underline;
+}
+
+.regis-success a:hover{
+    text-decoration: none;
+}
+  /* ..................... country cookie ..................... */
+
+
+  :root {
+    --toastify-color-success: #007142 !important;
+    --toastify-icon-color-success: var(--toastify-color-success) !important;
+  }
+  .Toastify__toast {
+    font-family:'Synthese-Regular' !important;
+    color:#161716 !important;
+}
+
+.Toastify__progress-bar--success {
+    background:#2EFFB4 !important;
+}
+
+/* .............Media Query................. */
+
+@media only screen and (max-width: 767px) {
+    .terms{
+       display: inline-block;
+    }
+    .dialogPopup .terms-btn{
+        vertical-align: inherit;
+    }
+    .SDradio{
+        align-items: center;
+    }
+}
+
+
+

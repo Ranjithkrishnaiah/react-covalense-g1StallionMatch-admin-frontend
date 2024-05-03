@@ -1,0 +1,74 @@
+.bg{
+    background: url('../../assets/Images/HomePageHeader.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(70%) calc(30%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.greyTiles{
+    position: absolute;
+    bottom:0;
+    background:url('../../assets/Images/TopGreyTiles.svg'); 
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    height: 88px;
+}
+
+.login{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+}
+
+.login .loginBody {
+    padding: 0px;
+    max-width: 326px;
+    min-height: auto;
+}
+
+.login .css-1yfpiax-MuiButtonBase-root-MuiButton-root{
+    color: #ffffff;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.rich-text {
+    text-align: center !important;
+}
+.rich-text > h4{
+    font-family: 'FlechaM-Medium';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.rich-text > h6{
+    font-family: 'FlechaM-Medium';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.rich-text > p{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01rem;
+    color: #FFFFFF;
+}
+
+.rich-text .MuiFormControlLabel-root .MuiFormControlLabel-label{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.01rem;
+    color: #FFFFFF;
+}

@@ -1,0 +1,251 @@
+{
+  "name": "Horse",
+  "children": [
+    {
+      "name": "S",      
+      "children": [
+        {
+          "name": "SS",
+          "children": [
+            {
+              "name": "SSS",
+              "children": [
+                {
+                  "name": "SSSS",
+                  "children": [
+                    {
+                      "name": "SSSSS"
+                    },
+                    {
+                      "name": "SSSSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "SSSD",
+                  "children": [
+                    {
+                      "name": "SSSDS"
+                    },
+                    {
+                      "name": "SSSDD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "SSD",
+              "children": [
+                {
+                  "name": "SSDS",
+                  "children": [
+                    {
+                      "name": "SSDSS"
+                    },
+                    {
+                      "name": "SSDSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "SSDD",
+                  "children": [
+                    {
+                      "name": "SSDDS"
+                    },
+                    {
+                      "name": "SSDDD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SD",
+          "children": [
+            {
+              "name": "SDS",
+              "children": [
+                {
+                  "name": "SDSS",
+                  "children": [
+                    {
+                      "name": "SDSSS"
+                    },
+                    {
+                      "name": "SDSSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "SDSD",
+                  "children": [
+                    {
+                      "name": "SDSDS"
+                    },
+                    {
+                      "name": "SDSDD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "SDD",
+              "children": [
+                {
+                  "name": "SDDS",
+                  "children": [
+                    {
+                      "name": "SDDSS"
+                    },
+                    {
+                      "name": "SDDSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "SDDD",
+                  "children": [
+                    {
+                      "name": "SDDDS"
+                    },
+                    {
+                      "name": "SDDDD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "D",      
+      "children": [
+        {
+          "name": "DS",
+          "children": [
+            {
+              "name": "DSS",
+              "children": [
+                {
+                  "name": "DSSS",
+                  "children": [
+                    {
+                      "name": "DSSSS"
+                    },
+                    {
+                      "name": "DSSSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "DSSD",
+                  "children": [
+                    {
+                      "name": "DSSDS"
+                    },
+                    {
+                      "name": "DSSDD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DSD",
+              "children": [
+                {
+                  "name": "DSDS",
+                  "children": [
+                    {
+                      "name": "DSDSS"
+                    },
+                    {
+                      "name": "DSDSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "DSDD",
+                  "children": [
+                    {
+                      "name": "DSDDS"
+                    },
+                    {
+                      "name": "DSDDD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DD",
+          "children": [
+            {
+              "name": "DDS",
+              "children": [
+                {
+                  "name": "DDSS",
+                  "children": [
+                    {
+                      "name": "DDSSS"
+                    },
+                    {
+                      "name": "DDSSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "DDSD",
+                  "children": [
+                    {
+                      "name": "DDSDS"
+                    },
+                    {
+                      "name": "DDSDD"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "DDD",
+              "children": [
+                {
+                  "name": "DDDS",
+                  "children": [
+                    {
+                      "name": "DDDSS"
+                    },
+                    {
+                      "name": "DDDSD"
+                    }
+                  ]
+                },
+                {
+                  "name": "DDDD",
+                  "children": [
+                    {
+                      "name": "DDDDS"
+                    },
+                    {
+                      "name": "DDDDD"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

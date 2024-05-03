@@ -1,0 +1,318 @@
+.backtopage {
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #007142;
+    letter-spacing: 0.01rem;
+    text-decoration: none;
+}
+.backtopage:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;
+}
+.backtopagewrapper i{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+.backtopagewrapper {
+    display: flex;
+    align-items: center;
+}
+
+/* Header */
+.stallion-report {
+    background: #F4F1EF;
+    border-radius: 8px;
+    padding: 24px;
+}
+.stallion-report h2 {
+    margin: 0;
+    font-family: FlechaM-Medium;
+    color: #1D472E;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-size: 56px;
+    line-height: 72px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.stallion-report h6 {
+    margin: 0;
+    font-family: Synthese-Book;
+    color: #161716;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    font-size: 18px;
+}
+.stallion-report .report-links {
+    display: flex;
+    align-items: center;
+}
+.stallion-report .report-links li {
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.01rem;
+    background: none;
+    color: #626E60;
+}
+.stallion-report .report-links li i {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+.stallion-report .report-links li i.icon-Link-img {
+    width: 20px;
+    height: 21px;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled {
+    overflow-y: scroll;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled .aptitude-fullscreen {
+    height: 100%;
+}.ViewAnalyticsPageBody {
+    padding: 0;
+}
+.aptitude-fullscreen {
+    width: 100%;
+}
+.ViewAnalyticsPageBody .lineBarChart-Wrapper canvas {
+    width: 100% !important;
+}
+.ViewAnalyticsPageBody .Linechart-StMatchActvty canvas {
+    width: 100% !important;
+}
+.stallion-report i.icon-Info-circle {
+    cursor: pointer;
+    color: #161716;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled .SPtreechat {
+    border-radius: 0;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled .SPtreechat {
+    height: 100%;
+}
+
+.Linechart-StMatchActvty {
+    height: 420px;
+}
+.stallion-report .progressbar {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-left: auto;
+}
+.stallion-report .progressbar h6 {
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    color: #161716;
+    line-height: 16px;
+}
+.stallion-report .progressbar .MuiLinearProgress-root {
+    background: #E2E7E1;
+    height: 6px;
+}
+.stallion-report .MuiAvatar-root {
+    background: #bdbdbd;
+}
+.ViewAnalyticsPageBody .trends-popover {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.ViewAnalyticsPageBody .trends-popover .customDate {
+    margin-top: 0;
+    width: 176px;
+}
+.ViewAnalyticsPageBody .Pagination-wrapper .SDpagenation {
+    left: 0;
+}
+
+.stallion-report .MuiAvatar-root svg {
+    fill: #fff;
+}
+
+.ViewAnalyticsPageBody h3 {
+    font-family: FlechaM-Medium;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0;
+    color: #1D472E;
+}
+.trends-header-wrapper-left {
+    display: flex;
+}
+.trends-activty-button {
+    margin-left: 8px;
+}
+.trends-header-wrapper .trends-header-wrapper-inner {
+    align-items: center;
+}
+.trends-activty-button .customDate  {
+    width: 176px;
+}
+.trends-select-box {
+    min-width: 192px;
+    height: 40px;
+}
+.StallionMatchActivityGraph {
+    display: flex;
+    flex-direction: column;
+    background: #F4F1EF;
+    border-radius: 8px;
+}
+.StallionMatchActivityFS {
+    margin-left: auto;
+    padding: 24px 24px 0px;
+}
+.StMatchActvtyInfo {
+    padding-top: 0;
+}
+.StMatchActvtyInfo h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161716;
+}
+.circle-gr-trends {
+    width: 18px;
+    height: 18px;
+    background: #3139DA;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+}
+.StMatchActvtyInfo h4 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #161716;
+}
+.StMatchActvtyInfo hr.MuiDivider-root {
+    margin-right: 40px;
+    border-color: #B0B6AF
+    
+}
+.circle-gr-trends.green {
+    background: #1D472E;
+}
+
+.circle-gr-trends.light-green {
+    background: #2EFFB4;
+}
+.stallion-analytics-row {
+    margin-bottom: 20px;
+}
+.stallion-analytics h6 {
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #161716;
+}
+.KeyStatisticsWrapper .stallion-analytics h6 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+}
+.stallion-analytics i {
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.KeyStatisticsWrapper .stallion-analytics h6 i.icon-Info-circle {
+    font-size: 22px;
+    margin-left: 5px;
+    position: relative;
+    top: 4px;
+}
+.key-statics-box h4.MuiTypography-root {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: Synthese-Book;
+    color: #1D472E;
+}
+.arrowUpBlock {
+    color: #007142;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Synthese-Regular';
+    margin-left: 7px;
+    margin-bottom: 9px;
+}
+.stallion-analytics .arrowUpBlock i {
+    margin-right: 0;
+    font-size: 18px;
+    position: relative;
+    left: 3px;
+    vertical-align: text-bottom;
+}
+.KeyStatisticsWrapper .stallion-analytics hr.MuiDivider-root.MuiDivider-fullWidth.MuiDivider-vertical {
+    margin: 0px 56px;
+    border-right: 2px solid #B0B6AF;
+}
+.arrowDownBlock {
+    color: #C75227;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Synthese-Regular';
+    margin-left: 7px;
+    margin-bottom: 9px;
+}
+.matched-mare-table-para {
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Synthese-Book';
+}
+.stallion-report-datatable .datalist td {
+    font-size: 14px;
+}
+
+.progency-tracker-table .datalist td {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.stallion-report-datatable  .datalist th:first-of-type {
+    padding-left: 0;
+}
+.ViewAnalyticsPageBody .stallion-report-datatable .datalist th:first-of-type {
+    padding-left: 13px;
+}
+.trends-popover .edit-field .MuiSelect-select {
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .stallion-report h2{
+        font-size:48px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        width: 99%;
+    }
+    
+}

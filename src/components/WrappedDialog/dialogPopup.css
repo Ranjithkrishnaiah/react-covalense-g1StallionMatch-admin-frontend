@@ -1,0 +1,2992 @@
+.dialogPopup .MuiDialog-paper{
+    width: 509px;
+    border-radius: 10px;
+    font-family: 'Synthese-Regular';
+    overflow: hidden;
+
+}
+.dialogPopup .popup-heading{
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.image-crop-popup .MuiDialog-paper{
+    width: 310px;
+    border-radius: 10px;
+    font-family: 'Synthese-Regular';
+    overflow: hidden;
+
+}
+
+
+/* .dialogPopup.MuiModal-root.MuiDialog-root{
+    position: absolute !important;
+} */
+
+.popup-cnt::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  .popup-cnt::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+  }
+   
+
+  .popup-cnt::-webkit-scrollbar-thumb {
+    border: 5px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: #B0B6AF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 36px;
+  }
+  .popup-cnt::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0);
+  }
+
+  /* .popup-cnt::-webkit-scrollbar-thumb:hover {
+    background: #999; 
+  } */
+
+
+  .popup-cnt {
+    /* scrollbar-width: thin;
+    scrollbar-color: #B0B6AF transparent; */
+    padding: 2rem 1.7rem;
+    position: relative;
+    padding: 32px;
+  
+  }
+
+
+
+
+  
+.selectStallionModal .popup-cnt::-webkit-scrollbar {
+    width: 16px;
+  
+  }
+  
+  
+.selectStallionModal .popup-cnt::-webkit-scrollbar-track {
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+  }
+   
+  
+  
+.selectStallionModal .popup-cnt::-webkit-scrollbar-thumb {
+    border: 6px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: #B0B6AF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 36px;
+  }
+
+
+.popup-cnt .spin-load{
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+background-color: #00000014;
+  }
+.popup-cnt .circular-progress-wrapper{
+    height: 100vh;
+}
+
+
+.dialogPopup .MuiDialogTitle-root{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #1D472E;
+    font-weight: 400;
+    letter-spacing: -0.02rem;
+    line-height: 40px;
+    
+
+}
+.dialogPopup.title-capitalize .MuiDialogTitle-root {
+    text-transform: capitalize;
+}
+.dialogPopup .MuiDialogTitle-root i.icon-Chevron-left {
+    margin-right: 8px;
+    font-size: 24px;
+    position: relative;
+    top: 3px;
+}
+.registerYourIntrestPopup.dialogPopup .MuiDialogTitle-root {
+    text-transform: inherit;
+}
+.addnewmareList .MuiDialogTitle-root {
+    text-transform: inherit;
+}
+.dialogPopup .MuiOutlinedInput-root .MuiSelect-outlined {
+    padding: 14px 16px;
+    color: #161716;
+    
+    /* color: #626E60; */
+}
+
+.dialogPopup .MuiOutlinedInput-root .MuiSelect-outlined.Mui-disabled{
+    cursor: no-drop;
+}
+
+.dialogPopup .MuiInputLabel-root{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    color: #161716;
+    font-weight: 400;
+    padding-bottom: 6px;
+    line-height: 24px;
+
+}
+.dialogPopup .MuiInputLabel-root.secondline-invite {
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.dialogPopup .StallionIcludeInreport .MuiInputLabel-root {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+.dialogPopup .StallionIcludeInreport.shortlistConfirm .MuiInputLabel-root{
+    margin-bottom: 0px;
+}
+.dialogPopup .shortlistConfirm p{
+    color: #C75227;
+}
+
+.dialogPopup .MuiOutlinedInput-root{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* .dialogPopup .MuiOutlinedInput-notchedOutline{
+    border-color: #C75227;
+} */
+
+
+.dialogPopup .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+    color: #161716;
+}
+.dialogPopup .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+    color: #161716;
+}
+.dialogPopup .MuiOutlinedInput-root.Mui-disabled:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #B0B6AF;
+}
+
+.dialogPopup .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+    color: #161716;
+}
+
+.dialogPopup .signupac{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    line-height: 20px;
+
+}
+
+.dialogPopup .MuiFormControlLabel-label{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    text-align: left;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+.dialogPopup .pwdhints .MuiInputLabel-root{
+    font-family: 'Synthese-Book' !important;
+    font-size: 16px;
+    color: #161716;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.dialogPopup .pwdhints img{
+    margin-right:5px;
+    margin-top: 5px;
+    width:16px;
+    height:16px;
+    align-items: center;
+}
+
+.dialogPopup p{
+    margin-top: 2px;
+    font-family: 'Synthese-Regular';
+    /* font-size: 14px; */
+    color: black;
+    font-weight: 400;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+}
+.dialogPopup .info{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.dialogPopup .viewfee{
+    padding-left: 3px;
+    color: #007142;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+.dialogPopup .viewfee:hover{
+    color: #1D472E;
+}
+
+.dialogPopup .icon-Info-circle{
+    cursor:pointer;
+    color: #161716;
+}
+
+
+
+
+/* Media-slider-pop */
+
+.mediaSliderPop .dots {left: 0;right: 0; bottom: 24px;}
+.mediaSliderPop .farm-media-image.media-slider {
+    position: relative;
+}
+.mediaSliderPop .navigarion-arrow-wrapper {left: 0;right: 0;width: 93%;margin: auto;top: 213px;}
+.mediaSliderPop .MuiBox-root .MuiCardContent-root {padding-left: 0;padding-right: 0;}
+.mediaSliderPop .MuiDialog-paper {width: 700px;max-width: 700px;}
+.mediaSliderPop .fullscreen.fullscreen-enabled .MuiDialog-paper {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    overflow-y: scroll;
+}
+
+.mediaSliderPop .fullscreen.fullscreen-enabled .MuiDialog-paper .arrowcollapse {
+    bottom: inherit;
+    top: 16px;
+}
+.mediaSliderPop .MuiDialog-paper .MuiDialogContent-root {padding: 2rem 5rem 0rem;}
+.media-slider-wrapper .navigarion-arrow-wrapper {
+    top: 28%;
+}
+.media-slider-wrapper  .recent-slider-box .MuiCardContent-root{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mediaSliderPop .farm-media-image.media-slider img, .mediaSliderPop .farm-media-image.media-slider video {
+    height: 401px;
+    object-fit: cover;
+}
+.mediaSliderPop .fullscreen-enabled .farm-media-image.media-slider video {
+    height: 100%;
+}
+.mediaSliderPop .fullscreen-enabled .farm-media-image.media-slider {
+    overflow: visible;
+    height: 100%;
+}
+.mediaSliderPop .farm-media-image.media-slider i.icon-Arrows-expand {
+    z-index: 1;
+}
+.mediaSliderPop .fullscreen-enabled .farm-media-image.media-slider img {
+    height: 100%;
+}
+.mediaSliderPop .show.MuiBox-root  {
+    animation: fadeInAnimation ease 3s;
+    -webkit-animation: fadeInAnimation ease 3s;
+    -moz-animation: fadeInAnimation ease 3s;
+    -o-animation: fadeInAnimation ease 3s;
+    -ms-animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@-webkit-keyframes  fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@-o-keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+@-ms-keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+i.icon-Carousel-Arrow-Left,i.icon-Carousel-Arrow-Right {cursor: pointer;}
+
+
+.AddtoCartBtn {
+    background: #1D472E;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: initial;
+    font-family: 'Synthese-Regular';
+    margin: 30px 0px 0px;
+    line-height: 0;
+    padding: 10px 0px 14px;
+}
+.AddtoCartBtn:hover {background-color: #007142;}
+.AddtoCartBtn.Mui-disabled{
+    background-color:#B0B6AF;
+    color: #ffffff;
+}
+.dialogPopup .termsModal {margin-bottom: 0px; font-size: 12px !important;justify-content: center !important;color: #161716;font-family: 'Synthese-Book' !important;}
+.dialogPopup .termsModal button {font-size: 12px;color: #161716;   text-decoration: underline !important;    padding-left: 3px;  font-family: 'Synthese-Book';
+
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 3px;}
+
+    .dialogPopup .termsModal button:hover{
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 3px;
+    }
+
+/* .dialogPopup .reportModalForm .MuiOutlinedInput-root {margin-bottom: 22px;} */
+.dialogPopup .reportModalForm  svg.MuiSvgIcon-root {color: #161716;font-size: 28px;margin-right: 0px; right: 12px;
+    top: 10px;
+}
+.dialogPopup 
+ .report-terms-modal {
+    margin-bottom: 37px;
+}
+.dialogPopup .reportModalForm  .MuiInputLabel-root i.icon-Info-circle {margin-left: 3px;position: relative;top: 2px;    color: #161716;}
+.shortlistreport-head {
+    margin: 0px 0px 20px;
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+    letter-spacing: -0.013em;
+}
+.makeavailableradio {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.makeavailableradio .SDradio {
+    margin-right: 0;
+}
+
+.makeavailableradio i.icon-Info-circle {
+    margin-left: 3px;
+    color: #161716;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.add-stallion-pop-wrapper .search-stallion-pop-box {
+    min-height: initial;
+    margin: 0;
+    padding: 0;
+}
+.StallionIcludeInreport .react-dropdown-tree-select .dropdown .dropdown-content {
+    position: static;
+}
+
+.StallionIcludeInreport .SDmultiselect {
+    margin-bottom: 0;
+}
+.reportModalForm {padding-top: 30px;padding-bottom: 16px;}
+
+.reportpop-name {margin-bottom: 24px;margin-top: 0px;}
+.reportpop-name .MuiBox-root {color: #161716;font-weight: 400;font-size: 16px;text-transform: capitalize;}
+.reportpop-name .MuiBox-root .reportEmail {
+    color: #626E60;
+    margin-top: 3px;
+}
+.reportModalForm .reportpop-name {
+    margin: 10px 0px 42px;
+}
+.reportpop-name .popup-btn {text-decoration: underline;}
+.checkboxselct {width: 100%;margin: 0;}
+.reportpop-name .popup-btn {text-transform: lowercase !important; color: #007142;font-family: 'Synthese-Regular'; padding: 0;
+    text-decoration-thickness: 1.5px !important;
+    text-underline-offset: 3px !important;
+}
+.reportpop-name .popup-btn:hover{
+    color: #1D472E !important;
+}
+
+
+.reportpop-name 
+ .reportEmail {
+    text-transform: initial;
+}
+.reportModalForm .MuiAutocomplete-root .MuiAutocomplete-endAdornment {
+    right: 12px;
+    top: 10px;
+}
+.reportModalForm .terms.termsModal {
+    margin-top: 16px;
+}
+
+/* dialogpopup Placeholder */
+.dialogPopup .MuiOutlinedInput-root input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #626E60;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.dialogPopup .MuiOutlinedInput-root input::-moz-placeholder { /* Firefox 19+ */
+    color: #626E60;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.dialogPopup .MuiOutlinedInput-root input:-ms-input-placeholder { /* IE 10+ */
+    color: #626E60;
+    opacity:1;
+     text-transform:capitalize;
+  }
+.dialogPopup .MuiOutlinedInput-root input:-moz-placeholder { /* Firefox 18- */
+    color: #626E60;
+    opacity:1;
+    text-transform:capitalize;
+  }
+
+  .dialogPopup:hover::-webkit-outer-spin-button, .dialogPopup.hover::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    display: none;
+}
+  
+
+
+/* Cookies-Modal */
+.cookies-box-inner h5 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    margin-bottom: 18px;
+}
+.cookies-box-inner h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;letter-spacing: -0.01em;
+}
+.cookies-box-inner .lr-btn {color: #2EFFB4;letter-spacing: -0.01em;margin: 33px 0px 0px;}
+
+.country-cookies {display: flex;align-items: center;}
+.country-cookies label {padding: 0 !important;}
+.country-cookies .MuiOutlinedInput-root {height: 48px;}
+.country-cookies svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #161716;
+    font-size: 28px;
+    margin-right: 0px;
+}
+.cookieClassModal .MuiDialog-paper, .succesclass-modal .MuiDialog-paper {
+    background: none;
+}
+.cookieClassModal .country-cookies {
+    margin: 38px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cookieClassModal 
+ .MuiDialogContent-root.popup-cnt, .succesclass-modal .MuiDialogContent-root.popup-cnt {
+    background: #fff;
+}
+.dialogPopup .country-cookies label {
+    font-family: 'Synthese-Book';
+    color: #161716;
+    letter-spacing: -0.01em;
+}
+.cookieClassModal .country-cookies .MuiOutlinedInput-root {
+    width: 253px;
+}
+.country-cookies {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.cookies-box-inner .selectCountryCookiesList {
+    width: 238px;
+}
+/* Cookies-Modal */
+
+
+.selectCountryCookiesList {
+    width: 218px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    padding: 10px 16px;
+}
+/* Farm-Dashboard-Stallion-Overview-popup */
+.promote-stallion-wrp{
+    margin-top: 32px;
+}
+.promote-stallion-wrp label.MuiInputLabel-root {    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #161716;
+    padding: 0;
+    letter-spacing: -0.01em;}
+.promote-stallion-wrp span {font-weight: 400;font-size: 14px; font-family: 'Synthese-Book'; line-height: 20px;    color: #161716;}
+.daterangepromote {margin-top: 25px;}
+.daterangepromote .date-picker {min-width: 204px;}
+.daterangepromote .date-picker .DP-input {height: 48px;}
+.promote-stallion-wrp .daterangepromote label.MuiInputLabel-root {margin-bottom: 0;font-size: 16px;letter-spacing: -0.01em;}
+
+.daterangepromote .customDate.MuiBox-root.css-164r41r {margin-top: 0;}
+.promote-stallion-wrp .customDate .date-picker {border: 0;min-width: 204px;height: auto;}
+.effective-date-inner .datepicker{ width: 204px; height: 48px;}
+
+.daterangepromote .effective-date-wrapper {
+    margin-top: 0;
+}
+
+
+/* Dahboard-add-mare-modal */
+
+.common-class-popover {
+    margin-top: 30px;
+}
+
+.common-class-popover .MuiBox-root.css-1kgakwq {
+    padding: 0;
+}
+
+.common-class-popover .MuiInputLabel-root {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    padding-bottom: 0;
+}
+
+.common-class-popover .lr-btn {
+    margin-top: 40px;
+}
+
+.common-class-popover .MuiSvgIcon-root{
+    font-size: 26px;
+    color: #161716;
+}
+
+
+.cant-find-box h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+
+.cant-find-box  p {
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+}
+
+.cant-find-box button {
+    border: 1px solid #007142;
+    border-radius: 4px;
+    min-width: 175px;
+    height: 36px;
+    color: #161716;
+    text-transform: initial;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Synthese-Regular';
+    padding: 7px 12px 9px;
+    line-height: 20px;
+    margin-top: 8px;
+    background: none;
+}
+
+.cant-find-box button:hover {
+    background: #007142;
+    color: #fff;
+}
+
+.Mare-cantfind  h4 {
+    margin-top: 12px;
+}
+
+.cant-find-box.Mare-cantfind {
+    margin-bottom: 3px;
+}
+/* marelist-upload-marelist-modal */
+.upload-mare-list {
+    padding-top:32px;
+}
+
+.upload-mare-list .upload-mare{
+    margin: 40px 0px 50px 0px;
+}
+
+.upload-mare-list .upload-mare .success-mare{
+    display: flex;
+    align-items: center;
+}
+
+.upload-mare-list .upload-mare .success-mare h4{
+    font-size: 20px;
+    color:#B0B6AF;
+}
+
+.upload-mare-list .mare-error{
+    color: #C75227;
+}
+
+.upload-mare-list .rangeSliderFilter .MuiSlider-thumb{
+    display:none;
+}
+
+.upload-mare-list p{
+    color: #626E60;
+    text-align: center;
+}
+.upload-mare-list p.error-text {text-align: left;}
+.upload-mare-list .success-mare i{
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.upload-mare-list .MuiOutlinedInput-root {
+    height: 48px;
+}
+
+.draganddrop {
+    padding: 20px;
+    border: 2px dashed #B0B6AF;
+    border-radius: 8.57748px;
+    margin: 40px 25px 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.draganddrop i.icon-Document-add {
+    font-size: 110px;
+    color: #007142;
+}
+.draganddrop h6 {
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #333333;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 6px;
+    margin-top: 10px;
+}
+
+.draganddrop span {
+    color: #626E60;
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Book';
+}
+
+.draganddrop span a {
+    color: #007142;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: 'Synthese-Regular';
+    position: relative;
+}
+.draganddrop span a:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 1.5px;
+    background: #007142;
+}
+
+.draganddrop span a:hover {
+    color: #1D472E;
+}
+.draganddrop span a:hover:after{
+    background: #1D472E;
+}
+.download-mare-list {
+    background: none;
+    border: solid 1px #007142;
+    color: #161716;
+    border-radius: 4px;
+    padding: 0px 16px;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    text-transform: capitalize;
+    height: 40px;
+    margin: 0px auto;
+}
+.download-mare-list-wrp .download-mare-list {
+    height: 36px;
+    padding: 7px 12px 9px;
+}
+
+.download-mare-list-wrp .download-mare-list i.icon-Download {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.download-mare-list-wrp .download-mare-list:hover {
+    background: #007142;
+    color: #fff;
+}
+.download-mare-list i {
+    font-size: 20px;
+}
+.download-mare-list-wrp{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* remove-list-popup */
+.remove-from-list .MuiInputLabel-root{
+    font-family: 'Synthese-Book';
+    padding-bottom: 0px;
+    white-space: inherit;
+    font-size: 14px;
+}
+.remove-from-list h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.remove-from-list h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+}
+/* .remove-from-list p.remove-from-list-para {
+    white-space: pre-line;
+} */
+
+.remove-from-list button.lr-btn {
+    margin-top: 62px;
+    background: #1D472E;
+    color: #fff;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    padding: 10px 0px 14px;
+    margin-bottom: 27px;
+}
+
+.remove-from-list button.lr-btn:hover {
+    background-color: #007142;
+}
+
+.success-list h4 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 16px;
+    margin-top: 30px;
+    line-height: 32px;
+}
+.success-list h5 {
+    font-family: 'Synthese-Book';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #161716;
+line-height: 24px;
+letter-spacing: -0.01em;
+}
+.success-list h5 span{
+    font-family: 'Synthese-Bold';
+}
+.success-list button.lr-btn {
+    margin-top: 62px;
+    background: #1D472E;
+    color: #fff;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    padding: 10px 0px 14px;
+}
+.invitesucces.success-list button.lr-btn {
+    color: #2EFFB4;
+}
+.success-list button.lr-btn:hover {
+    background-color: #007142;
+}
+
+
+/* addstallion-modal */
+.year-add-stallion .MuiOutlinedInput-root {
+    min-width: 100%;
+}
+
+.dialogPopup .MuiInputLabel-root.search-for-stallion-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #161716;
+    line-height: 28px;
+}
+
+.add-stallion-pop-wrapper {
+    padding-top: 25px;
+}
+
+.add-stallion-pop-wrapper a {
+    color: #007142;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+}
+
+.add-stallion-pop-wrapper a:hover {
+    color: #1D472E;
+}
+
+.add-stallion-pop-wrapper .MuiOutlinedInput-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-iconOutlined {
+    color: #161716;
+    font-size: 28px;
+    margin-right: 0px;
+}
+.add-stallion-pop-wrapper .MuiAutocomplete-paper{
+    padding: 1px;
+}
+
+.add-stallion-col {
+    margin-bottom: 8px;
+}
+.add-stallion-col.css-dlyzdu-MuiGrid-root>.MuiGrid-item {
+    padding-top: 2px;
+}
+
+.add-stallion-pop-wrapper .MakeStudFeeLines label.MuiFormControlLabel-root {
+    margin: 0;
+    margin-right: 5px;
+}
+
+
+.add-stallion-pop-wrapper .SDmultiselect .MuiAutocomplete-endAdornment button {
+    margin-right: 0px;
+}
+
+
+.add-stallion-pop-wrapper .SDmultiselect .MuiAutocomplete-endAdornment button svg.MuiSvgIcon-root {
+    color: #161716;
+    font-size: 28px !important;
+  
+}
+.ListAutoComplete .MuiAutocomplete-endAdornment {
+    right: 12px !important;
+}
+.SDmultiselect .MuiAutocomplete-endAdornment {
+    right: 0 !important;
+    top: 10px;
+}
+.SDmultiselect .MuiAutocomplete-endAdornment button {
+    margin-right: 16px !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.dialogPopup .MakeStudFeeLines span.MuiTypography-root {
+    color: #161716;
+    font-size: 14px;
+    opacity: 1;
+    line-height: 20px;
+    font-weight: 350;
+}
+.add-stallion-pop-wrapper .MakeStudFeeLines {
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+.add-stallion-pop-wrapper .SDmultiselect .MuiAutocomplete-endAdornment button.MuiAutocomplete-clearIndicator  svg.MuiSvgIcon-root {
+    font-size: 22px !important;
+}
+.MakeStudFeeLines .SDradio {
+    margin-right: 2px;
+}
+
+.MakeStudFeeLines {
+    align-items: center;
+    display: flex;
+}
+
+.MakeStudFeeLines .MuiFormControlLabel-root{
+    margin-left: 0px;
+    margin-right: 6px;
+}
+
+
+.MakeStudFeeLines 
+ i.icon-Info-circle {
+    font-size: 17px;
+    position: relative;
+    top: 1px;
+    color: #161716;
+    cursor: pointer;
+}
+
+.add-stallion-pop-wrapper .MuiAutocomplete-inputRoot .MuiOutlinedInput-input {
+    padding: 0px 6px;
+}
+
+.add-stallion-col .select-dropdown {
+    margin-top: 0;
+}
+.add-stallion-pop-wrapper .MuiAutocomplete-hasClearIcon .MuiOutlinedInput-root {
+    padding: 0px 0px;
+}
+
+.CommonTooltip {
+    width: 296px;
+}
+.CommonTooltip.studfee-tooltip.edit-tooltip.farmnews-tooltip{
+    width: 290px;
+}
+.CommonTooltip .MuiTooltip-tooltip {
+    border: 1px solid #E2E7E1 !important;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8px;
+    background: #fff !important;
+    padding: 24px;
+    letter-spacing: -0.01em;
+    color: #161716 !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    font-family: 'Synthese-Book';
+    min-width: 100% ;
+    margin-left: 0px !important;
+    position: relative;
+    text-align: left;
+}
+
+.CommonTooltip p{
+    font-family: 'Synthese-Book';
+}
+
+.MakeStudFeeLines .css-hyxlzm svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    font-size: 26px;
+}
+
+.MakeStudFeeLines .SDradio span.MuiRadio-root.MuiRadio-colorPrimary {
+    padding-right: 8px;
+}
+
+.confirmFirmBlock h5 {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 10px;
+}
+
+.confirmFirmBlock h6 {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+}
+
+.add-stallion-pop-wrapper h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.add-stallion-pop-wrapper h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.dialogPopup .MuiOutlinedInput-root {
+    min-height: 48px;
+    margin: 0;
+    height: 48px;
+    padding: 0;
+    color: #161716;
+}
+.dialogPopup .MuiOutlinedInput-root button.MuiIconButton-edgeEnd {
+    margin-right: 12px;
+}
+.dialogPopup 
+ .SDmultiselect .MuiOutlinedInput-root {
+    height: auto;
+    min-height: 48px;
+}
+
+.dialogPopup .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+    padding: 0px 16px;
+    min-height: 48px;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 14px;
+}
+.dialogPopup .MuiOutlinedInput-root input.MuiOutlinedInput-input.Mui-disabled {
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.38);
+    cursor: no-drop;
+}
+
+.add-stallion-pop-wrapper .MuiBox-root.css-1v3caum {
+    padding: 0;
+}
+/* Forgot-Password */
+.forgot-password-box h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    margin-bottom: 24px;
+    padding-right: 0px;
+}
+.dialogPopup .fee-value-add .MuiOutlinedInput-root .MuiOutlinedInput-input {
+    padding: 0;
+}
+
+
+
+
+/* --------------Stallion Page------------------------Edit Stallion Profile---------------------------- */
+.stallion-profile-stepper{
+    position: relative;
+    margin-top: 3rem;
+}
+
+.stallion-profile-stepper .MuiStepLabel-label{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D472E;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+    padding-bottom: 4px;
+
+}
+.stallion-profile-stepper .MuiStepConnector-root span.MuiStepConnector-line {
+    border-color: #B0B6AF;
+}
+
+.stallion-profile-stepper .MuiStepLabel-label.Mui-disabled{
+    color: #B0B6AF;
+}
+
+.stallion-profile-stepper .MuiStepIcon-root.Mui-active{
+    color: #1D472E;
+}
+
+.stallion-profile-stepper .MuiStepIcon-root{
+    color: #B0B6AF;
+}
+
+.stallion-profile-stepper .MuiStepIcon-root{
+    font-size: 24px;
+}
+
+.stallion-profile-stepper .MuiStepIcon-root.Mui-active{
+    font-size: 24px;
+}
+
+.stallion-profile-container{
+    position: relative;
+    margin-top: 3rem;
+}
+.stallion-profile-stepper span.MuiStepLabel-iconContainer {
+    padding-right: 6px;
+}
+.stallion-profile-footer{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.stallion-profile-footer .save-btn{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px 14px;
+    text-transform: none;
+    background-color: #1D472E;
+    min-width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+}
+
+.stallion-profile-footer .save-btn:hover{
+    background-color: #007142;
+  }
+
+.stallion-profile-footer .save-btn:disabled{
+    background-color: #B0B6AF;
+    color: #FFFFFF;
+  }
+
+.stallion-profile-footer .back-btn{
+    min-width: 200px;
+    font-family: 'Synthese-Regular';
+    color: #1D472E;
+    font-size: 16px;
+    border-radius: 4px;
+    height: 48px;
+    border: 1px solid #007142;
+    text-transform: inherit;
+    padding: 10px 0px 14px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+}
+
+.stallion-profile-footer .back-btn:hover {
+    background: #007142;
+    color: #fff;
+}
+
+.profile-picture-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture .EditBtn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    color: #007142;
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Regular';
+    padding: 0;
+    min-width: inherit;
+    background: none !important;
+}
+
+.profile-picture {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture .MuiAvatar-root.MuiAvatar-circular {
+    width: 126px;
+    height: 126px;
+}
+
+.profile-picture .MuiInputLabel-root {
+    margin-bottom: 5px;
+}
+
+.edit-stallion-profile-modal .MuiInputLabel-root {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: #161716;
+    padding: 0;
+}
+.edit-stallion-profile-modal .profile-picture .MuiInputLabel-root {
+    margin-bottom: 16px;
+}
+.edit-stallion-profile-modal .img-error{
+    position: relative;
+    top:3px;
+    font-size: 13px;
+}
+.stallion-profile-col-arr .MuiOutlinedInput-root {
+    min-width: 100%;
+}
+.testimonilstextarea p.text-count-farm {
+    margin: 0;
+}
+.stallion-profile-col-arr .MuiOutlinedInput-root .MuiSelect-outlined {
+    height: 48px;
+    box-sizing: border-box;
+    min-height: initial;
+    padding: 14px 16px;
+    font-size: 14px;
+}
+.studfee-stallion-pr {
+    position: absolute;
+    right: 0;
+    bottom: -26px;
+    left: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.stallion-profile-col-arr {
+    position: relative;
+}
+.edit-stallion-profile-form .MuiOutlinedInput-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #161716;
+    font-size: 28px;
+    margin-right: 0;
+    right: 16px;
+}
+.edit-stallion-profile-form .stallion-profile-col-arr .MuiOutlinedInput-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    right: 5px;
+}
+
+.stallion-profile-col-arr .studfee-stallion-pr label.MuiFormControlLabel-root {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.hero-img-gallery-text i.icon-Info-circle {
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.overview-textarea i.icon-Info-circle {
+        margin-left: 5px;
+        font-size: 22px;
+        vertical-align: bottom;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+
+    .overview-textarea p, .farm-testimonilstextarea p, p.text-count-farm {
+        color: #161716;
+        font-family: 'Synthese-Book';
+        font-weight: 350;
+        font-size: 14px;
+line-height: 20px;
+    }
+
+.overview-textarea .ov-error{
+    color:#C75227;
+    display: flex;
+    justify-content: right;
+}
+.upload-testimonials-box .clear-testimonials:hover {
+    text-decoration: none;
+    color: #1D472E;
+}
+
+.clear-testimonials:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 1.5px;
+    background: #007142;
+}
+
+.clear-testimonials:hover:after {
+    background: #1D472E;
+}
+
+.media-clumn i.icon-Info-circle {
+        margin-left: 4px;
+        font-size: 22px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+
+.testimonilstextarea i.icon-Info-circle {
+    margin-left: 5px;
+    font-size: 22px;
+    vertical-align: bottom;
+    cursor: pointer;
+    margin-top: 1px;
+}
+    
+.edit-stallion-profile-form .edit-st-form-bx{
+    padding-top: 5px;
+}
+
+.edit-stallion-profile-form .edit-st-form-bx .farmName-column{
+    margin-top: 6rem;
+}
+
+.edit-stallion-profile-form .edit-st-form-bx .icon-Paper-clip:before{
+   color: #007142 !important;
+}
+
+/* .edit-stallion-profile-form .edit-st-form-bx .MuiOutlinedInput-root{
+    padding-right: 5px;
+} */
+
+.hero-image-box-wrapper .draganddrop {
+    margin: 0;
+    padding: 0px 2px;
+    background: #F0F3F0;
+    border: 2px dashed #B0B6AF;
+    border-radius: 4px;
+    height: 136px;
+    line-height: 10px;
+    box-sizing: border-box;
+}
+
+.dialogPopup .testi-pic .hero-pic{
+    height: 237px;
+}
+.dialogPopup .edit-farm-pic .draganddrop{
+    height: 226px;
+}
+
+.dialogPopup .edit-farm-pic .hero-pic{
+    height: 226px;
+}
+
+.dialogPopup .edit-farm-pic .hero-pic video{
+    width: 100%;
+    height: 226px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.dialogPopup .hero-pic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 136px;
+    border: solid 1px #f0f0f0;
+    border-radius: 10px;
+}
+
+
+.dialogPopup .hero-pic img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dialogPopup .hero-image-box .hero-pic img {
+    border-radius: 4px;
+}
+
+.dialogPopup .hero-pic i{
+    position: absolute;
+    right: -13px;
+    top: -12px;
+    font-size: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dialogPopup .hero-pic i.icon-Incorrect:after {
+    font-size: 26px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+}
+
+.hero-image-box-wrapper .draganddrop i.icon-Photograph{
+    font-size: 54px;
+    color: #626E60;
+    margin-bottom: 10px;
+}
+
+.hero-image-box-wrapper .draganddrop i.icon-Photograph:before {
+    color: #626E60;
+}
+
+.hero-image-box-wrapper .draganddrop h6 {
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: inherit;
+    margin: 0;
+    color: #161716;
+}
+
+.hero-image-box-wrapper .draganddrop span {
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.hero-image-box-wrapper .draganddrop span a {
+    font-size: 10px;
+}
+.edit-stallion-profile-form .css-zow5z4-MuiGrid-root.MuiGrid-item.hero-image-box {
+    padding-top: 0px;
+}
+.here-image-gallery-box .hero-image-box {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.upload-testimonials-box .clear-testimonials {
+    text-align: right;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    color: #007142;
+    text-transform: capitalize;
+    padding: 0;
+    text-decoration: none;
+    background: none !important;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Synthese-Regular';
+    line-height: 20px;
+}
+
+.add-testimonials-wrp {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.add-testimonials-wrp .add-testimonials {
+    background: #2EFFB4;
+    border-radius: 4px;
+    min-width: 173px;
+    height: 48px;
+    color: #1D472E;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-family: 'Synthese-Regular';
+    border: 0;
+    padding: 10px 24px 14px;
+}
+
+.add-testimonials-wrp .add-testimonials:disabled {
+    background-color: #B0B6AF;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+.add-testimonials-wrp .add-testimonials i.icon-Plus {
+    margin-right: 2px;
+    margin-top: 1px;
+}
+.add-testimonials-wrp .add-testimonials:hover {
+    background: #00DE8E;
+    border-color: #00DE8E;
+    color: #1D472E;
+}
+
+.edit-farm-drop .draganddrop {
+    height: 226px !important;
+}
+.testi-pic .draganddrop {
+    padding: 0;
+    margin: 13px 0px 0px;
+    height: 237px;
+    border: 2px dashed #B0B6AF !important;
+    background: none !important;
+    border-radius:10px !important;
+    -webkit-border-radius:10px !important;
+    -moz-border-radius:10px !important;
+    -ms-border-radius:10px !important;
+    -o-border-radius:10px !important;
+}
+
+.upload-testimonials-box .draganddrop i.icon-Photograph {
+    font-size: 90px;
+}
+
+.edit-stallion-profile-modal  textarea {
+    border: 1px solid #B0B6AF;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    padding: 16.5px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 280px !important;
+    resize: none;
+}
+
+.edit-stallion-profile-modal textarea:hover {
+
+    border:solid 1px #161716;
+}
+
+.edit-stallion-profile-modal textarea:focus-visible{
+    outline: 0;
+}
+.testimonilstextarea textarea {
+    height: 88px !important;
+    border: 1px solid #B0B6AF;
+    border-radius: 4px;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    font-family: 'Synthese-Book';
+    padding: 16.5px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: visible !important;
+}
+
+.farm-testimonilstextarea textarea {
+    height: 224px !important;
+}
+.farm-media-modal-edit-item .add-testimonials-wrp {
+    position: absolute;
+    right: 246px;
+    bottom: 40px;
+    margin: 0;
+}
+
+.testtimonial-forms-box .testi-pic p{
+    position: relative;
+    top:2px;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    color: #C75227;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.farm-media-modal-edit-item {
+    position: relative;
+}
+
+.edit-stallion-profile-modal .farm-media-modal-edit textarea {
+    height: 224px !important;
+}
+
+.media-gallery{
+    position: relative;
+}
+.media-gallery .icon-Incorrect{
+    position: absolute;
+    top:-4px;
+    right:-4px;
+}.hero-image-box-wrapper {
+    margin-top: 20px;
+}
+
+.updateFormPopup .MuiDialog-paper {width: 928px;max-width: 928px;}
+
+.editStallionProfileModal .MuiDialog-paper {
+    width: 968px;
+    max-width: 968px;
+}
+.studfee-stallion-pr i.icon-Info-circle {
+    left: 1px;
+}
+.studfee-stallion-pr .MuiFormControl-root {position: relative;left: 4px;}
+.testtimonial-forms-box {
+    margin-top: 0;
+    width: 100%;
+}
+.testtimonial-forms-box p{
+    color: #161716;
+    font-family: 'Synthese-Book';
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+}
+.register-intrest-modal .MuiOutlinedInput-root svg.MuiSvgIcon-root {
+    color: #161716;
+    font-size: 28px;
+    margin-right: 0px;
+}
+.datepicker .MuiIconButton-root{
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+/* '''''''''''' dashboard invite user popup............. */
+.invite-user{
+    margin-top: 2rem;
+}
+.invite-user .MuiInputLabel-root {
+    font-family: 'Synthese-Regular';
+    font-size: 18px;
+    color: #161716;
+    font-weight: 400;
+    padding-bottom: 12px;
+    line-height: 24px;
+}
+
+.invite-user .lr-btn{
+    margin-top: 11px;
+}
+
+.user-access{
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.invite-user h4 {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Synthese-Book';
+}
+
+.invite-user h5{
+    padding-top: 0.5rem;
+    font-family: 'Synthese-Regular';
+    font-size: 18px;
+    color: #161716;
+    font-weight: 400;
+}
+
+.invite-user h6{
+    font-family: 'Synthese-Book';
+    padding: 1rem 0;
+    font-size: 14px;
+    color: #161716;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+.invite-user h6 strong {
+    text-transform: capitalize;
+}
+
+
+.invite-user strong{
+    color: #ffabd8;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.useraccess-checkbox span.MuiCheckbox-root.MuiCheckbox-colorPrimary {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.StallionsforthisUser h6 {
+    padding-bottom: 24px;
+}
+
+.StallionsforthisUser h5 {
+    padding-top: 0;
+}
+.StallionsforthisUser {
+    margin-top: 20px;
+}
+.StallionsforthisUser .SDmultiselect {
+    margin-bottom: 0;
+}
+/* Roaster-Modal-Popup */
+.remove-modal-roaster-wrapper h6 {
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    padding-right: 32px;
+}
+.remove-modal-roaster-wrapper  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #161716;
+    font-family: Synthese-Book;
+}
+.effective-date-inner {
+    display: flex;
+    align-items: center;
+}
+
+.effective-date-inner .customDate .date-picker {
+    height: 48px;
+    min-width: 204px;
+    margin-right: 10px;
+}
+
+.effective-date-inner i.icon-Info-circle {
+    font-size: 18px;
+    color: #161716;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.remove-modal-bottom {
+    display: grid;
+    margin-top: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.remove-modal-bottom .lr-btn-outline {
+    color: #161716;
+}
+
+.remove-modal-bottom .MuiCircularProgress-root svg{
+    color: #1D472E;
+}
+.remove-modal-bottom .lr-btn.lr-btn-race .MuiCircularProgress-root svg{
+    color: #00DE8E;
+}
+.update-service-fee-wrapper h5 {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 1px;
+    text-transform: capitalize;
+}
+
+.update-service-fee-wrapper h6 {
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Synthese-Regular;
+}
+.update-service-fee-wrapper .show.MuiBox-root {
+    animation: initial;
+}
+
+.update-service-fee-wrapper .update-fee{
+ padding: 32px 0px 24px 0px;
+}
+
+.valid-until p {
+    color: #161716;
+    font-family: 'Synthese-Book';
+    margin-top: 6px;
+}
+
+.dialogPopup  .fee-value-add .MuiOutlinedInput-root {
+    min-height: 48px;
+    color: #161716;
+    padding: 14px 16px;
+    height: 48px;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+.ListAddFormModal .MuiBox-root {
+    padding: 5px 0px 0px;
+}
+.ListAddFormModal p.error-text {
+    margin-bottom: 0px;
+}
+.ListAddFormModal .MuiBox-root .MuiAutocomplete-root button.MuiButtonBase-root {
+    color: #161716;
+}
+
+.ListAddFormModal {
+    margin-top: 32px;
+}
+
+.ListAddFormModal label.MuiInputLabel-root {
+    margin-top: 0;
+}
+
+.ListAddFormModal .lr-btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Order-Report */
+.stallionanalysedBlock {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    margin-top: 20px;
+}
+
+span.stallionanalysedBtn {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #007142;
+    margin-left: 5px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+span.stallionanalysedBtn:hover {
+    color: #1D472E;
+}
+.RadioButtonIcon 
+ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #B0B6AF;
+}
+
+.RadioButtonIcon 
+ span.PrivateSwitchBase-root{
+    padding: 0;
+    margin-right: 8px;
+}
+
+.reportModalForm .RadioButtonIcon {
+    padding: 0px 0px;
+    margin: 0;
+}
+
+.RadioButtonIcon .Mui-checked svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: #1D472E;
+}
+.reportModalForm .rangeSliderFilter .MuiSlider-thumb::before {
+    display: none;
+}
+
+
+.reportModalForm .rangeSliderFilter {
+    width: 100%;
+    margin: 5px auto 16px;
+    display: block;
+    height: 11.25px;
+}
+
+.reportModalForm .feerange {
+    margin-top: 15px;
+}
+.reportModalForm .feerange label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Regular';
+}
+
+
+.reportModalForm .rangeSliderFilter span.MuiSlider-rail {
+    height: 11.25px;
+}
+
+.reportModalForm .rangeSliderFilter .MuiSlider-thumb {
+    width: 30px;
+    height: 30px;
+}
+
+/* ...........Messages popups.................. */
+.stallion-msg-farm .msgs-farmlogo{
+        width: 144px;
+        height: 96px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+    
+}
+
+.stallion-msg-farm .msgs-farmlogo img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.stallion-msg-farm .farm-culmn{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.stallion-msg-farm .farm-culmn h6{
+    margin-bottom: 0px;
+    color: #161716;
+}
+
+.stallion-msg-farm .farm-culmn span{
+    font-size: 12px;
+    font-family: 'Synthese-Book';
+}
+
+.nominationOffer-details .msgs-farmlogo{
+    width: 144px;
+    height: 96px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.nominationOffer-details .msgs-farmlogo img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.nominationOffer-details .farm-culmn{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.nominationOffer-details .farm-culmn h6{
+    margin-bottom: 0px;
+    color: #161716;
+}
+
+.nominationOffer-details .farm-culmn span{
+    font-size: 12px;
+    font-family: 'Synthese-Book';
+}
+
+.nominationOffer-details .sugges-text{
+    background-color: #E2E7E1;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+    
+.nominationOffer-details .sugges-text p{
+    font-size: 12px;
+    font-family: 'Synthese-Book';
+    color: #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nominationOffer-details .MuiAutocomplete-paper{
+    padding: 1px;
+    min-height: 1px;
+}
+
+.check-nomination img{
+    width: 44px;
+    height: 44px;
+}
+.check-nomination .MuiRadio-root{
+    height: 50px;
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 9px;
+    background: none !important;
+}
+.check-nomination .MuiRadio-root input.PrivateSwitchBase-input {
+    background: none !important;
+}
+.check-nomination .SDradio {
+    display: flex;
+    align-items: self-end;
+}
+
+
+.stallion-msg-farm .more p{
+    font-size: 14px;
+    font-family: 'Synthese-Book';
+    color: #007142;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nominationOffer-details textarea.nomination-messageBox {
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #626e60;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    font-family: 'Synthese-Book';
+    outline: 0;
+    padding: 16px 16px;
+  }
+.localMessageClass textarea.nomination-messageBox{
+    height: 134px !important;
+    overflow-y: scroll !important;
+    /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+}
+.localMessageClass textarea.nomination-messageBox::-webkit-scrollbar {
+    -webkit-overflow-scrolling: touch;
+    width: 12px;
+  
+  }
+  .localMessageClass textarea.nomination-messageBox::-webkit-scrollbar-track {
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+  }
+   
+  
+  .localMessageClass textarea.nomination-messageBox::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: #B0B6AF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 36px;
+  }
+
+  .dialogPopup .msg-offer{
+    padding-top: 10px !important;
+  }
+  .dialogPopup .offerReceived-details h4{
+    font-size: 16px;
+    font-family: 'Synthese-Regular';
+    font-weight: 700;
+    line-height: 24px;
+  }
+.dialogPopup .offerReceived-details .offer h6{
+    font-size: 16px;
+    font-family: 'Synthese-Regular';
+    margin: 0px;
+    padding: 1rem 0px;
+}
+.dialogPopup .offerReceived-details .offer h5{
+    font-size: 16px;
+    font-family: 'Synthese-Book';
+    color: #161716;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 24px;
+}
+
+.dialogPopup .nomination-respond{
+    margin-top: 2rem;
+}
+
+.dialogPopup .nomination-respond .icon-Info-circle{
+   position: relative;
+   left:3px;
+   top:1px;
+}
+
+.CommonTooltip .MuiTooltip-tooltip p{
+    font-family: 'Synthese-Book';
+    margin: 0px;
+    padding: 0px;
+}
+.CommonTooltip .MuiTooltip-tooltip .terms-btn{
+    padding: 0;
+    vertical-align:baseline;
+    margin-right: 8px;
+    text-transform:inherit;
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.CommonTooltip .MuiTooltip-tooltip .terms-btn:hover{
+    background: none;
+    text-decoration: none;
+}
+
+.CommonTooltip .MuiTooltip-tooltip i::before{
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+.dialogPopup .nomination-respond .MuiToggleButtonGroup-root{
+    padding-top: 10px;
+}
+
+.dialogPopup .nomination-respond .MuiToggleButton-root{
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    color: #161716;
+    padding: 3px 10px 5px 10px;
+    border: solid 1px #007142;
+    border-radius: 4px;
+    text-transform: none;
+    height: 32px;
+    white-space: nowrap;
+    min-width: 120px;
+}
+
+.dialogPopup .nomination-respond .MuiToggleButton-root:hover{
+    background-color:#007142;
+    color: #FFFFFF;
+}
+
+.dialogPopup .nomination-respond .MuiToggleButton-root.Mui-selected{
+    background-color:#007142;
+    color: #FFFFFF;
+}
+
+.dialogPopup .send-offer i::before{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.dialogPopup .send-offer .disabledIcon i::before{
+    color: #d4d4d4;
+    cursor: default;
+}
+
+.dialogPopup .send-offer .send-btn{
+min-width: 100px;
+height: 36px;
+}
+
+.dialogPopup .send-offer .send-btn:disabled{
+    color: #FFFFFF;
+}
+
+.nominationOffer-details .msgs-farmlogo img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.nominationOffer-details .farm-culmn{
+    display: flex;
+    align-items: center;
+}
+
+.nominationOffer-details .farm-culmn h6{
+    margin-bottom: 0px;
+    color: #161716;
+}
+
+.nominationOffer-details .farm-culmn span{
+    font-size: 12px;
+    font-family: 'Synthese-Book';
+}
+
+.nominationOffer-details .sugges-text{
+    background-color: #E2E7E1;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+    
+.nominationOffer-details .sugges-text p{
+    font-size: 12px;
+    font-family: 'Synthese-Book';
+    color: #333333;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nominationOffer-details .more p{
+    font-size: 14px;
+    font-family: 'Synthese-Book';
+    color: #007142;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.nominationOffer-formBox .termsModal .terms-btn{
+    color: #007142 !important;
+    text-decoration: underline;
+    font-size: 12px !important;
+    line-height: 16px;
+    font-weight: 350px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  margin: 0px 0px 0px 3px;
+}
+
+.nominationOffer-formBox .terms-btn:hover{
+  color: #1D472E !important;
+}
+
+.stallion-msg-farm .termsModal .terms-btn{
+    color: #007142 !important;
+    text-decoration: underline;
+    font-size: 12px !important;
+    line-height: 16px;
+    font-weight: 350px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  margin: 0px 0px 0px 3px;
+}
+.stallion-msg-farm .terms-btn:hover{
+    color: #1D472E !important;
+  }
+
+.nominationOffer-details .MuiAutocomplete-root  .MuiAutocomplete-endAdornment .MuiAutocomplete-clearIndicator .MuiSvgIcon-root {
+    color: #161716;
+    margin-right: 6px;
+}
+
+textarea.nomination-messageBox.errorBorder {
+    border: 2px solid #C75227;
+}
+
+textarea.nomination-messageBox {
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #626e60;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    font-family: 'Synthese-Book';
+    outline: 0;
+    padding: 16px 16px;
+  }
+  textarea:disabled {
+    cursor: no-drop;
+  }
+
+.dialogPopup .success .MuiListSubheader-root{
+    padding-left: 0px;
+    padding-bottom: 1rem;
+    color: #161716;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    font-family: 'Synthese-Bold';
+}
+
+.dialogPopup .success .MuiListItem-root{
+    font-family: 'Synthese-Book';
+    font-size: 16px;
+    padding-left: 0;
+    line-height: 20px;
+    padding: 1rem 0;
+    margin-left: 2rem;
+    display: list-item;
+    list-style-type: disc;
+    color: #161716;
+}
+
+.farmSlider{
+    display: flex !important;
+    height: 496px;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.mediaSliderPop .MuiDialog-paper .MuiDialogContent-root::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+.mediaSliderPop .MuiDialog-paper .MuiDialogContent-root::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 4px;
+}
+ 
+
+.mediaSliderPop .MuiDialog-paper .MuiDialogContent-root::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 4  px;
+}
+
+
+.mediaSliderPop .MuiDialog-paper .MuiDialogContent-root::-webkit-scrollbar-thumb:hover {
+  background: #999; 
+}
+
+
+/* .mediaSliderPop .MuiDialog-paper .MuiDialogContent-root {
+    scrollbar-width: thin;
+    scrollbar-color: #B0B6AF transparent;
+  
+  } */
+.IUSelectStallion.SDmultiselect .MuiInputLabel-root.Mui-focused,.SDmultiselect .MuiInputLabel-root[data-shrink="true"] {
+    background: #fff;
+    padding-right: 6px;
+}
+
+.effective-date-inner .MuiInputAdornment-root > button.MuiButtonBase-root.MuiIconButton-root {
+    margin: 0;
+    min-height: 48px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.effective-date-inner .MuiInputAdornment-root {
+    margin-right: 16px;
+}
+.promote-effective-date-inner .MuiInputAdornment-root {
+    margin-top: 4px;
+}
+.dialogPopup .effective-date-inner .MuiOutlinedInput-root input.MuiOutlinedInput-input {
+    padding: 14px 16px 14px;
+    height: 48px;
+}
+.dialogPopup .effective-date-inner .MuiOutlinedInput-root   button.MuiIconButton-edgeEnd {
+    margin-right: 0;
+    background: none !important;
+    margin-top: 0px;
+}
+
+
+.dialogPopup .image-crop::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .dialogPopup .image-crop::-webkit-scrollbar-track {
+    background: transparent; 
+    border-radius: 0px;
+  }
+  /* .dialogPopup .image-crop{
+    scrollbar-width: thin;
+    scrollbar-color: #B0B6AF transparent;
+  
+  } */
+  
+  .dialogPopup .image-crop::-webkit-scrollbar-thumb {
+    background: #B0B6AF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+  
+  
+  .dialogPopup .image-crop::-webkit-scrollbar-thumb:hover {
+    background: #B0B6AF; 
+  }
+  
+
+.dialogPopup .image-crop{
+    text-align: center;
+}
+
+.dialogPopup .image-crop canvas{
+    margin-top: 2rem;
+    border:none !important;
+}
+
+.dialogPopup .image-crop .slider-drag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dialogPopup .image-crop .crop-slider{
+    width: 280px;
+    display: flex;
+}
+
+.dialogPopup .image-crop .crop-slider p{
+    color: #161716;
+    font-size: 20px;
+    /* vertical-align: top; */
+    margin: 15px 0px;
+    padding: 0 14px;
+    text-overflow: inherit;
+}
+.dialogPopup .crop-slider .MuiSlider-root{
+    height: 2px;
+}
+.dialogPopup .crop-slider .MuiSlider-valueLabel{
+    display: none;
+}
+
+.dialogPopup .crop-slider .MuiSlider-track{
+    border: none;
+}
+
+.dialogPopup .crop-slider .MuiSlider-thumb{
+    background-image: url(../../assets/Images/slider-icon.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 22px;
+    box-shadow: none;
+}
+
+.dialogPopup .crop-slider .MuiSlider-thumb::before{
+    box-shadow: none;
+}
+
+.dialogPopup .image-crop .saveBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.dialogPopup .image-crop .save-img-btn{
+    width: 239px !important;
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    padding: 7px 24px 9px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    background-color: #1D472E;
+    text-transform: none;
+    text-align: center;
+    color: #FFFFFF;
+    height: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialogPopup .image-crop .save-img-btn:hover{
+    background-color: #007142;
+}
+
+.dialogPopup .offer-toggle{
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+}
+
+.auto-renew{
+    padding: 46px 0 0 0;
+}
+.createAccountPopup .loginBoxWrapper {
+    margin-top: 32px;
+    
+}
+.cookieClassModal.dialogPopup .MuiDialogTitle-root {
+    text-transform: inherit;
+}
+
+.nominationOffer-formBox{
+    padding-top: 16px;
+}
+.nominationSetting .MuiTooltip-popper .MuiTooltip-tooltip{
+    border: 1px solid #E2E7E1 !important;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8px;
+    background: #fff !important;
+    padding: 24px;
+    letter-spacing: -0.01em;
+    color: #161716 !important;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px;
+    font-family: 'Synthese-Book';
+    min-width: 100%;
+    margin-left: 0px !important;
+    position: relative;
+    text-align: left;
+}
+.updateemailfade {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626E60;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Regular';
+}
+
+.updateemailname {
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #161716;
+}
+
+/* Member profile payment model */
+.payment-right{
+    display: flex;
+    justify-content: flex-start;
+    width: 22%;
+}
+.payment-model-box h4{
+    font-size: 20px;
+    font-family: 'Synthese-Regular';
+    padding-top: 24px;
+    color: #161716;
+}
+.payment-model{
+    margin: 24px 0px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+}
+/* .payment-model img{
+    cursor: pointer;
+} */
+.payment-model h6{
+    font-family: 'Synthese-Regular';
+    text-align: center;
+}
+.payment-model .MuiListItem-root , .MuiListItemButton-root{
+    padding: 0px;
+}
+.payment-model .MuiListItemButton-root:hover{
+    background: none;
+}
+.nominationSetting{
+    margin-top: 8px;
+}
+
+/* ---------Reports ............. */
+.shortlistConfirm .react-dropdown-tree-select .dropdown .dropdown-trigger ul.tag-list{
+   display: block;
+}
+.shortlistConfirm .SDmultiselect .tag-list .search{
+    padding-right: 16px;
+}
+.dialogPopup .select-favourite-pop-box.merge .MuiInputLabel-root{
+    padding-top: 46px;
+    padding-bottom: 30px;
+}
+
+.dialogPopup .select-favourite-pop-box .MuiInputLabel-root{
+    font-size: 18px;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    color: #161716;
+    line-height: 28px;
+    letter-spacing: 0.01rem;
+
+}
+.dialogPopup .select-favourite-pop-inner{
+    font-size: 14px;
+    font-family: 'Synthese-Book';
+    font-weight: 350;
+    color: #161716;
+    line-height: 20px;
+
+}
+.dialogPopup .search-btn.ok-btn{
+display: flex;
+width: 212px;
+font-weight: 400;
+justify-content: center;
+align-items: center;
+height: 48px;
+text-transform: uppercase;
+margin-top: 32px;
+}
+/* ..........Session Expire.................... */
+.dialogPopup.session-expire .MuiDialog-paper{
+    min-height: 230px !important;
+ }
+ .dialogPopup.session-expire .lr-btn{
+    width: 100%;
+ }
+ .dialogPopup.session-expire .popup-cnt p{
+   padding: 30px 0px;
+   font-size: 18px;
+ }
+
+/* Media-query */
+@media only screen 
+  and (min-device-width: 1200px) 
+{
+.dialogPopup .viewfee{
+    left: 44px;
+}
+}
+@media only screen and (max-width: 1280px) {
+    .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-left {
+        margin-left: 0% !important;
+    }
+
+    .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-right {
+        margin-right: 0%;
+    }
+    .mediaSliderPop .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-left {
+    margin-left: 0px !important;
+}
+
+.mediaSliderPop .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-right {
+    margin-right: 0;
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .navigarion-arrow-wrapper { left: 0; right: 0; width: 98%; top: 48%; position: absolute; margin: auto; }   
+    .mediaSliderPop .navigarion-arrow-wrapper {    top: 230px;}
+    .navigarion-arrow-left {  margin: 0; }
+    .farm-media-modal-edit-item .add-testimonials-wrp { right: 114px;}
+    .stallion-profile-stepper .MuiStepLabel-label { white-space: nowrap;}
+    .fav-Media-Box .MuiCardContent-root h6.MuiTypography-root { margin-bottom: 40px;}
+    .mediaSliderPop .fullscreen.fullscreen-enabled .MuiDialog-paper {
+        margin: 0;
+        height: auto;
+    }
+    /* .dialogPopup .viewfee{
+        left: 46px;
+    } */
+}
+@media only screen and (min-width: 1200px) {
+    .dialogPopup .viewfee{
+        left: 50px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .navigarion-arrow-wrapper { top: 20%; }
+    .mediaSliderPop .recent-slider-box .navigarion-arrow-wrapper { top: 230px;}
+    .dialogPopup .offer-toggle{ gap: 8px; }
+    .nominationOffer-formBox{ padding-top: 0px; }
+    .recent-slider-box .navigarion-arrow-wrapper {top:50%;}
+   
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    .register-intrest-pop .mt0 {
+        padding-top: 0;
+    }
+    .YourUniqueStallionlable {
+        padding-top: 0;
+    }
+    .forgot-password-box h6 {
+        padding-right: 0px;
+    }
+    .cookieClassModal .country-cookies .MuiOutlinedInput-root{
+        width: 100%;
+    }
+    .cookies-box-inner .selectCountryCookiesList {
+        width: 250px;
+    }
+    .reportModalForm .reportpop-name {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .mediaSliderPop .recent-slider-box .navigarion-arrow-wrapper {top: 210px; width: 96%;}
+    .invite-user { margin-top: 0;}
+    .upload-mare-list .draganddrop i.icon-Document-add {  font-size: 80px;}
+    .upload-mare-list .draganddrop h6 { font-size: 16px;line-height: inherit; }
+    .upload-mare-list .draganddrop span,.draganddrop span a {font-size: 14px; }    
+    .ListAddFormModal .MuiAutocomplete-root .MuiFormControl-root input.MuiOutlinedInput-input {text-overflow: ellipsis;display: flex;overflow: hidden; width: 90%;  white-space: nowrap; }
+    .edit-stallion-profile-form .stallion-profile-col-arr .MuiOutlinedInput-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium { right: 16px;}
+    .edit-stallion-profile-form .edit-st-form-bx .MuiSelect-outlined { padding: 12px 16px;}
+    .edit-stallion-profile-form .edit-st-form-bx {  -webkit-flex-basis: 100%; -ms-flex-preferred-size: 100%;flex-basis: 100%;    max-width: 100%;}
+    .cookies-box-inner-body {  padding-top: 0; }
+    .reportModalForm { padding-top: 0;}
+    .studfee-tooltip{  width: auto;}
+    .auto-renew{ padding-top: 0px;}
+    .cant-find-box  p { padding-right: 0px;}
+    .createAccountPopup .loginBoxWrapper { margin-top: 0px;}
+
+     /*.studfee-tooltip .MuiTooltip-tooltip {
+        right: -30px;
+       top:-130px;
+        position:relative;
+    } */
+    .studfee-tooltip .MuiTooltip-tooltip.MuiTooltip-tooltipPlacementRight{ right: 220px;  top: 20px;    }
+    .mediaSliderPop .MuiDialog-paper {width: 100%;max-width: 100%;}
+    .mediaSliderPop .MuiDialog-paper .MuiDialogContent-root {padding: 2rem 2rem 0rem;}
+    .mediaSliderPop .dots {left: 0;right: 0; bottom: 24px;}
+    .mediaSliderPop .farm-media-image.media-slider img,.mediaSliderPop .farm-media-image.media-slider video  { height: 384px;}
+    .mediaSliderPop .dots__dot{  width: 8px; height: 8px; margin-right: 8px;}
+    .farm-media-modal-edit-item .add-testimonials-wrp {  position: static; }
+    .loginBoxWrapper {  margin: 0; }
+    .country-cookies {display: flex;flex-direction: column;align-items: flex-start;}
+    .country-cookies label {margin-bottom: 11px;}
+    .dialogPopup .MuiDialogTitle-root {line-height: inherit;}
+    .stallion-profile-stepper .MuiStepLabel-label{ display: none;}
+    .stallion-profile-stepper{ margin-top: 0px; }
+    .overview-textarea .ov-error{ display: flex;justify-content: left; margin: 0; padding: 0;}
+    .selectDropDownList .mobile-dropdown-title{ width: 180px;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+    .upload-mare-list .upload-mare{ margin: 20px 0px 40px 0px;}
+    .update-service-fee-wrapper .update-fee{  padding: 0px;}
+    .add-stallion-col .fee-value-add .MuiFormControl-root {width: 100%;}
+    .studfee-stallion-pr {   position: static; padding-top: 0px !important; }
+    .media-slider-wrapper .recent-slider-box .MediacardTitle {  line-height: initial; }
+    .remove-modal-bottom .lr-btn { padding: 0px 2px;}
+    .cookies-box-inner .lr-btn { white-space: nowrap; }
+    .dialogPopup .MuiDialogContent-root{padding: 32px;}
+    .dialogPopup .MuiDialog-paper{margin: 20px; }
+    .dialogPopup .MuiDialogTitle-root{ padding-left: 32px;}
+    .dialogPopup .termsModal { text-align: center;}
+    .dialogPopup .nomination-respond .MuiToggleButton-root{ font-size: 13px; white-space: nowrap;}
+    .add-stallion-pop-wrapper {   padding-top: 0; }
+    .add-stallion-col .MuiOutlinedInput-root { margin-bottom: 0px; min-width: inherit; }
+    .add-stallion-pop-wrapper .MakeStudFeeLines { margin-top: 14px; }
+    .add-stallion-pop-wrapper .MakeStudFeeLines { margin-top: 4px; }
+    .add-stallion-col { margin-bottom: 0;}
+    .register-intrest-modal .MuiBox-root:first-child {   margin-top: 0; }
+    .stallion-profile-col-list p {  margin: 0;  padding: 0; }
+    .edit-stallion-profile-modal .studfee-stallion-pr { padding-top: 16px !important;  padding-bottom: 16px; }
+    span.farm-st-form-bx-list {   width: 80%; text-overflow: ellipsis;white-space: nowrap; overflow: hidden;    display: inline-block;  }
+    .promote-stallion-wrp{   margin-top: 0px; }
+    .remove-from-list h4 { margin-top: 0;}
+    .edit-stallion-profile-modal { margin-top: 0; }
+    .ListAddFormModal label.MuiInputLabel-root { margin-top: 0; }
+    .upload-mare-list { padding: 0px; }
+    .add-stallion-pop-inner {padding-top: 0;}
+    .reportModalForm .terms.termsModal {display: block; text-align: center; }
+    .ListAddFormModal { margin-top: 0;  }
+    .nominationOffer-formBox {  margin-top: 0;}
+    /* .dialogPopup .viewfee{
+        left: 124px;
+    } */
+} 
+
+@media only screen and (max-width: 600px) {
+    .nominationSetting{
+        margin-top: 0px;
+    }
+    .recent-slider-box .navigarion-arrow-wrapper {top:44%;}
+    .mediaSliderPop .recent-slider-box .navigarion-arrow-wrapper { top: 110px; width: 96%;}
+    .mediaSliderPop .farm-media-image.media-slider img,.mediaSliderPop .farm-media-image.media-slider video  { height: 190px;}
+    .dialogPopup .MuiDialogTitle-root{ font-size: 24px; padding-right: 44px; }   
+    .dialogPopup .icon-Cross::before{ position: relative; }
+    .stallion-profile-col-list {  padding-top: 16px !important;}
+    .stallion-profile-footer .save-btn{ min-width: 100%;}
+    .stallion-profile-footer .back-btn{    min-width: 100%;}
+    .edit-stallion-profile-form .edit-st-form-bx .farmName-column{ margin-top: 2rem;}
+    .stallion-profile-container{ margin-top: 2rem; }
+    .mediaSliderPop .navigarion-arrow-wrapper {top: 122px;}  
+    .cookieClassModal h2.MuiDialogTitle-root { padding-right: 50px; box-sizing: border-box;}
+    .add-stallion-pop-inner { padding-top: 0; }
+    .reportModalForm { padding-top: 0;}
+    form.update-email { padding-top: 0; }  
+    .dialogPopup .offer-toggle{ flex-wrap: wrap;}
+    .dialogPopup .nomination-respond .MuiToggleButton-root{ width: 100%; }
+    .upload-mare-list {padding-top: 0; }
+    .draganddrop {margin: 40px 0px 30px;padding-bottom: 40px;}
+    .download-mare-list-wrp .download-mare-list { white-space: pre;  line-height: 16px; }
+    .invite-user { margin-top: 0; }
+    .nominationOffer-formBox .termsModal{ display: flex; flex-direction: column;}
+    .stallion-msg-farm .termsModal{ padding: 0 38px; }
+    .check-nomination img{ width:100%; height: 100%;}
+    .check-nomination .MuiRadio-root{ width: 30%; height: auto; }
+    .check-nomination .SDradio{  align-items: flex-start;}
+    .makeavailableradio .SDradio span.MuiTypography-root {
+        text-overflow: ellipsis;
+        width: 90%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .remove-modal-bottom {
+        grid-template-columns: none;
+        gap: 0px;
+    }
+    .payment-right{
+        width: auto;
+        text-align: right;
+    }
+    .payment-model{
+        margin-top: 0px;
+    }
+    .payment-model-box h4{
+        padding-top: 0px;
+    }
+    .remove-from-list h4 {
+        margin-top: 0px;
+    }
+    .remove-from-list button.lr-btn {
+        margin-top: 36px;
+    }
+    .success-list h4 {
+        margin-top: 0px;
+    }
+    .success-list button.lr-btn {
+        margin-top: 36px;
+    }
+    .add-stallion-pop-wrapper h5 {
+        padding-right: 0px;
+    }
+    .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-right {
+        margin-right: 0;
+    }
+    .recent-slider-box .navigarion-arrow-wrapper .navigarion-arrow-left {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .dialogPopup .MuiDialogTitle-root{ padding-right: 46px;padding-left: 32px; }
+    .dialogPopup .nomination-respond .MuiToggleButton-root{ min-width: 0; font-size: 11px;  white-space: nowrap;  }
+    .mediaSliderPop .dots__dot{  width: 8px;  height: 8px;  margin-right: 8px; }
+    .stallion-msg-farm .termsModal{ padding: 0 26px; }
+    .reportpop-name .MuiBox-root { display: flex; flex-direction: column; align-items: flex-start; }
+    .reportpop-name .MuiBox-root .popup-btn { margin-left: 0; margin-right: auto; align-items: flex-start;  text-align: left;  min-width: inherit; }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .dialogPopup .popup-heading{
+        padding-right: 24px;
+    }
+    .cookies-box-inner .lr-btn {
+        padding: 10px 10px 14px;
+    }
+
+    .dialogPopup .MuiDialogContent-root {
+        padding: 24px;
+    }
+
+    .dialogPopup .MuiDialogTitle-root {
+        padding: 18px;
+        font-size: 20px;
+    }
+    .remove-modal-bottom {
+    grid-template-columns:none;
+     gap: 0px;
+    }
+    .download-mare-list-wrp .download-mare-list {font-size: 12px;}
+
+.addnewmareList.dialogPopup .MuiDialogContent-root {
+    padding: 16px;
+}
+.dashboardList .report-order-box .List-content span {font-size: 10px;}
+.nominationOffer-formBox .termsModal{
+    padding: 0 22px;
+}
+.stallion-msg-farm .termsModal{
+    padding: 0 22px;
+}
+.payment-model h6{
+    font-size: 14px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 899px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+.mediaSliderPop .fullscreen.fullscreen-enabled .MuiDialog-paper .arrowcollapse{
+top: 60px;
+}
+  }
+

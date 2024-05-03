@@ -1,0 +1,522 @@
+/* Calender */
+.SalesData{
+    height: 100%;
+}
+.sales-calender-box {
+    box-shadow: 0px 17.801px 26.7016px rgba(0, 0, 0, 0.1), 0px 7.12042px 10.6806px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+    border-radius: 14.2408px;
+    min-height: 584px;
+    padding: 46px 80px;
+}
+.sales-calender-box .MuiCalendarPicker-root {
+    width: 100%;
+    max-height: inherit;
+    position: relative;
+}
+
+.sales-calender-box .MuiPickerStaticWrapper-root {
+    width: 100%;
+    min-width: inherit;
+}
+
+.sales-calender-box .MuiPickerStaticWrapper-root .css-epd502 {
+    width: 100%;
+    max-height: inherit;
+}
+
+.sales-calender-box .CustomSalesPicker {
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Synthese-Bold';
+    width: 20%;
+    height: 70px;
+    border-radius: 0;
+}
+
+.sales-calender-box .MuiCalendarPicker-viewTransitionContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+.sales-calender-box .MuiTypography-caption {
+    color: #979797;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Synthese-Regular';
+    width: 20%;
+    height: 80px;
+}
+.sales-calender-box .PrivatePickersFadeTransitionGroup-root > div {
+    width: 100%;
+}
+.sales-calender-box .PrivatePickersSlideTransition-root {min-height: 440px;}
+
+
+.sales-calender-box .MuiCalendarPicker-root div[role=presentation] {
+    margin: auto;
+    margin-top: 14px;
+    font-family: 'synthese-bold';
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    line-height: 40px;
+    color: #005632;
+}
+.sales-calender-box  .MuiIconButton-edgeEnd{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+}
+.sales-calender-box  .MuiIconButton-edgeStart{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+}
+.sales-calender-box .MuiIconButton-edgeStart svg.MuiSvgIcon-root,.sales-calender-box .MuiIconButton-edgeEnd svg.MuiSvgIcon-root {
+    fill: #005632;
+    font-size: 16px;
+}
+.sales-calender-box button.MuiButtonBase-root svg {
+    fill: #005632;
+}
+.textfieledTreeList .edit-field .MuiOutlinedInput-root {
+    padding-right: 12px;
+}
+
+/* *********************************************** */
+
+/* View Lots Page */
+
+/* *********************************************** */
+
+.SalesViewLotsPage .MainTitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.02em;
+}
+.SalesViewLotsForm {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.SalesViewLotsForm .edit-field .search-btn {
+    width: 100%;
+}
+.SalesViewLotsForm .edit-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+}
+.SalesViewLotsForm .hifen-lines{
+    min-width: 33px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    position: absolute;
+    right: -31px;
+}
+
+.SalesViewLotsForm .edit-field .MuiFormControl-root {
+    width: 100%;
+}
+.SalesViewLotsForm .edit-field .hifen {
+    letter-spacing: -0.02em;
+    color: #1D472E;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Synthese-Regular';
+    height: 40px;
+}
+.SalesViewLotsfirstRow {
+    margin-top: 10px;
+}
+.SalesViewLotsfirstRowRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.share-btn {
+    background: none !important;
+    padding: 0;
+    height: 40px;
+    font-size: 22px;
+    min-width: 30px;
+}
+
+
+.SalesViewLotsfirstRowcheckbox .checkBox-Common {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.SalesViewLotsfirstRowcheckbox .checkBox-Common label.MuiFormControlLabel-root {
+    margin: 0;
+}
+
+.SalesViewLotsPage hr.hor-hr {
+    margin: 22px 0px 0px;
+    border: 0;
+    border-top: solid 1px #B0B6AF;
+}
+
+
+
+.viewLotsList .MuiListItemAvatar-root {
+    margin-right: 10px;
+}
+
+.viewLotsList .MuiListItemButton-root {
+    padding: 8px 6px;
+    background: none;
+}
+
+.viewLotsList .MuiListItemButton-root:hover,.viewLotsList .MuiListItemButton-root:focus {
+    background: #F0F3F0;
+}
+
+.viewLotsList {
+    padding: 0;
+    align-items: center;
+    display: flex;
+}
+
+.viewLotsList .MuiListItemText-root span.MuiTypography-root {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D472E;
+    font-family: 'Synthese-Bold';
+}
+
+.viewLotsList .MuiListItemText-root p.MuiTypography-root {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+}
+
+.viewLotsList.selected {
+    background-color: #c7c7c7;
+}
+.viewLotsList.disabled {
+    background-color: rgb(167, 167, 167);
+    pointer-events: none;
+}
+.ViewLotsHeadingRowLeft .lotName{
+    display: flex;
+}
+.ViewLotsHeadingRowLeft .lotName .MuiFormControlLabel-root{
+    padding-right: 30px;
+    margin-right: 0px;
+}
+
+.ViewLotsHeadingRowLeft h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: 'Synthese-Regular';
+    letter-spacing: -0.02em;
+    color: #1D472E;
+}
+
+.ViewLotsHeadingRowLeft h4 b {
+    font-family: 'Synthese-Bold';
+}
+
+
+.ViewLotsGrid .ViewLotsGridLeft {
+    -webkit-flex-basis: 26%;
+    -ms-flex-preferred-size: 26%;
+    flex-basis: 26%;
+    max-width: 26%;
+    padding-top: 0;
+}
+
+
+.ViewLotsGrid .ViewLotsGridRight {
+    -webkit-flex-basis: 70%;
+    -ms-flex-preferred-size: 70%;
+    flex-basis: 70%;
+    max-width: 70%;
+    padding-top: 0;
+    padding-left: 0;
+}
+.ViewLotsGrid hr.MuiDivider-root {
+    margin: 0px 14px;
+}
+.ViewLotsHeadingRowLeft 
+ .checkBox-Common {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.ViewLotsHeadingRowLeft .checkBox-Common label.MuiFormControlLabel-root {
+    margin: 0;
+    margin-right: 30px;
+}
+.ViewLotsGridWrp{
+    margin-top: 14px;
+}
+
+/* ViewLots Scrollbar */
+/* .viewLotsFixedSize{
+    scrollbar-color: #B0B6AF  transparent !important;
+    scrollbar-width: thin !important;
+} */
+
+  .viewLotsFixedSize::-webkit-scrollbar {
+    width: 20px;
+    background: none;
+  }
+  
+  .viewLotsFixedSize::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 14px 14px transparent;
+    border: solid 4px transparent;
+    }
+    
+  .viewLotsFixedSize::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 14px 14px #bbbbbe;
+    border: solid 8px transparent;
+    border-radius: 14px;
+  }
+  
+  .viewLotsFixedSize::-webkit-scrollbar-button {
+      background-color: none;
+      background-size: 20px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 20px;
+      width: 20px;
+      cursor: pointer;
+  }
+  
+  .viewLotsFixedSize::-webkit-scrollbar-button:horizontal:increment {
+      background-image: url(../../../assets/Images/Chevron-up.svg);
+  }
+  
+  .viewLotsFixedSize::-webkit-scrollbar-button:end:increment {
+      background-image: url(../../../assets/Images/Chevron-down.svg);
+      cursor: pointer;
+  }
+   
+  
+  .viewLotsFixedSize::-webkit-scrollbar-button:start:decrement {
+     background-image: url(../../../assets/Images/Chevron-up.svg);
+     cursor: pointer;
+  }
+
+  .ViewLotsHeadingRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 23px;
+    padding-left: 12px;
+}
+.ViewLotsHeadingRowRight .edit-field {
+    width: 200px;
+}
+
+
+.textfieledTree-Wrapper {
+    padding-left: 12px;
+    align-items: center;
+}
+.textfieledTree {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+.Second-textfieledTree {
+    padding-right: 0;
+    padding-left: 60px;
+}
+.textfieledTreeList .edit-btn {
+    background: none !important;
+    min-width: inherit;
+    padding: 0;
+    font-size: 24px;
+    margin-left: 7px;
+}
+
+.textfieledTreeList .MuiInputAdornment-positionEnd i {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+.textfieledTreeList i.icon-Confirmed-24px::after {
+    width: 16px;
+    height: 16px;
+}
+
+.textfieledTreeList .edit-field {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.textfieledTreeList hr.textfieledHr {
+    width: 114px;
+    position: absolute;
+    right: -121px;
+}
+.viewLotsFixedSize {
+    width: 100% !important;
+}
+.textfieledTreeList {
+    margin-bottom: 46px;
+    position: relative;
+}
+.textfieledTreeList .edit-field .MuiFormControl-root {
+    width: 100%;
+}
+.textfieledTreeList .edit-field input {
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.SalesViewLotsForm .edit-field.SalesViewLotsForm-first {
+    padding-right: 6px;
+}
+
+.SalesViewLotsForm .edit-field.SalesViewLotsForm-second {
+    padding-left: 6px;
+}
+
+.Third-textfieledTree .edit-field {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Third-textfieledTree .edit-field .search-btn {
+    min-width: 255px;
+}
+
+.viewLotsHiglight {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    margin-left: 21px;
+}
+
+
+
+.ViewLots-ImportedData {
+    margin-top: 24px;
+}
+
+.ViewLots-ImportedData hr.ImportedDataHr {
+    width: 100%;
+    border: 0;
+    border-top: solid 1px #B0B6AF;
+    background: none;
+    outline: 0;
+}
+.ViewLots-ImportedData .RawDataGroup {
+    margin-top: 24px;
+    padding-left: 12px !important;
+}
+
+.ViewLots-ImportedData .RawDataGroup .RawDataList li {
+    width: 50%;
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+.ViewLots-ImportedData .RawDataGroup .RawDataList li .MuiListItemText-root {
+    display: inline-flex;
+}
+
+.ViewLots-ImportedData .RawDataGroup .RawDataList li .MuiListItemText-root p,.ViewLots-ImportedData .RawDataGroup .RawDataList li .MuiListItemText-root span {
+    display: inline-block;
+    min-width: auto;
+}
+
+.ViewLots-ImportedData .ImportedHeader {
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+.ViewLots-ImportedData .RawDataGroup .RawDataList.full li {
+    width: 100%;
+}
+
+
+.textfieledTreeList .edit-field input.Mui-disabled {
+    color: #626E60;
+    -webkit-text-fill-color: #626E60;
+}
+.textfieledTreeList .edit-field .Mui-disabled i.icon-Edit-Icon:before{
+    color: #B0B6AF;
+}
+.textfieledTreeList .edit-field .Mui-disabled .MuiInputAdornment-root i.icon-Confirmed-24px::before {
+    color: #B0B6AF;
+}
+
+.textfieledTreeList .edit-field .Mui-disabled .MuiInputAdornment-root i.icon-Confirmed-24px::after {
+    color: #1D472E;
+}
+
+
+.textfieledTreeList .edit-field .Mui-disabled .MuiInputAdornment-root i.icon-Incorrect::before {
+    color: #B0B6AF;
+}
+
+.textfieledTreeList .edit-field:hover .Mui-disabled .MuiOutlinedInput-notchedOutline {
+    border-color: #B0B6AF;
+}
+
+.textfieledTreeList .edit-field .Mui-disabled .MuiOutlinedInput-notchedOutline {
+    border-color: #B0B6AF;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .ViewLotsGrid .ViewLotsGridRight {
+        flex-basis: 70%;
+        max-width: 70%;
+    }
+    .SalesViewLotsfirstRowRight .add-btn {
+        padding: 6px 4px 10px;
+    }
+}

@@ -1,0 +1,90 @@
+.CalendarScheduler div[data-testid="view-navigator"] {
+    display: none;
+}
+
+.CalendarScheduler div[data-testid="date-navigator"] {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0px 30px;
+}
+
+.CalendarScheduler div[data-testid="date-navigator"] .MuiIconButton-root {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    width: 50px;
+    height: 49px;
+}
+
+.CalendarScheduler div[data-testid="date-navigator"] .MuiButton-text {
+    background: none;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #005632;
+    font-family: 'Synthese-Bold';
+    text-transform: uppercase;
+}
+
+.CalendarScheduler span.rs__cell .MuiButton-text {
+    background: none;
+    pointer-events: none;
+}
+
+.CalendarScheduler span.rs__cell {
+    border: 0;
+    /* height: 72px !important; */
+}
+
+
+
+.CalendarScheduler [data-testid="grid"] [sticky="1"] {
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.CalendarScheduler [data-testid="grid"] [sticky="1"] .rs__cell {
+    border: 0;
+    color: #979797;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: 'Synthese-Regular';
+}
+
+
+.CalendarScheduler [data-testid="grid"] > div:last-of-type {
+    border: 0;
+}
+.CalendarScheduler [data-testid="grid"] .MuiAvatar-circular {
+    background: none !important;
+}
+
+.CalendarScheduler [data-testid="grid"] .MuiAvatar-root {
+    margin: auto !important;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.CalendarScheduler  .rs__cell .rs__multi_day .MuiPaper-root {min-height: 22px;border-radius: 7.12042px;}
+
+.CalendarScheduler .rs__cell .rs__multi_day .MuiPaper-root p.MuiTypography-root {
+    display: none;
+}
+.CalendarScheduler [data-testid="grid"] .MuiAvatar-root p.MuiTypography-root {
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Synthese-Bold';
+    /* color: #161716; */
+    pointer-events: none;
+}

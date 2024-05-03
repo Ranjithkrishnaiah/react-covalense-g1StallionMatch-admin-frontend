@@ -1,0 +1,236 @@
+.Stallionview{
+    background: #EAE4E0;
+    box-shadow: none;
+    border-radius: 8px 8px 0px 0px;
+    padding: 24px;
+    min-height: 254px;
+    box-sizing: border-box;
+}
+
+
+.Stallionview h5{
+    font-family: 'Synthese-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+    color: #161716;
+    text-transform: capitalize;
+}
+
+.Stallionview h6{
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #161716;
+}
+
+
+.Stallionview h6.remainingclass {
+    white-space: nowrap;
+    font-size: 10px;
+}
+.Stallionview .List-content{
+    background: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.Stallionview .List-content i{
+
+    font-size: 24px;
+}
+
+.Stallionview img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50% ;
+}
+
+.Stallionview i{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.Stallionview .promoted-year{
+    width: 50%;
+}
+
+.close-analytics{
+    box-shadow: none;
+    border-radius: 0px 0px 8px 8px;
+}
+.active-analytics{ 
+    box-shadow: none;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.stallion-analytics{
+    /* padding: 0.5rem 1.25rem; */
+    background: #F4F1EF;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px !important;
+}
+.Stallionview .roaster-block-right h6 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #161716;
+}
+.Stallionview .roaster-block-right h4 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #1D472E;
+}
+.stallion-analytics .MuiAccordionSummary-content{
+    align-items: center;
+    font-family: 'Synthese-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    color: #161716;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
+
+.roaster-promote{
+    display: flex;
+    align-items: center;
+    font-family: 'Synthese-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    color: #ffffff;
+}
+
+.stallion-analytics i{
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.stallion-analytics h3{
+    font-family: 'Synthese-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    color: #161716;
+}
+
+.stallion-analytics h5{
+    font-family: 'Synthese-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.01rem;
+    color: #161716;
+}
+
+.stallion-analytics h6{
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #161716;
+}
+
+.Stallionview h6.schedule{
+    font-family: 'Synthese-Regular' !important;
+    color: #005632 !important;
+    padding: 0px;
+
+}
+
+.stallion-analytics .analytics-bottom{
+    display: flex;
+    background:#EAE4E0;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.stallion-analytics .analytics-bottom a{
+    text-decoration: none;
+}
+
+.stallion-analytics .GotoMsg{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    width: 295px;
+    height: 40px;
+    text-transform: none;
+    background: #1D472E;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+    padding: 6px 0px 10px;
+    line-height: 24px;
+}
+  .Stallionview h6.promotostallionunlock {
+        white-space: normal;
+        font-size: 10px;
+    }
+    .Stallionview .roaster-block-right h6.remainingclass,.Stallionview .roaster-block-right h6.promotostallionunlock {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .profile-rating-wrapper h6 b {
+        font-family: 'Synthese-Bold';
+    }
+    
+    .profile-rating-wrapper span.MuiLinearProgress-root {
+        height: 6px;
+    }
+    .roaster-block-right-row label.MuiFormControlLabel-root {
+        margin-left: 0;
+    }
+    
+    .roaster-block-right-row label.MuiFormControlLabel-root span.MuiSwitch-root.MuiSwitch-sizeMedium {
+        margin: 0;
+        margin-right: 14px;
+    }
+    .stallion-analytics .roaster-promote i.icon-Circle-chevron-1 {
+        margin-right: 12px;
+    }
+    
+    .active-analytics .stallion-analytics .MuiButtonBase-root.MuiAccordionSummary-root {
+        min-height: 64px;
+        padding: 20px 24px;
+        box-sizing: border-box;
+    }
+    
+    .active-analytics .stallion-analytics .MuiButtonBase-root.MuiAccordionSummary-root .MuiAccordionSummary-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .roaster-block-left-row{
+        align-items: flex-start;
+        padding-top: 13px;
+    }
+    .roaster-block-right-row{
+        align-items: flex-start;
+        padding-top: 13px;
+    }
+    @media only screen and (max-width: 600px) {
+        .Stallionview .promoted-year{
+            width: 100%;
+        }
+        .Stallionview .roaster-block-right h4 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+        }
+      
+    }
+    @media only screen and (max-width: 375px){
+        .Stallionview .roaster-block-right h6{
+            white-space:inherit;
+        }
+    }

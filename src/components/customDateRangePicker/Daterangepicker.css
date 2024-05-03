@@ -1,0 +1,171 @@
+.date-picker{
+    width: 170px;
+    background: #ffffff;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+}
+
+.date-picker .MuiDialogContent-root:first-of-type{
+    border-radius: 8px;
+
+}
+
+.DP-input{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    height: 40px;
+    border-color: #B0B6AF;
+}
+
+.date-picker .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border: solid 1px #B0B6AF;
+}
+
+
+.mobiledatepicker .MuiIconButton-edgeEnd{
+    position: absolute;
+    border: solid 1px #F2F2F2;
+    border-radius: 4px;
+    width: 50px;
+    height: 49px;
+    left: 23px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mobiledatepicker .MuiIconButton-edgeStart{
+    position: absolute;
+    right: 23px;
+    border: solid 1px #F2F2F2;
+    border-radius: 4px;
+    width: 50px;
+    height: 49px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mobiledatepicker .PrivatePickersSlideTransition-root{
+    overflow: hidden !important;
+    min-height: 274px;
+}
+
+.mobiledatepicker .MuiCalendarPicker-viewTransitionContainer{
+    overflow: hidden;
+}
+
+.mobiledatepicker .css-e8k8r9{
+    margin: auto;
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #005632;
+    text-transform: uppercase;
+}
+
+.mobiledatepicker .css-18puooo{
+    width: 0px;
+}
+
+.mobiledatepicker .MuiSvgIcon-root{
+    font-size: 16px;
+    color: #005632;
+}
+
+.mobiledatepicker .Mui-selected{
+    border-radius: 4px;
+    background: #007142 !important;
+    color: #ffffff !important;
+    border: none;
+}
+
+.mobiledatepicker .MuiDateRangePickerDay-day{
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161716;
+    border-radius: 4px;
+    border: none;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    padding: 10px 0px 12px;
+    box-sizing: border-box;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.mobiledatepicker .MuiDateRangePickerDay-rangeIntervalPreview{
+    border-color: #ffffff;
+        border: 0;
+}
+
+.mobiledatepicker .MuiDateRangePickerDay-dayInsideRangeInterval{
+    background-color: #F4F1EF;
+    border: none;
+}
+
+.mobiledatepicker .MuiDateRangePickerDay-day:hover{
+    background: #C5CFC4;
+    border-radius: 4px;
+    border: none;
+}
+
+.mobiledatepicker .MuiPickersDay-dayWithMargin{
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-size: 14px;
+    color: #161716;
+    background: #F4F1EF;
+    border-radius: 4px;
+}
+
+.mobiledatepicker .MuiTypography-root{
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 12px;
+    color: #979797;
+    width: 45px;
+    margin-top: 30px;
+    margin: 0px 2px 0px;
+    padding: 0px 2px;
+    box-sizing: border-box;
+}
+
+.mobiledatepicker .MuiPickersDay-today{
+    border: 0 !important;
+    background-color: #F4F1EF;
+    border-radius: 4px;
+
+}
+
+.mobiledatepicker .MuiDateRangePickerDay-root{
+    border-radius: 4px;
+    color: #161716;
+    background: none !important;
+    margin: 2px 2px;
+}
+
+.mobiledatepicker .MuiPickersDay-root.Mui-disabled{
+    color: #cccccc;
+}
+
+.customDate .MuiBox-root:hover {
+    opacity: 1;
+}
+.mobiledatepicker .MuiIconButton-edgeStart.Mui-disabled {
+    pointer-events: initial;
+    cursor: not-allowed;
+}
+
+.mobiledatepicker .MuiIconButton-edgeStart.Mui-disabled .MuiSvgIcon-root {
+    color: #B0B6AF;
+}
+.PrivatePickersYear-yearButton.Mui-disabled {
+    color: #B0B6AF;
+}

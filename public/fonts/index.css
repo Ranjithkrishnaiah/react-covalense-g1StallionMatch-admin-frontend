@@ -1,0 +1,3699 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #FAF8F7 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: 5000s ease-in-out 0s;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+
+@font-face {
+  font-family: 'FlechaM-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('FlechaM-Medium'), url('FlechaM-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Synthese-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Synthese-Bold'), url('Synthese-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Synthese-Book'), url('Synthese-Book.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Synthese-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Synthese-Regular'), url('Synthese-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Synthese-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Synthese-Light'), url('Synthese-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?2gne84');
+  src:  url('icomoon.eot?2gne84#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?2gne84') format('truetype'),
+    url('icomoon.woff?2gne84') format('woff'),
+    url('icomoon.svg?2gne84#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Link:before {
+  content: "\e900";
+}
+.icon-Edit-Icon:before {
+  content: "\e901";
+  color: #1d472e;
+}
+.icon-menu-back:before {
+  content: "\e902";
+  color: #007142;
+}
+.icon-filter-open:before {
+  content: "\e903";
+  color: #007142;
+}
+.icon-Link-green:before {
+  content: "\e904";
+  color: #007142;
+}
+.icon-menu-fill:before {
+  content: "\e905";
+  color: #626e60;
+}
+.icon-delete:before {
+  content: "\e906";
+  color: #626e60;
+}
+.icon-alias-icon:before {
+  content: "\e907";
+  color: #007142;
+}
+.icon-Lock-fill:before {
+  content: "\e908";
+  color: #b0b6af;
+}
+.icon-line-chart-fill:before {
+  content: "\e909";
+  color: #1d472e;
+}
+.icon-Notification .path1:before {
+  content: "\e90a";
+  color: rgb(0, 113, 66);
+}
+.icon-Notification .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 113, 66);
+  opacity: 0.4;
+}
+.icon-user-fill:before {
+  content: "\e90c";
+  color: #007142;
+}
+.icon-CVC-Card .path1:before {
+  content: "\e90d";
+  color: rgb(105, 115, 134);
+  opacity: 0.2;
+}
+.icon-CVC-Card .path2:before {
+  content: "\e90e";
+  margin-left: -1.470703125em;
+  color: rgb(105, 115, 134);
+}
+.icon-CVC-Card .path3:before {
+  content: "\e90f";
+  margin-left: -1.470703125em;
+  color: rgb(105, 115, 134);
+}
+.icon-checkbox-circle:before {
+  content: "\e910";
+  color: #007142;
+}
+.icon-Datepicker:before {
+  content: "\e911";
+}
+.icon-Cart:before {
+  content: "\e912";
+}
+.icon-eyeclose:before {
+  content: "\e913";
+  color: #1d472e;
+}
+.icon-Circle-chevron .path1:before {
+  content: "\e914";
+  color: rgb(46, 255, 180);
+}
+.icon-Circle-chevron .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(22, 23, 22);
+}
+.icon-Globe:before {
+  content: "\e916";
+}
+.icon-Search-circle:before {
+  content: "\e917";
+  color: #2effb4;
+}
+.icon-trending-up:before {
+  content: "\e918";
+}
+.icon-Bookmark:before {
+  content: "\e919";
+}
+.icon-regisClose:before {
+  content: "\e91a";
+}
+.icon-downpointer:before {
+  content: "\e91b";
+}
+.icon-homeSearch:before {
+  content: "\e91c";
+  color: #1d472e;
+}
+.icon-Toggle:before {
+  content: "\e91d";
+}
+.icon-UserSignedOut .path1:before {
+  content: "\e91e";
+  color: rgb(29, 71, 46);
+}
+.icon-UserSignedOut .path2:before {
+  content: "\e91f";
+  margin-left: -0.9677734375em;
+  color: rgb(46, 255, 180);
+}
+.icon-UserSignedOut .path3:before {
+  content: "\e920";
+  margin-left: -0.9677734375em;
+  color: rgb(46, 255, 180);
+}
+.icon-arrowDown:before {
+  content: "\e921";
+}
+.icon-Close:before {
+  content: "\e922";
+}
+.icon-Facebook:before {
+  content: "\e923";
+  color: rgb(46, 255, 180);
+}
+.icon-Facebook:after {
+  content: "\e924";
+  margin-left: -0.9697265625em;
+  color: rgb(29, 71, 46);
+}
+.icon-QuotationMarks:before {
+  content: "\e925";
+  color: #c75227;
+}
+.icon-Twitter:before {
+  content: "\e926";
+  color: rgb(46, 255, 180);
+}
+.icon-Twitter:after {
+  content: "\e927";
+  margin-left: -0.9697265625em;
+  color: rgb(29, 71, 46);
+}
+.icon-Incorrect:before {
+  content: "\e928";
+  color: rgb(199, 82, 39);
+}
+.icon-Incorrect:after {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Info-circle:before {
+  content: "\e92a";
+}
+.icon-Lightening-bolt:before {
+  content: "\e92b";
+  color: #2effb4;
+}
+.icon-Message:before {
+  content: "\e92c";
+  color: #007142;
+}
+.icon-Paper-clip:before {
+  content: "\e92d";
+  color: #626e60;
+}
+.icon-Photograph:before {
+  content: "\e92e";
+  color: #007142;
+}
+.icon-Plus:before {
+  content: "\e92f";
+}
+.icon-Report:before {
+  content: "\e930";
+  color: #bd9a68;
+}
+.icon-Search:before {
+  content: "\e931";
+  color: #1d472e;
+}
+.icon-Send-Message:before {
+  content: "\e932";
+  color: rgb(46, 255, 180);
+}
+.icon-Send-Message:after {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(29, 71, 46);
+}
+.icon-Share:before {
+  content: "\e934";
+  color: #626e60;
+}
+.icon-Sparkles:before {
+  content: "\e935";
+  color: #1d472e;
+}
+.icon-Star:before {
+  content: "\e936";
+  color: #626e60;
+}
+.icon-Trash:before {
+  content: "\e937";
+}
+.icon-User-Signed-Out:before {
+  content: "\e938";
+  color: rgb(29, 71, 46);
+}
+.icon-User-Signed-Out .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(46, 255, 180);
+}
+.icon-User-Signed-Out:after {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(46, 255, 180);
+}
+.icon-Views:before {
+  content: "\e93b";
+  color: #1d472e;
+}
+.icon-X-Circle:before {
+  content: "\e93c";
+  color: rgb(199, 82, 39);
+}
+.icon-X-Circle:after {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Arrow-circle-right:before {
+  content: "\e93e";
+  color: #2effb4;
+}
+.icon-Arrow-down:before {
+  content: "\e93f";
+  color: #c75227;
+}
+.icon-Arrow-right:before {
+  content: "\e940";
+}
+.icon-Arrows-expand:before {
+  content: "\e941";
+}
+.icon-Arrow-up:before {
+  content: "\e942";
+  color: #007142;
+}
+.icon-Carousel-Arrow-Left:before {
+  content: "\e943";
+  color: rgb(226, 231, 225);
+}
+.icon-Carousel-Arrow-Left:after {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(29, 71, 46);
+}
+.icon-Carousel-Arrow-Right:before {
+  content: "\e945";
+  color: rgb(226, 231, 225);
+}
+.icon-Carousel-Arrow-Right:after {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(29, 71, 46);
+}
+.icon-Chat:before {
+  content: "\e947";
+  color: #1d472e;
+}
+.icon-Chevrondown:before {
+  content: "\e948";
+}
+.icon-Chevron-down:before {
+  content: "\e949";
+}
+.icon-Chevron-left:before {
+  content: "\e94a";
+}
+.icon-Chevron-right:before {
+  content: "\e94b";
+}
+.icon-Chevron-up:before {
+  content: "\e94c";
+}
+.icon-Circle-chevron-1:before {
+  content: "\e94d";
+  color: rgb(46, 255, 180);
+}
+.icon-Circle-chevron-1:after {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(22, 23, 22);
+}
+.icon-Circle-dots-horizontal:before {
+  content: "\e94f";
+  color: rgb(255, 255, 255);
+}
+.icon-Circle-dots-horizontal:after {
+  content: "\e950";
+  margin-left: -0.9755859375em;
+  color: rgb(22, 23, 22);
+}
+.icon-Confirmed-24px:before {
+  content: "\e951";
+  color: rgb(46, 255, 180);
+}
+.icon-Confirmed-24px:after {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(29, 71, 46);
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.icon-Cross:before {
+  content: "\e953";
+}
+.icon-Document-Download:before {
+  content: "\e954";
+  color: #626e60;
+}
+.icon-Document-add:before {
+  content: "\e955";
+  color: #007142;
+}
+.icon-Document-text:before {
+  content: "\e956";
+}
+.icon-Dots-horizontal:before {
+  content: "\e957";
+}
+.icon-Download:before {
+  content: "\e958";
+}
+.icon-Expand:before {
+  content: "\e959";
+  color: #f0f3f0;
+}
+.icon-Farm:before {
+  content: "\e95a";
+  color: #2effb4;
+}
+.icon-Filters:before {
+  content: "\e95b";
+}
+.icon-Fire:before {
+  content: "\e95c";
+  color: #c75227;
+}
+.icon-Home:before {
+  content: "\e95d";
+  color: #1d472e;
+}
+.icon-HorseProfile:before {
+  content: "\e95e";
+  color: rgb(46, 255, 180);
+}
+.icon-HorseProfile:after {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(29, 71, 46);
+}
+/* .......................................................... */
+
+.edit-field .MuiAutocomplete-root legend{
+  display: none !important;
+}
+.edit-field .MuiAutocomplete-root .MuiOutlinedInput-notchedOutline{
+  top: 0;
+}
+
+
+/* ...................... Main Container     Styles...................... */
+
+.main-container{
+  padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-top: 80px;
+}
+
+.FooterSection {
+  background: #1D472E;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 50px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1201;
+}
+
+.FooterSection p {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 34px;
+  font-family: 'Inter', sans-serif;
+}
+/* ...................... Add Button Styles...................... */
+.add-btn{
+  background: none;
+    border: solid 1px #BD9A68;
+    box-shadow: none;
+    border-radius: 4px;
+    color: #161716;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    height: 40px;
+    white-space: nowrap;
+    padding: 6px 24px 10px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+}  
+
+.add-btn:hover{
+  background: #BD9A68;
+}
+
+.add-btn.green {
+  border-color: #007142;
+  white-space: nowrap;
+}
+
+.add-btn.green:hover {
+  background: #007142;
+  color: #fff;
+}
+.add-btn.Mui-disabled {
+  background: none !important;
+  color: #B0B6AF !important;
+  border: 1px solid #B0B6AF;
+}
+/* ...................... Dashboard Styles...................... */
+
+.DB-blocks{
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+  position: relative;
+  min-height: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.DB-blocks-download{
+  position: relative;
+}
+
+.DB-blocks-download i{
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 22px;
+  color: #626E60;
+  cursor: pointer;
+}
+
+.adminIcons{
+  margin-right: 10px;
+}
+
+.DB-blocks h3{
+  font-family: 'Synthese-Regular';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #171717;
+  letter-spacing: -0.02rem;
+}
+
+.DB-blocks span{
+  font-family: 'Synthese-Regular';
+  font-size: 12px;
+  color: #B9B9B9;
+  padding-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DB-blocks span.MuiCircularProgress-root {
+  position: relative;
+  top:15px;
+  width: 40px;
+  width: 40px;
+  padding: 0px;
+}
+.DB-blocks .MuiCircularProgress-root svg{
+  color:#007142;
+  width: 40px;
+  width: 40px;
+}
+
+/* ...................... Notification Styles...................... */
+.notification{
+  position: relative;
+}
+
+.notification h5{
+  font-family: 'Synthese-Bold';
+  font-size: 14px;
+  font-weight: 700;
+  color: #1D472E;
+  margin-left: 22px;
+}
+
+.notification span{
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    color: #626E60;
+}
+
+.notification .List-content{
+    background: #FFFFFF;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.notification .List-content h4{
+    font-family: 'Synthese-Bold';
+    color: #1D472E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.notification .List-content h6{
+  font-family: 'Synthese-Book';
+  color: #161716;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.notification .redDot{
+     width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #C75227
+}
+
+.notification .GotoMsg{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+}
+
+.notification{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    font-weight: 400;
+}
+.notification:hover{
+    cursor: pointer
+}
+
+.view-request{
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding-left: 1.5rem;
+    text-decoration: underline;
+    color: #007142;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 4px;
+}
+
+.view-request:hover{
+  color: #1D472E;
+}
+
+/* ....................... Visited farm styles */
+.DB-farms.message-DB-farms{
+  height:370px;
+  overflow-y:auto;
+  /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+}
+.DB-farms.message-DB-farms::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.DB-farms.message-DB-farms::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.DB-farms.message-DB-farms::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+.DB-farms.msg-most-engaged{
+  height:415px;
+  overflow-y:auto;
+  /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+}
+
+.DB-farms.msg-most-engaged::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.DB-farms.msg-most-engaged::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.DB-farms.msg-most-engaged::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+
+.most-popular-products{
+  height:509px !important;
+  overflow-y:auto;
+  /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+}
+
+.most-popular-products::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.most-popular-products::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.most-popular-products::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+
+
+.DB-farms{
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1rem;
+  padding: 20px;
+}
+
+.DB-farms.reports-farm{
+  height: 373px;
+  overflow-y: auto;
+  /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+}
+
+.DB-farms.reports-farm::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.DB-farms.reports-farm::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.DB-farms.reports-farm::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+.DB-farms h3{
+  font-family: 'Synthese-Bold';
+  font-size: 14px;
+  font-weight: 700;
+  color: #1D472E;
+  padding-right: 10px;
+}
+
+.DB-farms h4{
+  font-family: 'Synthese-Regular';
+  font-size: 12px;
+  font-weight: 400;
+  color: #171717;
+  line-height: 16px;
+}
+
+.DB-farms h5{
+  font-family: 'Synthese-Book';
+  font-size: 12px;
+  font-weight: 400;
+  color: #B9B9B9;
+  word-wrap: break-word;
+}
+
+.DB-farms h6{
+  font-family: 'Synthese-Book';
+  font-size: 10px;
+  font-weight: 400;
+  color: #B9B9B9;
+}
+
+.DB-farms span{
+  background: #C75227;
+  font-size: 10px;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 3px;
+  min-height: 16px;
+  min-width: 32px;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+  height: 16px;
+  line-height: 120%;
+  vertical-align: text-top;
+  margin-top: 2px;
+
+}
+.DB-farms span.green {
+  background: rgb(0 222 142 / 10%);
+  color: #00DE8E;
+}
+
+.DB-farms span.red {
+  background: rgb(199 82 39 / 10%);
+  color: #C75227;
+}
+
+/* ...................... Data Table List Styles.................. */
+
+.datalist{
+  position: relative;
+  overflow-x:initial;
+}
+
+.datalist table{
+  border-collapse: separate;
+border-spacing: 0 3px;
+background: #FAF8F7;
+}
+
+.datalist tr.MuiTableRow-root {
+  height: auto;
+}
+.datalist tr.MuiTableRow-root.Mui-selected{
+  background-color: #FAF8F7;
+}
+.datalist tr.MuiTableRow-root.Mui-selected:hover{
+  background-color: #FAF8F7;
+}
+.datalist th{
+  background: #FAF8F7;
+  border-bottom: solid 1px #B0B6AF;
+  font-family: 'Synthese-Bold';
+  font-weight: 700;
+  font-size: 12px;
+  color: #1D472E;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0;
+}
+.datalist th .MuiTableSortLabel-root .MuiTableSortLabel-icon {
+  color: #161716;
+  font-size: 22px;
+  position: absolute;
+  top: 3px;
+  margin: 0;
+  right: -23px;
+}
+.datalist th span.MuiTableSortLabel-root {
+  position: relative;
+}
+.datalist th:first-of-type{
+  border-top-left-radius: 0p;
+  border-bottom-left-radius: 0px;
+  box-shadow: none;
+  padding-left: 13px;
+
+}
+
+.datalist th:last-of-type{
+  border-top-right-radius: 0p;
+  border-bottom-right-radius: 0px;
+  box-shadow: none;
+
+}
+
+.datalist td{
+  background: #F4F1EF;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  font-size: 12px;
+  color: #161716;
+  white-space: nowrap;
+  height: 45px;
+  box-sizing: border-box;
+  line-height: 16px;
+}
+
+.datalist.reports-datalist td{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.datalist td u {
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.datalist td:first-of-type{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: none;
+  min-width: 185px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  padding-left: 13px;
+  text-transform: capitalize;
+
+}
+
+.datalist td:last-of-type{
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+.datalist.stalliondataList td:last-of-type{
+  display:table-cell;
+
+}
+.datalist .icon-Link-green{
+  font-size: 24px;
+}
+.datalist table tbody:before {
+  content: "-";
+  display: block;
+  line-height: 1px;
+  color: transparent;
+}
+
+.datalist::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.datalist::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 0px;
+}
+ 
+.datalist td i.icon-NonPromoted, .datalist td i.icon-Confirmed-24px {
+  margin: 0px auto;
+}
+.datalist::-webkit-scrollbar-thumb {
+  background: #B0B6AF;
+border-radius: 8px;
+}
+
+
+.datalist::-webkit-scrollbar-thumb:hover {
+  background: #B0B6AF; 
+}
+.datalist tr:hover td {
+  background: #E2E7E1;
+}
+.datalistTable {
+  overflow-x: hidden;
+}
+.datalist .Messge-Breeder-Btn {
+  text-transform: capitalize;
+  background: none !important;
+  box-shadow: inherit;
+  color: #007142;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Regular';
+  white-space: nowrap;
+}
+.datalist .Messge-Breeder-Btn i {
+  display: flex;
+  font-size: 23px;
+  margin-right: 2px;
+  position: relative;
+  top: 1px;
+}
+.datalist th .MuiTableSortLabel-root:hover {
+  color: #1D472E;
+}
+
+.datalist th .MuiTableSortLabel-root:hover .MuiTableSortLabel-icon {
+  opacity: 1;
+}
+.tablemoremenu-btn {
+  background: none !important;
+  padding: 0;
+}
+
+.datalist td:last-of-type,.datalist th:last-of-type {
+  padding-right: 13px;
+}
+.noGraph{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+/* ......................Filter Section Styles...................... */
+.filter-section .MuiDrawer-docked{
+  position: relative;
+}
+.filterHeader{
+  position: relative;
+  margin-right: auto;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start; */
+}
+
+.filter-section h3{
+  font-family:'Synthese-Regular';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #1D472E;
+  /* white-space: nowrap; */
+  letter-spacing: 0.02rem;
+}
+
+.clearBtn{
+  font-family:'Synthese-Regular';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background: none;
+  text-align: left;
+  text-transform: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  padding: 0px 0px;
+  color: #007142;
+  background: none !important;
+  position: relative;
+  min-width: inherit;
+
+}
+.clearBtn:hover{
+  color: #1D472E;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+.filterHeader .clearBtn.back{
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+/* .clearBtn:after {
+  content: '';
+  width: 100%;
+  height: 1.5px;
+  background: #007142;
+  position: absolute;
+  bottom: -1px;
+}
+
+.clearBtn:hover {
+  color: #1D472E;
+}
+
+.clearBtn:hover:after {
+  background: #1D472E;
+} */
+
+
+.show-all-btn {
+  background: #2EFFB4;
+  border-radius: 4px;
+  min-width: 93px;
+  height: 40px;
+  color: #1D472E;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-family: 'Synthese-Regular';
+  padding: 6px 10px 10px;
+  display: inline-block;
+  width: auto;
+  border-radius: 4px;
+}
+.show-all-btn:hover {
+background: #00DE8E;
+color: #1D472E;
+}
+.filter-section h5{
+  font-family: 'Synthese-Bold';
+  font-size: 14px;
+  color: #1D472E;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+.filter-section .sales-filter h5{
+  font-family: 'Synthese-Regular' !important;
+  font-weight: 400 !important;
+}
+h5.horse-MainTitle{
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  padding-bottom: 1rem;
+}
+.farmfilter-leftbar h5 {
+  margin-bottom: 20px;
+}
+
+.filter-section .MuiDrawer-paper {
+  position: fixed;
+  left: auto;
+  top:80px;
+  min-height: 100%;
+  padding-bottom: 8%;
+  z-index: 1; 
+  background: #E2E7E1;
+  border: 0;
+}
+.filter-section {
+  height: 100vh;
+  /* position:absolute; */
+  z-index: 8;
+}
+.filter-at .MuiAutocomplete-inputRoot{
+  background: #ffffff;
+  padding: 0px 9px;
+  border-radius: 4px;
+}
+
+.filter-at .Mui-focused .MuiOutlinedInput-notchedOutline{
+  border: solid 1px #333;
+}
+
+.filter-slct{
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  height: auto;
+  width: 100%;
+  border-radius: 4px;
+  color: #626E60;
+  line-height: 20px;
+  min-height: 40px;
+}
+
+.filter-slct.market-slct{
+  margin-top: 2px;
+}
+
+.search-btn{
+  font-family: 'Synthese-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  background: #1D472E;
+  height: 40px;
+  color: #ffffff;
+  box-shadow: inherit;
+  padding: 6px 0px 10px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.search-btn:hover{
+  background: #007142;
+}
+.search-btn-outline {
+  color: #161716;
+  background: none;
+  border: 1px solid #007142;
+  box-shadow: inherit;
+}
+
+.search-btn-outline:hover {
+  background: #007142;
+  color: #fff;
+}
+.search-btn.select-btn{
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  height: 48px;
+}
+.add-btn.select-btn{
+  font-family: 'Synthese-Regular';
+  font-weight: 400;
+  height: 48px;
+}
+.filter-drawer-head {
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.filter-scrollbar {
+  padding: 12px 41px 0px 17px;
+}
+.horse-rightbar .filter-scrollbar {
+  padding: 12px 36px 0px 22px;
+}
+.DrawerBtnWrapper .MuiCircularProgress-root svg{
+  color:#1D472E;
+}
+.handleMenuBack {
+  left: 20px;
+  top: 10px;
+  background: none !important;
+}
+.handleMenuOpen {
+  top: 6px;
+}
+.handleMenuOpen i.icon-filter-open {
+  font-size: 26px;
+}
+
+.handleMenuBack i.icon-menu-back {
+  font-size: 18px;
+}
+.calender-wrapper label.MuiInputLabel-root {
+  color: #626E60;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  margin-top: -7px;
+}
+.calender-wrapper label.MuiInputLabel-root.MuiInputLabel-shrink{
+  margin-top: 0px;
+}
+.calender-wrapper {
+  margin: 4px 0;
+}
+
+.calender-wrapper fieldset.MuiOutlinedInput-notchedOutline {
+  border: 1px solid #B0B6AF;
+}
+.edit-section .calender-wrapper .MuiFormControl-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  font-size: 19px;
+  color: #161716;
+  margin: 0;
+}
+.edit-section .calender-wrapper .MuiFormControl-root .MuiButtonBase-root {
+  text-align: center;
+  margin-right: 0;
+  background: none !important;
+}
+.racelistgroup .datepicker .MuiInputBase-formControl .MuiIconButton-edgeEnd{
+  padding: 0px !important;
+}
+.raceLoader{
+  margin-top:40%;
+  margin-left: 50%;
+  position: absolute;
+  z-index: 9999;
+}
+.datepicker .MuiInputAdornment-root.MuiInputAdornment-positionEnd {
+  position: absolute;
+    right: 16px;
+    height: 100%;
+    background: #ffffff;
+}
+.userprofileitem .MuiSwitch-root .MuiSwitch-switchBase{
+  padding: 0px;
+}
+/* ...................... Edit Scetion Styles.................. */
+
+
+
+.edit-section h4{
+  font-family: 'Synthese-Bold';
+  font-size: 14px;
+  color: #1D472E;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.edit-field{
+  margin: 4px 0;
+}
+
+.error{
+  border: 2px solid #ff0040;
+}
+.filter-section .MuiAccordionDetails-root .edit-field .customDate {
+  margin-top: 0;
+}
+.edit-section .FormGroup h4 {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+i.filter-ico {
+  margin-right: 13px;
+  cursor: pointer;
+}
+.edit-section .FormGroup {
+  margin-bottom: 15px;
+}
+/* .edit-section .RHF-Switches .MuiSwitch-switchBase{
+  margin: 1.5px;
+} */
+.edit-field .MuiSelect-select {
+  padding: 8px 16px;
+  box-sizing: border-box;
+  padding-right: 40px !important;
+  color: #161716;
+  /* text-transform: capitalize; */
+}
+.MuiSelect-select em {
+  color: #626E60;
+  font-style: normal;
+}
+.userIconRight {position: relative;}
+.RaceEditModal .edit-field.studefee{
+  margin: 0px !important;
+}
+.edit-field .stud-fee-range{
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+
+.userIconRight i.user-ico-right {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}
+.edit-section .FormGroup .RHF-Switches input {
+  min-height: inherit;
+}
+.RHF-Switches .MuiSwitch-switchBase.Mui-focusVisible .MuiSwitch-thumb {
+  color:#fff !important;
+}
+.edit-field .MuiAutocomplete-endAdornment .MuiButtonBase-root.MuiAutocomplete-clearIndicator {
+  color: #161716;
+  margin-right: 0px;
+  padding: 0px;
+  position: relative;
+  left: 6px;
+}
+.edit-field.search-autocomplete.horse-merge .MuiAutocomplete-endAdornment .MuiButtonBase-root.MuiAutocomplete-clearIndicator {
+  color: #161716;
+  margin-right: 4px;
+  padding: 0px;
+  margin-top: 4px;
+}
+
+.edit-field .MuiOutlinedInput-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  font-size: 28px;
+  color: #161716;
+  margin-right: 8px;
+  right: 0;
+}
+.edit-field.product-duration .MuiIconButton-root{
+  position: absolute;
+  right: 32px;
+  width: 0px;
+}
+.edit-field.product-duration .MuiButtonBase-root.MuiIconButton-root:hover{
+  background-color:transparent !important;
+}
+.edit-field.product-duration .MuiIconButton-root svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+  font-size: 18px;
+}
+.edit-field .MuiAutocomplete-hasPopupIcon .MuiAutocomplete-endAdornment {
+  margin-right: 8px;
+  top: 4px;
+  right: 0;
+}
+.edit-field .MuiAutocomplete-hasPopupIcon[aria-owns="checkboxes-tags-demo-listbox"] .MuiAutocomplete-endAdornment {
+  margin-right: 14px;
+}
+.edit-field.runnerStakes .MuiAutocomplete-hasPopupIcon[aria-owns="checkboxes-tags-demo-listbox"] .MuiAutocomplete-endAdornment {
+  margin-right: 8px;
+}
+.edit-field .MuiAutocomplete-root .MuiOutlinedInput-input.Mui-disabled, .edit-field .MuiSelect-select.Mui-disabled,.edit-field input.Mui-disabled {
+  color: #626E60;
+  -webkit-text-fill-color: #626E60;
+  opacity: .5;
+  cursor: not-allowed;
+}
+.edit-field.horseDropdown .MuiAutocomplete-root .MuiOutlinedInput-input.Mui-disabled, .edit-field .MuiSelect-select.Mui-disabled,.edit-field input.Mui-disabled {
+  cursor: pointer;
+}
+
+
+.edit-field .MuiOutlinedInput-root.Mui-disabled svg.MuiSvgIcon-root {
+  opacity: .5;
+}
+.edit-field:hover .MuiOutlinedInput-root.Mui-disabled fieldset {
+  border-color: #d4d4d4;
+}
+.edit-field .MuiOutlinedInput-root.Mui-disabled .MuiAutocomplete-endAdornment {
+  opacity: .5;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-endAdornment {
+  margin-right: 0;
+}
+.mergefarm-account-modal .edit-field .MuiAutocomplete-endAdornment {
+  top: calc(50% - 16px);
+}
+.edit-field .MuiAutocomplete-endAdornment svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium{
+  margin-right: 0px;
+}
+.edit-field .MuiAutocomplete-endAdornment .MuiButtonBase-root {
+  min-height: inherit;
+  background: none !important;
+}
+.search-stallion-pop-box.selectSire .MuiAutocomplete-endAdornment .MuiButtonBase-root{
+  position: relative;
+  top:5px;
+}
+.edit-field .MuiOutlinedInput-root svg.MuiSvgIcon-root.cross-icon {
+  font-size: 20px;
+  color: #161716;
+  position: relative;
+  top: 0px;
+  margin: 7px 0px 0;
+}
+.sales-edit-horse .MuiAutocomplete-hasPopupIcon .MuiAutocomplete-endAdornment {
+  top: 8px;
+}
+
+.dialogPopup .MuiOutlinedInput-root {
+  min-height: 48px;
+  margin: 0;
+  height: 48px;
+  padding: 0;
+  color: #161716;
+}
+
+.scroll-submit-stallion-wrp{
+  box-sizing: border-box;
+  
+}
+
+.scroll-submit-stallion-wrp span{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #626E60;
+  font-family: 'Synthese-Book';
+  padding: 0px;
+  width: 100px;
+  white-space:pre-wrap;
+}
+
+.RHF-Switches {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.RHF-Switches .MuiSwitch-root .MuiSwitch-switchBase{
+    padding: 0px !important;
+}
+.RHF-Switches.product-switch .MuiSwitch-root .MuiSwitch-switchBase{
+  padding: 0px 0px 0px 1px !important;
+}
+
+.RHF-Switches.setting-switch{
+  margin:12px 0px;
+}
+.RHF-Switches span.MuiSwitch-thumb{
+  position: relative;
+  left: 0px;
+}
+
+.RHF-Switches span.MuiSwitch-track {
+  background: rgb(176, 182, 175);
+}
+
+.RHF-Switches span.MuiTypography-root {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1D472E;
+  font-family: 'Synthese-Bold';
+  padding-right: 10px;
+  min-width: 72px;
+}
+.RHF-Switches label.MuiFormControlLabel-root {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.RHF-Switches span.MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background: #1D472E;
+}
+.edit-section .FormGroup .RHF-Switches h4 {
+  margin: 0;
+}
+.RHF-Switches h4 {
+  font-family: 'Synthese-Bold';
+  font-size: 14px;
+  color: #1D472E;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 0;
+}
+
+.promote-ST-Switches label.MuiFormControlLabel-root span.MuiTypography-root {
+  margin-left: auto;
+}
+
+.NewMessagesEditModal .RHF-Switches span.MuiTypography-root {
+  padding-right: 25px;
+  margin-left: auto;
+}
+.edit-section .FormGroup .RHF-Switches h4 i.icon-Link {
+  vertical-align: sub;
+}
+
+.edit-section {
+  padding-bottom: 70px;
+  padding-top: 20px;
+  
+}
+.edit-section.horse-edit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.DrawerLeftModal 
+ .edit-section {
+    padding-top: 30px;
+}
+.race-leftbar .edit-section, .runner-leftbar .edit-section, .reports-leftbar .edit-section, .messages-leftbar .edit-section {
+  padding-top: 52px;
+}
+.DrawerRightModal .edit-section {
+  padding-left: 52px;
+  padding-right: 45px;
+}
+.RunnerNewEditModal  .edit-section {
+  padding-left: 42px;
+  padding-right: 32px;
+}
+.reportQueueModal .edit-section {
+  padding-left: 47px;
+  padding-right: 32px;
+}
+
+.edit-field .MuiAutocomplete-root .MuiOutlinedInput-input .MuiAutocomplete-input{
+  min-height: initial;
+  padding: 0;
+  height: auto;
+  color: #161716;
+  padding: 10px 16px !important;
+}
+.stallion-rightbar .edit-section {
+  padding-left: 68px;
+  padding-right: 64px;
+}
+.NewMessagesEditModal.DrawerRightModal .edit-section {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+/* ...................... Main Heading Styles.................. */
+
+.MainTitle{
+  color: #1D472E;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: 'Synthese-Bold';
+}
+
+h6.MainTitle {
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: 'Synthese-Regular';
+}
+
+
+/* ...................... Dropdown Styles.................. */
+
+.selectDropDown {
+  font-size: 14px;
+  line-height: 20px;
+  color: #161716;
+  font-family: 'Synthese-Book';
+}
+
+.selectDropDown 
+.MuiOutlinedInput-notchedOutline {
+  border: solid 1px #B0B6AF;
+}
+
+
+.sm-dropdown  .dropdown-menu {
+  position: relative;
+  width: 188px;
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 400;
+  color: #626E60;
+  cursor: pointer;
+  line-height: 20px;
+}
+.dropdown-menu .MuiBox-root i.icon-Link {
+  margin-right: 5px;
+  font-size: 18px;
+}
+.dropdown-menu .MuiBox-root i.icon-Link img{
+  width:16px;
+}
+.sm-dropdown .pointerOnHover:hover {
+  background-color: #F0F3F0;
+}
+.sm-dropdown .pointerOnHover:hover {
+  cursor: pointer;
+}
+.sm-dropdown .pointerOnHover {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #626E60;
+  font-family: 'Synthese-Book';
+}
+
+.sm-dropdown .pointerOnHover i.icon-Link.popoverLink:before {
+  display: none;
+}
+.toggleProfileButtonLink [aria-describedby='profile-popover']::before {
+  color: #BD9A68;
+}
+/* ...................... Link Button Styles.................. */
+
+.LinkBtn {
+  background: none !important;
+  padding: 0;
+  color: #007142;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+}
+
+/*==========================================List CSS================================== */
+
+.ListBtn {
+  background: none;
+  border: solid 1px #BD9A68;
+  color: #161716;
+  padding: 6px 12px;
+  text-transform: capitalize;
+  font-family: 'Synthese-Regular';
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ListBtn:hover{
+  background: #BD9A68;
+}
+
+.ListBtn i{
+  font-size: 16px;
+  margin-right: 5px;
+
+}
+.collapse-icon {
+  width: 16px;
+  height: 16px;
+  margin: 1px 3px 0px 0px;
+}
+
+
+
+
+/* ...................... Drawer Styles.................. */
+.closeBtn {
+  font-size: 24px;
+  color: #161716;
+}
+.DrawerRightModal .MuiDrawer-paper {
+  top: 80px;
+  padding-bottom: 100px;
+}
+
+
+
+/* ...................... Radio Button Styles.................. */
+
+.RadioGroupWrapper {
+  padding: 10px 0px 0px;
+}
+
+.RadioGroupWrapper label.MuiFormControlLabel-root {
+  margin: 0;
+}
+.RadioList label.MuiFormControlLabel-root span.MuiTypography-root {
+  color: #161716;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  padding-left: 8px;
+}
+.RadioList label.MuiFormControlLabel-root .MuiRadio-root {
+  color: #626E60;
+}
+.RadioList label.MuiFormControlLabel-root .Mui-checked {
+  color: #1D472E;
+}
+
+
+.RadioList label.MuiFormControlLabel-root span.MuiRadio-root.MuiRadio-colorPrimary {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0px;
+  justify-content: flex-start;
+  
+}
+.RadioList label.MuiFormControlLabel-root .MuiRadio-root:hover {
+  background: none;
+}
+
+
+.RadioList {
+  margin: 10px 0px;
+}
+
+
+.RadioGroupWrapper span.MuiTypography-root.MuiTypography-body1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #161716;
+  font-family: Synthese-Book;
+}
+/* ...................... Select-DropDown-Style.................. */
+.selectDropDownList {
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+  color: #626E60;
+  min-height: 40px;
+  text-transform: capitalize;
+}
+.selectDropDownList.stallion-currency{
+ width: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.selectDropDownList.MuiMenuItem-root:hover{
+  background: #F0F3F0 !important;
+}
+.selectDropDownList.Mui-selected:hover{
+  background: none !important;
+}
+.selectDropDownList.filterTrack{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  max-width: 215px;
+}
+.selectDropDownList.selectTrack{
+  max-width: 250px;
+}
+
+.selectDropDownList:hover {
+  background: #F0F3F0 !important;
+  color: #626E60;
+}
+.selectDropDownList.Mui-selected {
+  background: #F0F3F0 !important;
+}
+/* .selectDropDownList:focus{
+  background: #F0F3F0;
+} */
+
+.selectDropDownList.Mui-selected {
+  color: #161716 !important;
+}
+.selectDropDownList.countryDropdownList {
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 218px;
+  display: block;
+  padding: 9px 16px 9px;
+  box-sizing: border-box;
+}
+.selectDropDownList.countryDropdownList.farmCountry {
+  width: 340px;
+}
+.selectDropDownList.countryDropdownList.accessList{
+  width: 100%;
+}
+.selectDropDownList.countryDropdownList.mem-country{
+  width: 242px;
+}
+.selectDropDownList.countryDropdownList.race-country{
+  width: 254px !important;
+}
+.selectDropDownList.recentOrderList{
+  padding-bottom: 2px;
+  word-break:break-all;
+  white-space:break-spaces;
+  width: 240px;
+  display: block;
+  padding: 9px 16px 9px;
+  box-sizing: border-box;
+}
+.selectDropDownList.previou-order{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 218px;
+  display: block;
+  padding: 9px 16px 9px;
+}
+.selectDropDownList.countryDropdownList.MuiMenuItem-root:hover{
+  background: #F0F3F0 !important;
+}
+.selectDropDownList.countryDropdownList.Mui-selected:hover{
+  background: none !important;
+}
+.selectDropDownList.lotsDropdownList{
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 182px;
+  display: block;
+  padding: 9px 16px 9px;
+}
+
+.selectDropDownList.reportSelectCountry{
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 250px;
+  display: block;
+  padding: 9px 16px 9px;
+}
+.selectDropDownList.reportSelectCountry.country-mem{
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 215px;
+  display: block;
+  padding: 9px 16px 9px;
+}
+.selectDropDownList.reportSelectCountry.viewSelectCountry{
+width: 150px !important;
+}
+.selectDropDownList.reportSelectCountry.viewSelectCountry span{
+  padding-right: 0px;
+}
+
+.selectDropDownList.reportSelectCountry.MuiMenuItem-root:hover{
+  background: #F0F3F0 !important;
+}
+.selectDropDownList.reportSelectCountry.Mui-selected:hover{
+  background: none !important;
+}
+.selectDropDownList.reportSelectCountry.Mui-disabled{
+  display: none;
+}
+.selectDropDownList.settingCountry{
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 192px;
+  display: block;
+  padding: 9px 16px 9px;
+}
+.selectDropDownList.reportSelectCountry.settingDropDown{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 16px;
+  min-height: 20px;
+}
+.selectDropDownList.reportSelectCountry.settingDropDown .MuiListItemText-root{
+  width: 100%;
+}
+.selectDropDownList.reportSelectCountry.settingDropDown.Mui-selected{
+  background-color: #ffffff !important;
+}
+.selectDropDownList.reportSelectCountry.settingDropDown .MuiTypography-body1{
+  font-size: 14px !important;
+    font-family: 'Synthese-Book' !important;
+    min-height:20px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.selectDropDownList.mobileCountryList.memberListDropDown{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 16px;
+  background-color: #ffffff;
+  min-height: 32px !important;
+}
+.selectDropDownList.mobileCountryList.memberListDropDown .MuiTypography-body1{
+  font-size: 14px !important;
+    font-family: 'Synthese-Book' !important;
+    width: 180px;
+    min-height: 20px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height:20px !important;
+    line-height: 20px;
+}
+.selectDropDownList.mobileCountryList.memberListDropDown.Mui-selected{
+  background: none !important;
+}
+
+.selectDropDownList.settingCountry.MuiMenuItem-root:hover{
+  background: #F0F3F0 !important;
+}
+.selectDropDownList.settingCountry.Mui-selected:hover{
+  background: none !important;
+}
+.selectDropDownList.settingCountry.Mui-disabled{
+  display: none;
+}
+.selectDropDownList.countryDropdownList.reportCountryDropdownList {
+  width: 154px;
+}
+.selectDropDownList.countryDropdownList.aliascountrydropdown {
+  width: 270px;
+}
+.selectDropDownList.countryDropdownList.lg {
+  width: 320px;
+  padding-right: 0 !important;
+}
+.selectDropDownList.countryDropdownList.usercountry-dropdown {
+  width: 318px !important;
+}
+.selectDropDownList.countryDropdownList.Mui-disabled{
+  display: none;
+}
+.selectDropDownList.Mui-disabled[data-value="none"] {
+  display: none;
+}
+.selectDropDownList em {
+  font-style: normal;
+}
+.selectCurrencyList {
+  width: 154px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+  line-height: 28px;
+}
+div#menu-currencySelect ul.MuiList-root {
+  padding-right: 0px !important;
+}
+.selectCurrencyListPromo {
+  width: 121px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  white-space: nowrap;
+  line-height: 28px;
+}
+.selectDropDownList.countryDropdownList.selectstallions-field{
+  width: 100% !important;
+  display: flex;
+  padding: 0px 0px 0px 16px;
+  min-height: 34px
+}
+.selectDropDownList.countryDropdownList.selectstallions-field.Mui-selected {
+  background: #ffffff !important;
+}
+.selectDropDownList.countryDropdownList.selectstallions-field span{
+  font-size: 14px;
+}
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused{
+  background-color:#F0F3F0 !important;
+  border-radius: 0px;
+}
+/* ...................... Input-Style.................. */
+.edit-field input::-webkit-input-placeholder { 
+  color: #626E60;
+  opacity:1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+}
+.edit-field input::-moz-placeholder { 
+color: #626E60;
+  opacity:1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+}
+.edit-field input:-ms-input-placeholder { 
+color: #626E60;
+  opacity:1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+}
+.edit-field input:-moz-placeholder { 
+color: #626E60;
+  opacity:1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+}
+.edit-field .MuiAutocomplete-root .MuiOutlinedInput-input {
+  min-height: initial;
+  height: auto;
+  color: #161716;
+  padding: 10px 16px;
+  line-height: 22px;
+ 
+}
+/* #confrm_stln_match_pro_12 .MuiAutocomplete-root .MuiOutlinedInput-input{
+padding: 0px 6px;
+} */
+.edit-field.selectedStall  .MuiAutocomplete-root .MuiOutlinedInput-input{
+padding: 10px 16px 0px 10px;
+}
+.edit-field.matchcasetext .MuiAutocomplete-root .MuiOutlinedInput-input {
+  padding-right: 6px;
+}
+.edit-field .MuiNativeSelect-select.MuiNativeSelect-outlined{
+  color: #626E60;
+  opacity:1;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Synthese-Book';
+  line-height: 20px;
+  padding: 10px 16px;
+}
+.edit-field  input{
+  color: #161716;
+  min-height: 40px;
+  box-sizing: border-box;
+  padding: 10px 16px;
+  line-height: 24px;
+} 
+.edit-field .MuiOutlinedInput-root {
+  padding: 0;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+}
+
+.clientName .MuiInputBase-formControl .MuiOutlinedInput-input {
+  padding: 0;
+  height: auto;
+}
+.clientName .MuiOutlinedInput-root {
+  padding: 10px 16px;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+}
+.edit-field .MuiOutlinedInput-root i.icon-Search {
+  font-size: 24px;
+  color: #161716;
+}
+
+.edit-field .MuiOutlinedInput-root i.icon-Search::before {
+  color: #161716;
+}
+/* .edit-field .CustomAutoComplete-Wrapper .MuiAutocomplete-root .MuiOutlinedInput-input {
+  text-transform: lowercase;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.edit-field .CustomAutoComplete-Wrapper .MuiAutocomplete-root .MuiOutlinedInput-input::first-letter {
+  text-transform: capitalize !important;
+} */
+
+
+.datepicker .MuiOutlinedInput-root{
+  padding: 10px 16px;
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+}
+.edit-fields .MuiOutlinedInput-root{
+  padding: 0px;
+}
+
+.MainTitleHeadRight .customDate {
+  margin: 0px;
+}
+.MainTitleHeadRight .customDate {
+}
+.datepicker .MuiInputBase-formControl .MuiOutlinedInput-input {
+  padding: 0;
+  height: auto;
+}
+ .edit-field .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #B0B6AF ;
+}
+
+ .edit-field:hover .MuiOutlinedInput-notchedOutline {
+  border: 1px solid #161716 ;
+}
+.edit-field.select-farm .MuiAutocomplete-root .MuiOutlinedInput-root{
+  padding: 8px 16px;
+}
+.edit-field.select-farm .MuiAutocomplete-root .MuiList-root {
+  padding: 0px;
+}
+.edit-field.select-farm .MuiAutocomplete-root .MuiChip-root{
+  margin-left: 0px;
+}
+.edit-field.select-farm .MuiAutocomplete-root .MuiOutlinedInput-input{
+  line-height: 24px;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+.edit-field.select-farm .LoactionFilter{
+  padding-right: 6px;
+}
+.selectStallions .MuiButtonBase-root{
+  margin-top: 2px !important;
+  margin-right: 0px;
+}
+.dialogPopup .MuiDialog-paper:has(.select-favourite-pop-box){
+  min-height: 300px;
+}
+
+/* ...................... Error-Style.................. */
+/* .Mui-error {
+  padding: 0;
+  margin: 0px 0px 4px 0px;
+} */
+
+
+
+/* ...................... Tooltip-Style.................. */
+.CommonTooltip {
+  width: 296px;
+}
+.CommonTooltip .MuiTooltip-tooltip {
+  border: 1px solid #E2E7E1 !important;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05) !important;
+  border-radius: 8px;
+  background: #fff !important;
+  padding: 24px;
+  letter-spacing: -0.01em;
+  color: #161716 !important;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+  font-family: 'Synthese-Book';
+  min-width: 100% ;
+  margin-left: -5px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ...................... Alert -Style.................. */
+.AlertMessage .MuiAlert-root {
+  border-radius: 4px;
+  height: auto;
+  min-height: 52px;
+  font-family: 'Synthese-Book';
+  font-weight: 350;
+  padding: 14px 24px;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  box-shadow: inherit;
+  width: 100%;
+  color: #1D472E;
+}
+
+.AlertMessage .MuiAlert-root b {
+  font-family: 'Synthese-Bold';
+}
+
+.AlertMessage .MuiAlert-root .MuiAlert-action .MuiButtonBase-root svg {
+  width: 24px;
+  height: 24px;
+}
+.AlertMessage .MuiAlert-root .MuiAlert-action {
+  padding: 0;
+  margin-right: 0;
+}
+.AlertMessage .MuiAlert-root .MuiAlert-message {
+  padding: 0;
+}
+
+.AlertMessage .MuiAlert-root .MuiAlert-action button.MuiButtonBase-root {
+  padding: 0;
+}
+
+.AlertMessage .MuiAlert-root .MuiAlert-message a {position: relative;text-decoration: none;color: #3139da;}a {}
+
+.AlertMessage .MuiAlert-root .MuiAlert-message a:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1.5px;
+    background: #3139da;
+    left: 0;
+    bottom: 0;
+}
+.AlertMessage {
+  margin-bottom: 20px;
+}
+.AlertMessage .MuiAlert-root .MuiAlert-message span {
+  font-family: 'Synthese-bold';
+  font-weight: 350;
+  color: #1D472E;
+  font-size: 14px;
+  line-height: 20px;
+}
+.AlertMessage  .errorAlert .MuiAlert-message span {
+  color: #fff;
+}
+.CustomToasterMessage {
+  position: static;
+}
+.AlertMessage  .errorAlert .MuiAlert-action button {
+  color: #fff;
+}
+
+.sysActUnderline {
+  text-decoration: underline ;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  color: rgb(0, 113, 66);
+  font-weight: 400;
+  font-family: 'Synthese-Bold';
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+/* ...................... Spinner -Style.................. */
+.main-container .MuiContainer-root {
+  position: relative;
+  margin-top: 22px;
+  min-height: 500px;
+  max-width: 100%;
+}
+.main-container 
+ .horsepedegreepageContainer {
+    margin-top: 0;
+}
+.Spinner-Wrp {
+  width: auto;
+  height: auto;
+  position: static;
+  margin-top: 30px;
+}
+
+.Spinner-Wrp img {
+  width: 100%;
+}
+
+.SpinnerLoader{
+display: flex;
+align-items: flex-start;
+justify-content: center;
+min-height: 600px;
+}
+
+/* ...................... dropdown scroller -Style.................. */
+.MuiModal-root.MuiPopover-root .MuiPaper-root.MuiPaper-elevation {
+  border-radius: 6px;
+  max-height: 400px;
+}
+.MuiModal-root.MuiPopover-root .MuiPaper-root.MuiPaper-elevation ul.MuiList-root {
+  padding: 0 !important;
+  width: auto !important;
+}
+.scroll-lock-country .MuiModal-root.MuiPopover-root .MuiPaper-root.MuiPaper-elevation ul {
+  padding-right: 0px !important;
+}
+div#menu-width-dropdown ul.MuiList-root {
+  padding-right: 0 !important;
+}
+
+/* .MuiPopover-paper{
+  scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent;
+
+} */
+
+.MuiPopover-paper::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+.MuiPopover-paper::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.MuiPopover-paper::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+
+/* ...................... Menu Popover Styles.................. */
+
+.MenuPopover .MuiPaper-root.MuiPaper-elevation {
+  padding: 0;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border: 0;
+  min-width: 180px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 180px !important;
+}
+
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root {
+  position: relative;
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+  font-weight: 400;
+  color: #626E60;
+  cursor: pointer;
+  padding: 12px 16px;
+  padding-right: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root.isVerifiedClass{
+  color: #C5CFC4;
+  pointer-events: none;
+}
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root:hover {
+  background: #F0F3F0;
+  color: #626E60;
+}
+.MenuPopover .MuiPaper-root hr.MuiDivider-root {
+  border-color: #B0B6AF;
+}
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root .icon-Link {
+  margin-right: 6px;
+  font-size: 19px;
+}
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root .icon-Link::before {
+  display: none;
+}
+
+.MenuPopover .MuiPaper-root li.MuiMenuItem-root .icon-Link img {
+  width: 16px;
+}
+div#menu-.MuiPopover-root ul.MuiList-root li {
+  color: #626e60;
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+}
+div#menu-.MuiPopover-root ul.MuiList-root li.Mui-disabled {
+  display: none;
+}
+div#menu-.MuiPopover-root ul.MuiList-root li:hover {
+  background: #f0f3f0!important;
+  color: #626e60;
+}
+/*================================ Showmore Button Styles =======================================================*/
+
+.show-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.ShowMore {
+  background: #E2E7E1;
+  border-radius: 4px;
+  min-width: 95px;
+  height: 28px;
+  text-transform: initial;
+  font-weight: 400;
+  font-size: 14px;
+  color: #161716;
+  font-family: 'Synthese-Regular';
+  box-sizing: border-box;
+  padding: 2px 0px 4px;
+}
+
+
+.ShowMore:hover {
+  background: #C5CFC4;
+  color: #161716;
+}
+
+
+.switch input[type="checkbox"] {
+  opacity: 0;
+}
+
+/*================================ AutoComplete  Styles =======================================================*/
+
+.MuiAutocomplete-popper{
+  overflow: hidden;
+  box-sizing: border-box;
+  border: none !important;
+  max-height: 220px;
+  margin-top: -3px !important;
+  
+}
+
+.MuiAutocomplete-paper{
+  max-height: 228px;
+  z-index: 9999 !important;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 0;
+  border: solid 1px #333333;
+  border-radius: 4px;
+  padding-right: 0px;
+  padding-top: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 0;
+}
+
+.MuiAutocomplete-listbox{
+  font-family: 'Synthese-Book';
+  font-size: 14px;
+  color: #161716;
+  text-transform: capitalize;
+  padding: 0px 0px 0px;
+  margin: 0;
+  max-height: 218px;
+  padding-right: 0px;
+}
+
+
+/* .MuiAutocomplete-listbox {
+  scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent;
+
+} */
+.MuiAutocomplete-paper .MuiAutocomplete-listbox {
+  overflow-y: scroll;
+}
+
+.MuiAutocomplete-popper[data-popper-placement="top"] {
+  margin-top: 0px !important;
+  margin-bottom: -3px !important;
+}
+
+.MuiAutocomplete-popper[data-popper-placement="top"] .MuiAutocomplete-paper {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top: solid 1px #333333;
+  border-bottom: 0;
+}
+
+.MuiAutocomplete-listbox::-webkit-scrollbar {
+  width: 14px;
+
+}
+
+.MuiAutocomplete-listbox::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.MuiAutocomplete-listbox::-webkit-scrollbar-thumb {
+  border: 5px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+.messages-leftbar .CustomAutoComplete-Wrapper .MuiAutocomplete-popper {
+  margin-left: 0px !important;
+}
+
+/* Text Area Scroll Bar */
+.edit-field .MuiTextField-root textarea.MuiOutlinedInput-input {
+  /* scrollbar-width: thin;
+  scrollbar-color: #B0B6AF transparent; */
+  white-space: break-spaces;
+  padding-right: 12px;
+
+}
+
+.edit-field .MuiTextField-root textarea.MuiOutlinedInput-input::-webkit-scrollbar {
+  width: 6px;
+
+}
+
+.edit-field .MuiTextField-root textarea.MuiOutlinedInput-input::-webkit-scrollbar-track {
+  border-radius: 0px 8px 8px 0px;
+  -webkit-border-radius: 0px 8px 8px 0px;
+  -moz-border-radius: 0px 8px 8px 0px;
+  -ms-border-radius: 0px 8px 8px 0px;
+  -o-border-radius: 0px 8px 8px 0px;
+}
+ 
+
+.edit-field .MuiTextField-root textarea.MuiOutlinedInput-input::-webkit-scrollbar-thumb {
+  border: 0px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 20px;
+  background-color: #B0B6AF;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 36px;
+}
+
+/* Text Area Scroll Bar */
+.MuiAutocomplete-noOptions {
+  color: #C75227;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Regular';
+}
+.HomepageDataRight{
+  overflow-x: hidden;
+}
+.RunnerDataDashboardRight .datalist td:first-of-type{
+  min-width: auto;
+}
+.RaceDataDashboardRight .datalist td:first-of-type{
+  min-width: auto;
+}
+.productsList.datalist td:first-of-type {
+  min-width: auto;
+}
+.MessageDataDashboardRight .datalist td:first-of-type {
+  min-width: auto;
+}
+.HomepageDataRight .datalist td:first-of-type{
+  min-width: auto;
+  display: table-cell;
+}
+.SystemActivitiesListTable .datalist td:first-of-type {
+  min-width: auto;
+}
+.SalesDataRight .datalist td:first-of-type {
+  min-width: auto;
+}
+.userManagementListWrapper .datalist td:first-of-type {
+  min-width: auto;
+}
+.race-leftbar .CustomAutoComplete-Wrapper .MuiAutocomplete-popper {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-paper {
+  width: 99.9% !important;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-paper .search-couldnot .sorry-message{
+  min-height: 0px;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-noOptions{
+  padding: 6px 16px!important;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .MuiAutocomplete-paper{
+  padding: 1px!important;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .stallionListBoxHead{
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .stallionListBoxpara strong{
+  font-size: 12px;
+}
+.RunnerNewEditModal .CustomAutoComplete-Wrapper .stallionListBoxpara p{
+  width: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ .custom-100 .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-paper {
+  width: 100% !important;
+} 
+
+.CustomAutoComplete-Wrapper .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+  padding: 0px 16px !important;
+}
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  width: 98%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox {
+  max-height: 227px;
+  margin: 0;
+  padding: 0;
+}
+.url-icon i.icon-Link-green {
+  font-size: 24px;
+  margin-right: 7px;
+}
+.matchcasetext.email .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option{
+  text-transform: lowercase;
+}
+.stallion-leftbar .CustomAutoComplete-Wrapper .MuiAutocomplete-popper {
+  width: 231.5px !important;
+}
+
+.search-autocomplete .MuiAutocomplete-popper {
+  max-height: 228px;
+}
+.mergefarm-account-modal .search-autocomplete .MuiAutocomplete-popper {
+  max-height: 134px;
+  width: 445px !important;
+}
+.mergefarm-account-modal .search-autocomplete .MuiAutocomplete-popper .MuiAutocomplete-paper {
+  max-height: 134px;
+}
+.mergefarm-account-modal .search-autocomplete .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+  max-height: 128px;
+}
+.mergefarm-account-modal .search-stallion-pop-box-inner .MuiAutocomplete-listbox{
+  padding: 0px;
+}
+.mergefarm-account-modal .search-stallion-pop-box-inner .MuiAutocomplete-listbox li.MuiAutocomplete-option{
+  display: flex;
+  padding: 0px 0px 0px 16px;
+  min-height: 54px;
+}
+.mergefarm-account-modal .search-stallion-pop-box-inner .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-noOptions{
+  padding: 1px 16px;
+}
+.mergefarm-account-modal .search-autocomplete .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+  padding: 1px;
+}
+.edit-field.search-autocomplete.horse-merge .MuiAutocomplete-popper {
+  display: none !important;
+}
+.search-autocomplete .MuiAutocomplete-popper .MuiAutocomplete-paper {
+  max-height: 228px;
+}
+
+.search-autocomplete .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+  max-height: 228px;
+}
+
+.search-autocomplete .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161716;
+}
+
+.search-autocomplete .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:focus, .search-autocomplete .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover, .search-autocomplete .CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  background: #E2E7E1;
+}
+
+/* **************************************Multiselect AutoComplete************************************** */
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxHead {
+  color: #161716;
+  display: block;
+  font-family: Synthese-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+  width: 100%;
+}
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover{
+  background-color: #F0F3F0;
+  border-radius: 0px;
+}
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara {
+  font-family: Synthese-Book;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara strong{
+  color: #007142!important;
+  font-size: 12px!important;
+  font-weight: 400;
+}
+.matchcasetext .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara p{
+  padding-left: 3px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+
+.tooltipPopoverBody.HorseDetailsPopover.keyancestor-details {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.tooltipPopoverBody.HorseDetailsPopover.keyancestor-details .stallionListBoxHead {
+  color: #161716;
+  display: block;
+  font-family: Synthese-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+  width: 100%;
+}
+.tooltipPopoverBody.HorseDetailsPopover.keyancestor-details .stallionListBoxpara {
+  font-family: Synthese-Book;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.tooltipPopoverBody.HorseDetailsPopover.keyancestor-details .stallionListBoxpara strong{
+  color: #007142!important;
+  font-size: 12px!important;
+  font-weight: 400;
+}
+.tooltipPopoverBody.HorseDetailsPopover.keyancestor-details .stallionListBoxpara p{
+  padding-left: 3px;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
+.autocompleteBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.autocompletetext{
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  color: #161716;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.autocompleteBox .check-box-icon  {
+  width: 22px;
+  height: 22px;
+}
+.stallionListBoxpara p{
+  text-transform: capitalize;
+  color: #161716;
+  font-family: 'Synthese-Book';
+}
+.stallionListBoxpara strong{
+  font-size: 14px;
+}
+.selectHorse .selectBtn {
+  margin-top: 4rem !important;
+}
+.autocompleteBox .check-box-icon,.autocompleteBox .check-box-icon:checked {
+  color: #1D472E;
+
+}
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  padding: 4px 16px;
+  margin: 0;
+  margin-right: 0px;
+  color: #626E60;
+  padding-right: 0px;
+  display: flex;
+    justify-content: space-between;
+    color: #161716;
+    padding-right: 4px;
+}
+.MuiAutocomplete-listbox .MuiAutocomplete-option:hover  {
+  background: #F0F3F0 !important;
+  border-radius: 0px !important;
+}
+
+
+.MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+  background: none !important;
+  color: #161716 !important;
+  border-radius: 0px !important;
+}
+.horseDropdown .MuiAutocomplete-popper{
+  max-height: 204px;
+}
+.horseDropdown .MuiAutocomplete-paper{
+  max-height: 204px;
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  display: flex !important;
+  justify-content: start !important;
+  flex-direction: column !important;
+  align-items: start !important;
+  border-radius: 0px !important;
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover{
+  background-color: #F0F3F0 !important;
+  border-radius: 0px !important;
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxHead{
+  flex-direction: row !important;
+  width: 100% !important;
+  text-align: left;
+  font-family: "Synthese-Regular";
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxHead.listBoxhead{ 
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara{
+  flex-direction: row !important;
+  width: 100% !important;
+  font-family: "Synthese-Book";
+  text-align: left;
+
+}
+
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara strong{
+font-size: 12px;
+font-weight: 350;
+}
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara.listBoxpara strong{
+  font-size: 13px;
+  color: #007142;
+  font-weight: 350;
+  }
+  .horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara.listBoxpara p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara.listBoxpara p{
+    width: 100%;
+  }
+.horseDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .stallionListBoxpara p{
+  font-weight: 350;
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 200px;
+  padding-left: 4px;
+}
+.horseDropdown .keyancestor .MuiAutocomplete-paper .MuiAutocomplete-noOptions{
+  padding: 1px 16px !important;
+}
+.hp-form-item.marketingSelect .MuiAutocomplete-popper{
+  min-width: 357px;
+}
+.hp-form-item.marketingSelect .MuiAutocomplete-popper .stallionListBoxHead{
+  font-size: 14px;
+}
+
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  background: none;
+  color: #161716;
+}
+.dis{
+  color: yellow;
+}
+.def{
+  color: red;
+}
+@supports (-moz-appearance:none) {
+  .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+
+      padding-right: 10px;
+  }
+}
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .MuiCheckbox-root {
+  color: #B0B6AF;
+  padding: 0;
+}
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option .MuiCheckbox-root.Mui-checked {
+  color: #1D472E;
+}
+.MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option[aria-selected="true"] {
+  background: none;
+}
+span.autocompleteTitle {
+  width: 84%;
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap !important;
+}
+.search-autocomplete .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  height: 64px;
+  border-radius: 0;
+  letter-spacing: -0.01em;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Synthese-Book';
+  box-sizing: border-box;
+  color: #161716;
+}
+
+.search-autocomplete .MuiAutocomplete-listbox .MuiAutocomplete-option:hover {
+  background: #F0F3F0;
+}
+/* Custom-Auto-complete */
+
+.CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option {
+  padding: 10px 16px;
+  margin: 0;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0;
+  min-height: 40px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626E60;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused {
+  color: #161716;
+  background: #F0F3F0 !important;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option:hover {
+  background: #F0F3F0;
+  color: #626E60;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option::first-letter {
+  text-transform: capitalize;
+}
+
+.CustomAutoComplete-Wrapper .MuiAutocomplete-listbox li.Mui-focused {
+  border-radius: 0px;
+}
+
+.CustomAutoComplete-Wrapper .MuiAutocomplete-popper .MuiAutocomplete-listbox {
+  padding: 0;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-paper {
+  padding: 10px 0px;
+  padding-right: 6px;
+}
+.CustomAutoComplete-Wrapper .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+  font-family: 'Synthese-Book';
+  font-weight: 400;
+  color: #C75227;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 0;
+}
+
+.selecthorseModal .MuiAutocomplete-popper {
+  margin-top: -3px !important;
+  max-height: 140px;
+}
+
+
+
+.selecthorseModal .MuiAutocomplete-popper .MuiAutocomplete-paper {
+  padding-top: 0px;
+  padding-bottom: 2px;
+  max-height: 140px;
+}
+
+.selecthorseModal .MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox {
+  min-height: inherit;
+  max-height: 140px;
+}
+
+.golden-btn {
+  background: #BD9A68;
+  min-height: 48px;
+}
+
+.golden-btn:hover {
+  background: none;
+}
+.btn-link {
+  color: #007142;
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: 'Synthese-Regular';
+  cursor: pointer;
+}
+.btn-link:hover {
+  color: #1D472E;
+}
+
+.MuiBackdrop-root {
+  background: rgb(22 23 22 / 75%);
+}
+/* CheckBox */
+
+.checkBox-Common label.MuiFormControlLabel-root span.MuiTypography-root {
+  font-weight: 350;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  color: #000000;
+}
+
+.checkBox-Common label.MuiFormControlLabel-root span.MuiCheckbox-root {
+  background: none;
+  padding: 0;
+  margin-right: 8px;
+}
+/* Placeholder */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+
+
+.MuiOutlinedInput-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+.MuiOutlinedInput-input::-moz-placeholder { /* Firefox 19+ */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+.MuiOutlinedInput-input:-ms-input-placeholder { /* IE 10+ */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+.MuiOutlinedInput-input:-moz-placeholder { /* Firefox 18- */
+  color: #626E60;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 1;
+  font-family: 'Synthese-Book';
+}
+/* Error */
+.Mui-error .MuiOutlinedInput-notchedOutline{
+  border: 2px solid #C75227 !important;
+}
+.Mui-error svg.MuiSelect-icon.MuiSelect-iconOutlined {
+  color: #C75227 !important;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  padding: 2px 0px 0px;
+  margin: 0;
+  color: #C75227 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Regular';
+}
+
+
+button.Mui-disabled {
+  pointer-events: none;
+}
+.search-stallion-pop-box-inner .Mui-disabled.lr-btn {
+  color: #B0B6AF !important;
+  border:solid 1px #b0b6af !important;
+}
+.search-btn.Mui-disabled {
+  background: #B0B6AF;
+  color: #fff;
+}
+
+.error-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #C75227;
+  font-family: 'Synthese-Regular';
+  margin: 0px 0px 0;
+}
+
+/* Multiselct Chip */
+
+.SDmultiselect fieldset.MuiOutlinedInput-notchedOutline {
+  border: 1px solid #B0B6AF;
+}
+
+
+
+.SDmultiselect .MuiAutocomplete-endAdornment  .MuiButtonBase-root {
+  min-height: inherit;
+  font-size: 28px;
+  color: #161716;
+  margin-right: 0px;
+}
+
+.SDmultiselect .MuiAutocomplete-endAdornment .MuiButtonBase-root svg.MuiSvgIcon-root {
+  font-size: 28px;
+}
+.SDmultiselect .MuiFormControl-root .MuiInputLabel-formControl {
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  color: #626E60;
+  -webkit-transform: translate(16px, 10px) scale(1);
+  -moz-transform: translate(16px, 10px) scale(1);
+  -ms-transform: translate(16px, 10px) scale(1);
+  transform: translate(16px, 10px) scale(1);
+}
+
+.edit-field .SDmultiselect .MuiOutlinedInput-root {
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.edit-field .SDmultiselect .MuiOutlinedInput-root input.MuiSelect-nativeInput {
+  padding: 0px 0px;
+  min-height: inherit;
+  height: auto;
+}
+
+.SDmultiselect .MuiFormControl-root .MuiInputLabel-formControl[data-shrink="true"] {
+  -webkit-transform: translate(16px, 10px) scale(1);
+  -moz-transform: translate(16px, 10px) scale(1);
+  -ms-transform: translate(16px, 10px) scale(1);
+  transform: translate(13px, -9px) scale(.8);
+}
+.SDmultiselect .MuiOutlinedInput-root .MuiOutlinedInput-input {
+  padding: 10px 16px;
+  min-height: initial;
+}
+
+
+
+
+
+
+
+.AutoCompleteBox .MuiChip-root.MuiChip-filled {
+  min-height: initial;
+    margin: 0px 4px 4px 0px;
+    padding: 0px 8px 1px;
+    height: 24px;
+    border-radius: 32px;
+    background: #2EFFB4;
+}
+
+.AutoCompleteBox .MuiChip-root.MuiChip-filled span.MuiChip-label {
+  padding: 1px 0px 3px;
+  margin-right: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #161716;
+  font-family: 'Synthese-Book';
+  text-transform: capitalize;
+}
+
+.AutoCompleteBox .MuiChip-root.MuiChip-filled .MuiChip-deleteIconMedium {
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+
+.AutoCompleteBox .MuiOutlinedInput-root.MuiInputBase-root {
+  padding: 10px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Synthese-Book';
+  height: auto;
+  
+}
+.AutoCompleteBox .MuiOutlinedInput-root.MuiInputBase-root .MuiOutlinedInput-input {
+  padding: 0px;
+  line-height: 0px;
+}
+
+/* Toaster Message */
+.SnackbarItem-wrappedRoot span.MuiBox-root {
+  background: none;
+  color: #007142;
+ margin-right: 0px;
+}
+.SnackbarItem-action button {
+  color: #161716;
+}
+#root .SnackbarItem-message {
+  font-family: 'Synthese-Book';
+  font-weight: 600;
+  color: #161716;
+}
+#root .SnackbarContent-root.SnackbarItem-variantSuccess{
+  background: #2EFFB4;
+}
+
+/* Member Table Color */
+.name-active{
+  color: #161716 !important;
+}
+.name-suspended{
+  color: #FF9F22 !important;
+}
+.name-closed{
+  color: #D80027 !important;
+}
+
+
+/* MatchCase */
+
+.matchcasetext .MuiAutocomplete-root.MuiAutocomplete-hasPopupIcon .MuiInputBase-adornedEnd {
+  padding-right: 0;
+}
+
+ .matchcase button {
+  margin-left: 5px;
+  background: none !important;
+  box-shadow: inherit;
+  opacity: .6;
+  filter: gray; 
+ -webkit-filter: grayscale(1);
+ -webkit-filter: grayscale(100%); 
+ filter: url(resources.svg#desaturate); 
+ filter: grayscale(100%); 
+}
+.matchcase .matched-active{
+ opacity: 1;
+ filter: inherit;
+ -webkit-filter: grayscale(0%);
+ -webkit-filter: grayscale(0%);
+ filter: url(resources.svg#desaturate);
+ filter: grayscale(0%);
+}
+.matchcase button.matchcase-first img {
+  width: 14px;
+}
+
+ .matchcase button.matchcase-second img {
+  width: 16px;
+}
+.matchcasetext input {
+  padding-right: 6px;
+  width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.matchcasetext .matchcase {
+  margin-right: 6px;
+}
+
+
+.search-autocomplete .MuiAutocomplete-hasPopupIcon .MuiOutlinedInput-root.MuiInputBase-adornedEnd {
+  padding-right: 0;
+}
+
+
+
+/* scroll lock */
+.common-scroll-lock .MuiPaper-root ul.MuiList-root {
+  padding-right: 0 !important;
+}
+
+
+.backArrowBtnwrapper:after {
+  content: "";
+  width: 66px;
+  height: 60px;
+  background: rgb(226, 231, 225);
+  position: absolute;
+  bottom: -60px;
+}
+
+.MuiCalendarPicker-root button.MuiButtonBase-root {
+  color: #005632;
+}
+
+/* scroll lock */
+.stallion-data{
+  background-color:transparent !important;
+}
+
+.smp-no-data {
+  padding: 50px 0 0px 0;
+}
+
+.smp-no-data h6 {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Synthese-Book';
+  font-size: 18px;
+  color: #626E60;
+  width: 25%;
+  font-weight: 400;
+  text-align: center;
+  background-color: #F4F1EF;
+  border-radius: 4px;
+}
+
+
+
+a.systemTooltip {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color:#007142;
+  border-color: #007142;
+  }
+  a.systemTooltip:hover {
+  position: relative;
+  color:#1D472E;
+  border-color: #1D472E;
+  }
+  a.systemTooltip span {
+  display: none;
+  }
+  a.systemTooltip:hover span {
+    background: #FFFFFF;
+    border: 1px solid #E2E7E1;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  padding: 10px 15px;
+  display: block;
+  z-index: 100;
+  background: #ffffff;
+  color:#000000;
+  left: -50px;
+  width: 300px;
+  position: absolute;
+  top: 25px;
+  text-decoration: none;
+  line-height: 20px;
+  }
+.disabled-icon a{
+  pointer-events: none;
+}
+.disabled-icon i.icon-Share {font-size: 20px;color: #B0B6AF ;position: relative;top: 1px; pointer-events: none; opacity: .5; }
+.disabled-icon .icon-Link-green::before{
+  color: #B0B6AF;
+  cursor:default;
+}
+.Toastify__toast-container{
+  width: auto !important;
+  }
+  :root {
+    --toastify-color-success: #007142 !important;
+    --toastify-icon-color-success: var(--toastify-color-success) !important;
+    --toastify-color-error: #EAE4E0 !important;
+    --toastify-icon-color-error: var(--toastify-color-error) !important;
+  }
+  .Toastify__toast-container--top-right{
+    min-width: 360px;
+  }
+  .Toastify__toast-theme--light{
+    background: #2EFFB4 !important;
+  }
+  .Toastify__toast-theme--light.Toastify__toast--error{
+    background: #C75227!important;
+  }
+  .Toastify__toast-body > div:last-child{
+    padding-bottom: 4px;
+  }
+  .Toastify__toast--error .Toastify__toast-body > div:last-child{
+    padding-bottom: 4px;
+    color: #f0f0f0;
+  }
+  .Toastify__toast {
+    font-family:'Synthese-Regular' !important;
+    color:#161716 !important;
+}
+
+.Toastify__progress-bar--success {
+    background:#007142 !important;
+}
+.Toastify__progress-bar--error{
+    background:#ff6633 !important;
+}
+
+.RFswitch{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.RFswitch .MuiFormControlLabel-root{
+  margin-right: 0px;
+}
+.RFswitch .MuiFormControlLabel-root.Mui-disabled{
+  cursor: not-allowed;
+}
+.RFswitch .MuiSwitch-root{
+  margin-right: 0px;
+}
+.RFswitch .MuiSwitch-root .MuiSwitch-switchBase {
+  padding: 0px 0 0 0px;
+}
+
+.SMFmarketing {
+  gap: 9px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SMFmarketing .hp-form-item {
+  width: 100%;
+}
+.recharts-dot{
+  cursor:pointer !important;
+  z-index: 9999;
+}
+.reportChart .orderby{
+  display: flex;
+  align-items: center;
+  font-family: 'Synthese-Bold';
+  font-weight: 700;
+  color: #1D472E;
+  font-size: 14px;
+}
+.reportChart .avarage{
+  font-family: 'Synthese-Regular';
+  font-weight: 400;
+  color: #1D472E;
+  opacity: 0.6;
+  font-size: 12px;
+}
+.nodata{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.recharts-wrapper{
+  width: 100% !important;
+  /* height: 100% !important; */
+}
+.addpaddingForAccuracy{
+  padding-left: 20px !important;
+}
+
+.dialogPopup .lr-btn .MuiLoadingButton-loadingIndicator .MuiCircularProgress-root{
+  width: 20px !important;
+  height: 20px !important;
+  color: #007142;
+}
+.dialogPopup .lr-btn.lr-btn-race .MuiLoadingButton-loadingIndicator .MuiCircularProgress-root{
+  width: 20px !important;
+  height: 20px !important;
+}
+.SettingsPopover.withdisabledState{
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events:none;
+}
+.copyLinkIcon{
+  display: flex;
+  align-items: center;
+}
+.copyLinkIcon i{
+  padding-right: 4px;
+}
+.datalist .icon-share-wrapper.copiedIcon{
+  padding-left:0px;
+  padding-right: 0px !important;
+}
+
+.icon-share-wrapper .MuiLoadingButton-root{
+  background: transparent !important;
+  padding: 2px 0px;
+}
+.noDataFound{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  font-size: 16px;
+}
+.MuiAutocomplete-input [data-focus="true"]{
+  background-color: #fff !important;
+}
+
+@media only screen and (max-width: 1536px){
+  .datalist.report-data{
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .datalist.report-data.tableExpanded {
+    overflow-x: scroll;
+    width: 540px;
+  }
+}
+@media only screen and (min-width: 1600px){
+.selectDropDownList.stallion-currency{
+width: auto;
+  text-overflow:inherit;
+  white-space: nowrap;
+  overflow:auto;
+  display: block;
+}
+}

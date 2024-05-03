@@ -1,0 +1,612 @@
+
+.dialogPopup .MuiDialog-paper{
+    width: 509px;
+    border-radius: 10px;
+    font-family: 'Synthese-Regular';
+     min-height: 338px;
+
+}
+.dialogPopup .MuiDialog-paper:has(.delete-conversation){
+    min-height: 320px !important;
+}
+.popup-cnt::-webkit-scrollbar {
+    width: 10px;
+
+  }
+
+  .popup-cnt::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 8px;
+  }
+   
+
+  .popup-cnt::-webkit-scrollbar-thumb {
+    background: #d4d4d4;
+    border-radius: 8px;
+  }
+  
+
+  .popup-cnt::-webkit-scrollbar-thumb:hover {
+    background: #999; 
+  }
+
+.dialogPopup .MuiDialogTitle-root{
+    font-family: 'Synthese-Regular';
+    font-size: 24px;
+    padding-left: 2rem;
+    color: #1D472E;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 16px 32px;
+
+}
+
+.dialogPopup .MuiInputLabel-root{
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    color: #161716;
+    font-weight: 400;
+    padding-bottom: 5px;
+    line-height: 24px;
+
+}
+
+.dialogPopup .MuiOutlinedInput-root{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #626E60;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.dialogPopup .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+}
+.dialogPopup .MuiOutlinedInput-root:active .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+}
+
+.dialogPopup .Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: #161716;
+    border-width: 1px;
+}
+
+.dialogPopup .signupac{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 20px;
+
+}
+
+.dialogPopup .MuiFormControlLabel-label{
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    color: #161716;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+.dialogPopup .pwdhints .MuiInputLabel-root{
+    font-family: 'Synthese-Book' !important;
+    font-size: 16px;
+    color: #161716;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.dialogPopup .pwdhints img{
+    margin-right:5px;
+    margin-top: 5px;
+    width:16px;
+    height:16px;
+    align-items: center;
+}
+
+.dialogPopup p{
+    margin-top: 2px;
+    font-family: 'Synthese-Regular';
+    font-size: 14px;
+    color: #161716;
+    font-weight: 400;
+    line-height: 20px;
+}
+  /* ****************Button Style******************* */
+.lr-btn:hover{
+    background-color: #007142
+  }
+
+  .lr-btn{
+   color: #fff
+  }
+
+
+.lr-btn-outline {
+    background: #fff;
+    color: #161716;
+    border: 1px solid #007142;
+  }
+  
+  .lr-btn-outline:hover {
+    color: #fff;
+  }
+
+  .dialogPopup .modal-des {
+    color: #161716;
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.forThisUserInvite .modal-des strong {
+    color: #ffabd8;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.dialogPopup .modal-des b {
+    font-family: 'Synthese-Bold';
+}
+
+.dialogPopup  .lr-btn {
+    height: 48px;
+    padding: 10px 0px 14px;
+}
+
+.dialogPopup .edit-section{
+    padding-bottom: 10px;
+}
+.remove-modal-bottom .lr-btn-outline {
+    color: #161716;
+}
+
+.remove-modal-bottom .lr-btn-outline:hover {
+    color: #fff;
+}
+
+
+/*********************** Please Confirm-action *********************/
+.select-stallion-modal .MuiInputLabel-root {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    margin: 0;
+    padding: 0;
+}
+
+.select-favourite-list .MuiListItemButton-root {
+    border: 1px solid #B0B6AF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+    height: 64px;
+}
+
+.select-favourite-pop-inner {
+    margin-top: 0px;
+}
+.select-favourite-list .MuiListItemText-primary {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+    text-transform: capitalize;
+}
+
+.select-favourite-list .MuiListItemText-secondary {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Synthese-Book;
+    color: #161716;
+}
+
+.select-favourite-list .MuiListItemText-secondary span.MuiTypography-root {
+    color: #007142;
+    font-size: 14px;
+}
+.select-favourite-list .MuiListItemButton-root:focus {
+    background: #E2E7E1;
+}
+.select-favourite-pop-box label {
+    white-space: pre-line;
+}
+.favourite-bottom-button .lr-btn {
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+.favourite-bottom-button {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.fav-stallion-img {
+    width: 48px;
+    height: 48px;
+}
+.fav-stallion-img {
+    width: 48px;
+    height: 48px;
+}
+
+.select-favourite-list {
+    overflow: auto;
+    min-height: auto;
+    padding-right: 10px;
+}
+
+
+
+
+.select-favourite-list::-webkit-scrollbar {
+    width: 6px;
+  
+  }
+  
+  .select-favourite-list::-webkit-scrollbar-track {
+    background: #fff; 
+    border-radius: 8px;
+  }
+   
+  
+  .select-favourite-list::-webkit-scrollbar-thumb {
+    background: #B0B6AF;
+    border-radius: 8px;
+  }
+  
+  
+  .select-favourite-list::-webkit-scrollbar-thumb:hover {
+    background: #B0B6AF; 
+  }
+  
+  
+
+i.icon-Carousel-Arrow-Left,i.icon-Carousel-Arrow-Right {cursor: pointer;}
+
+
+/* legend-Modal */
+
+.color-legend {
+    min-width: 56px;
+    height: 24px;
+    width: 56px;
+}
+.legent-modal-pop-box 
+ .legend-modal-list p {
+    color: #333333;
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.legend-modal-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.legent-modal-pop-box p {
+    color: #161716;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    font-family: 'Synthese-Book';
+}
+
+.color-legend img {
+    margin: 0px auto;
+}
+.remove-modal-bottom {
+    display: grid;
+    margin-top: 22px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.remove-modal-bottom.full-width {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+}
+.dialogPopup .farmmerge-modal label {
+    white-space: pre-line;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.farmmerge-modal p {
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.farmmerge-modal p b {
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+}
+
+.mergefarm-account-modal {
+    min-height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.mergefarm-account-modal textarea{
+    width: 100%;
+    border-radius: 4px;
+    border-color: #B0B6AF;
+    padding: 10px 16px;
+    font-family: 'Synthese-Book';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #161716;
+}
+.mergefarm-account-modal textarea:hover{
+    outline: none !important;
+    border-color: #161716;
+    border-width: 1px;
+}
+.mergefarm-account-modal textarea:focus-visible{
+    outline: none !important;
+    border-color: #161716;
+    border-width: 1px;
+}
+    
+/* **********************finddupicates - Modal************************** */
+
+.finddupicates-modal .FormGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 0px;
+}
+
+.finddupicates-modal .edit-section {
+    padding: 0px 20px 0;
+}
+.finddupicates-modal .RHF-Switches label.MuiFormControlLabel-root {
+    justify-content: flex-end;
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dialogPopup .finddupicates-modal .MuiInputLabel-root {
+    font-size: 14.9128px;
+    letter-spacing: -0.01em;
+    line-height: 23px;
+}
+
+.finddupicates-modal .RHF-Switches {min-width: 270px;   justify-content: space-between;}
+
+.finddupicates-modal .RHF-Switches span.MuiSwitch-root {
+    margin: 0px 0px;
+}
+.finddupicates-modal .edit-field .MuiOutlinedInput-root {
+    width: 90px;
+    height: 30px;
+    min-height: 30px;
+}
+.finddupicates-modal .edit-field .MuiOutlinedInput-root .MuiSelect-select {padding: 3px 16px;}
+
+.finddupicates-modal .RHF-Switches span.MuiSwitch-root .MuiSwitch-switchBase.Mui-checked {
+    right: 10px;
+}
+
+.ModalFooter {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.dialogPopup .ModalFooter .lr-btn {
+    height: 40px;
+}
+
+
+/* Drag-and-Drop */
+.StallionDataDashboard .draganddrop.hero-pic{
+    width: 126px;
+    height: 126px;
+    padding: 0px;
+    border-radius: 100%;
+}
+.draganddrop {
+    border: dashed 2px #B0B6AF;
+    text-align: center;
+    align-items: center;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    border-radius: 8px;
+    background: #F0F3F0;
+    cursor: pointer;
+    justify-content: center;
+    height: 117px;
+}
+
+
+.draganddrop i{
+    font-size: 54px;
+    color: #007142;
+}
+.draganddrop h6 {
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 9.91579px;
+    color: #161716;
+    line-height: 13px;
+    margin-bottom: 1px;
+}
+
+.draganddrop span {
+    font-family: 'Synthese-book';
+    font-weight: 400;
+    font-size: 9.91579px;
+    background: none;
+    color: #626E60;
+}
+
+.draganddrop span a {
+    color: #007142;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+    font-size: 9.91579px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2.5px;
+}
+.draganddrop i.icon-Incorrect {
+    font-size: 26px;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+.add-photo .draganddrop.stallionDropzon{
+    width: 126px;
+    height: 126px;
+    padding: 0px;
+    border-radius: 100%;
+  }
+  .add-photo .draganddrop.stallionDropzon i.icon-Incorrect {
+    font-size: 26px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.add-photo .draganddrop.stallionDropzon.hero-pic .draganddropImg{
+    width: 100%;
+    height: 100%;
+}
+.add-photo .draganddrop.stallionDropzon.hero-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%; 
+}
+.add-photo  .hero-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.add-photo .hero-pic .draganddropImg {
+    height: 100px;
+    width: 160px;
+}
+.hero-pic {
+    position: relative;
+    padding: 7px;
+}
+
+.ModalFooter.display-flex {
+    display: flex;
+    gap: 15px;
+}
+
+.dialogPopup .ModalFooter .lr-btn.md {
+    height: 48px;
+}
+.delete-conversation  p {
+    font-weight: 350;
+    font-size: 16px;
+    font-family: 'Synthese-Book' !important;
+    padding-right: 10px;
+    letter-spacing: -0.01em;
+    line-height: 24px !important;
+}
+
+/* Confirm Report Modal */
+
+
+.confirmReportWrapperModal.dialogPopup .MuiDialog-paper {
+    width: 360px;
+    padding: 0;
+    margin: 0;
+    background: #F0F3F0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.confirmReportWrapperModal .stallion-settings-popover {
+    padding: 0;
+}
+
+.confirmReportWrapperModal.dialogPopup .MuiDialog-paper .popup-cnt {
+    padding: 22px 42px 37px;
+}
+
+.confirmReportWrapperModal .edit-section .Save-Btn-settings {
+    margin-bottom: 0;
+    margin-top: 27px;
+}
+
+.confirmReportWrapperModal .Save-Btn-settings .search-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px 0px 11px;
+}
+
+.promotedStartdate .edit-field {
+    width: 204px;
+}
+.datepicker .MuiInputBase-formControl .MuiIconButton-edgeEnd {
+    background: none !important;
+    margin-right: 0px !important;
+}
+.promotedStartdate .tooltipPopoverbox {
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.promotedStartdateTooltip {
+    display: flex;
+    align-items: center;
+}
+
+
+.promotedStartdateTooltip .tooltipPopoverbox .tooltip-table {
+    margin: 0;
+    top: 0;
+}
+
+/* Media-query */
+@media only screen and (max-width: 767px) {
+    .mediaSliderPop .MuiDialog-paper {width: 100%;max-width: 100%;}
+    .mediaSliderPop .MuiDialog-paper .MuiDialogContent-root {padding: 2rem 2rem 0rem;}
+    .mediaSliderPop .dots {top: 59%;}
+}
+

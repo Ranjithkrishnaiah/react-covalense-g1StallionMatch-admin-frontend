@@ -1,0 +1,1112 @@
+
+/* Pedigree */
+.PredegreeWrapperBox .secondColumnblock {
+    margin-left: -20%;
+}
+
+.SPtreechat .Pedigree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.SPtreechat .Pedigree span{
+    font-family:'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    color: #161716;
+}
+
+.SPtreechat .HorseName{
+    position: relative;
+    min-height: 21px;
+}
+
+.SPtreechat .HorseName h5{
+    font-family: 'Synthese-Book';
+    font-weight:400;
+    font-size: 14px;
+    color:#161716;
+    line-height: 20px;
+}
+
+.line{
+    position:absolute;
+    top: 369px;
+    border-bottom: solid 1px #161716;
+    width: 90%;
+    left: 10%;
+}
+.line1{
+  
+    top: 183px;
+    width: 79.5%;
+    right: 0;
+    left: inherit;
+}
+.line2{
+    top: 89px;
+    width: 59.8%;
+    right: 0%;
+    left: initial;
+}
+.line3{
+    
+    top: 276px;
+    width: 59.8%;
+    right: 0%;
+    left: initial;
+}
+.line4{
+    top: 462.5px;
+    width: 59.8%;
+    right: 0%;
+    left: initial;
+}
+.line5{
+    top: 556px;
+    width: 79.5%;
+    right: 0;
+    left: inherit;
+}
+.line6{
+    top: 649px;
+    width: 59.8%;
+    right: 0%;
+    left: initial;
+}
+.PredegreeWrapperBoxInner {
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+}
+
+
+.PredegreeWrapperBox .Pedigree .g1pro-text {
+    color: #005632;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 9px;
+    font-family: 'Synthese-Regular';
+}
+
+    .PredegreeWrapperBox.SPtreechat .HorseName h5 {
+    font-size: 12px;
+    cursor: pointer;
+    white-space: pre;
+    background: #F4F1EF;
+    font-family: 'Synthese-Regular';
+    padding: 0px 5px;
+    min-height: 23.35px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.PredegreeWrapperBox.SPtreechat .HorseName h5 i.icon-Lock-fill {
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+}
+.sixthColumnblock .Pedigree .HorseName h5 {
+    font-size: 10px;
+    font-family: 'Synthese-Regular';
+    min-height: 18.41px;
+}
+.thirdColumnblock .Pedigree .PredegreeWhiteBoxText .g1pro-text {
+    display: none;
+}
+.sixthColumnblock .Pedigree .MuiBox-root:nth-child(5), .sixthColumnblock .Pedigree .MuiBox-root:nth-child(9), .sixthColumnblock .Pedigree .MuiBox-root:nth-child(13), .sixthColumnblock .Pedigree .MuiBox-root:nth-child(17), .sixthColumnblock .Pedigree .MuiBox-root:nth-child(21), .sixthColumnblock .Pedigree .MuiBox-root:nth-child(25),.sixthColumnblock .Pedigree .MuiBox-root:nth-child(29) {
+    margin-top: 5px;
+}
+
+.PredegreeWrapperBox .fifthColumnblock, .PredegreeWrapperBox  .fourthColumnblock {
+    padding-right: 2px;
+}
+.PredegreeWrapperBox .fourthColumnblock .Pedigree {
+    margin-top: -29px;
+}
+.fourthColumnblock .Pedigree {
+    margin-top: -29px;
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(2) {
+    position: relative;
+    top: 7px;
+
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(3) {
+    position: relative;
+    top: 14px;
+ 
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(4) {
+    position: relative;
+    top: 23px;
+   
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(5) {
+    top: 33px;
+   
+    position: relative;
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(6) {
+    position: relative;
+    top: 41px;
+   
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(7) {
+    position: relative;
+    top: 49px;
+}
+
+.PredegreeWrapperBox .fourthColumnblock .Pedigree .MuiBox-root:nth-child(8) {
+    position: relative;
+    top: 58px;
+}
+
+.PredegreeWrapperBox {
+    width: 100%;
+}
+
+.genBtn .SPtreechat {
+    min-height: 742px;
+}
+
+.genBtn .SPtreechat > .MuiBox-root {
+    height: 100%;
+}
+
+.genBtn .SPtreechat > .MuiBox-root .PredegreeWrapperBoxInner {
+    height: 100%;
+}
+.stallion-search-graph {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.PredegreeWhiteBox {
+    min-width: 110px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    line-height: 14px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    top: -4px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.PredegreeWrapperBox.SPtreechat  .PredegreeWhiteBox h5 {
+    font-size: 14px;
+    margin: 0;
+    white-space: inherit;
+    overflow: hidden;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; */
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(3) {
+    margin-top: 4px;
+}
+
+.sixthColumnblock .Pedigree .MuiBox-root {
+    margin-bottom: 1px;
+}
+
+.sixthColumnblock .Pedigree .MuiBox-root.PredegreesixthcolText {
+    margin-bottom: 0;
+}
+.SPtreechat .HorseName h5, .pedegreeTooltip p {
+    text-transform: lowercase; 
+}
+.SPtreechat .HorseName h5::first-line, .pedegreeTooltip p::first-line {
+    text-transform: capitalize;
+}
+
+.PredegreeWrapperBox .HorseName .PredegreeWhiteBoxText {
+    position: static !important;
+    line-height: 14px;
+    width: 100%;
+}
+.PredegreeWhiteBox .PredegreeWhiteBoxText {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PredegreeWrapperBox.SPtreechat  .PredegreesecondcolText h5 {
+    font-size: 14px;
+    min-height: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    min-height: inherit;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+.PredegreeWrapperBox .secondColumnblock .Pedigree {
+    position: relative;
+    left: 10px;
+}
+.SPtreechat .oneColumnblock .Pedigree {
+    align-items: flex-start;
+}
+.secondColumnblock .Pedigree .MuiBox-root:first-child {
+    position: relative;
+    top: -57px;
+  
+}
+
+.secondColumnblock .Pedigree .MuiBox-root:nth-child(2) {
+    position: relative;
+    top: 51px;
+    
+}
+
+.secondColumnblock .Pedigree .MuiBox-root .PredegreesecondcolText {
+    position: static;
+    top: 0;
+    background: #F4F1EF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.secondColumnblock .Pedigree .MuiBox-root .PredegreesecondcolText .g1pro-text {
+    padding: 0px 5px;
+    line-height:20px;
+}
+
+.thirdColumnblock .Pedigree .MuiBox-root:first-child {
+    position: relative;
+    top: -52px;
+}
+
+.thirdColumnblock .Pedigree .MuiBox-root .PredegreethirdcolText {
+    position: static;
+    top: 0;
+}
+
+.thirdColumnblock .Pedigree .MuiBox-root:nth-child(2) {
+    position: relative;
+    top: -18px;
+}
+
+.thirdColumnblock .Pedigree .MuiBox-root:nth-child(3) {
+    position: relative;
+    top: 15px;
+}
+
+.thirdColumnblock .Pedigree .MuiBox-root:nth-child(4) {
+    position: relative;
+    top: 49px;
+}
+
+
+
+.fourthColumnblock .Pedigree .MuiBox-root .PredegreefourthcolText {
+    position: static;
+    top: 0;
+}
+
+
+
+.SeventhColumnBoxWrapper .fourthColumnblock {
+    position: relative;
+    top: -29px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock {
+    position: relative;
+    top: -29px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(5) {
+    position: relative;
+    top: -5px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(6) {
+    position: relative;
+    top: -14px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(7) {
+    position: relative;
+    top: -20px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(8) {
+    position: relative;
+    top: -20px;
+}
+
+.SeventhColumnBoxWrapper .fourthColumnblock .MuiBox-root:nth-child(4) {
+    position: relative;
+    top: -22px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(9) {
+    position: relative;
+    top: -28px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(10) {
+    position: relative;
+    top: -31px;
+}
+
+.SeventhColumnBoxWrapper .fourthColumnblock .MuiBox-root:nth-child(5) {
+    position: relative;
+    top: -23px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(11) {
+    position: relative;
+    top: -40px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(12) {
+    position: relative;
+    top: -42px;
+}
+
+.SeventhColumnBoxWrapper .fourthColumnblock .MuiBox-root:nth-child(6) {
+    position: relative;
+    top: -28px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(13) {
+    position: relative;
+    top: -50px;
+}
+
+.SeventhColumnBoxWrapper .fifthColumnblock .MuiBox-root:nth-child(14) {
+    position: relative;
+    top: -52px;
+}
+
+.SeventhColumnBoxWrapper .fourthColumnblock .MuiBox-root:nth-child(7) {
+    position: relative;
+    top: -30px;
+}
+.SeventhColumnBoxWrapper {
+    margin-top: 39px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:first-child {
+    margin-top: -12px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root .PredegreefifthcolText {
+    margin: 0;
+}
+
+.pedegreeTooltip .MuiTooltip-tooltip {
+    padding: 10px 16px 15px;
+    margin: 0;
+    line-height: 14px;
+}
+.pedegreeTooltip .MuiTooltip-tooltip span.MuiTooltip-arrow {
+    transform: inherit !important;
+    left: 20px !important;
+    color: #fff;
+}
+
+.pedegreeTooltip p {
+    font-size: 15px;
+    font-family: 'Synthese-Regular';
+    font-weight: 400;
+}
+
+.pedegreeTooltip em {
+    font-size: 14px;
+    font-style: normal;
+}
+.pedegreeTooltip {
+    z-index: 1;
+}
+.selecthorseModal .CustomAutoComplete-Wrapper {
+    margin-bottom: 0;
+}
+.selecthorseModal .search-stallion-pop-box .CustomAutoComplete-Wrapper {
+    margin-bottom: 60px;
+}
+.filter-section.horse-rightbar {
+    height: auto;
+}
+
+.selecthorseModal  .FormGroup, .selecthorseModal  .edit-section, .selecthorseModal  .edit-field {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.accuracyTooltip 
+ .MuiBox-root {
+    padding-right: 10px;
+}
+.selecthorseModal .edit-section {
+    padding-top: 20px;
+}
+
+.select-stallion-modal .MuiInputLabel-root {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #161716;
+    margin: 0;
+    padding: 0;
+}
+
+.select-favourite-list .MuiListItemButton-root {
+    padding: 0px 16px;
+    border: 1px solid #B0B6AF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+    height: 64px;
+}
+.select-favourite-list .MuiListItemIcon-root{
+    margin-right: 12px;
+}
+
+.select-favourite-pop-inner {
+    margin-top: 0px;
+}
+.select-favourite-list .MuiListItemText-primary {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Book';
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.select-favourite-list .MuiListItemText-secondary {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Synthese-Book;
+    color: #161716;
+}
+
+.select-favourite-list .MuiListItemText-secondary span.MuiTypography-root {
+    color: #007142;
+    font-size: 12px;
+}
+.select-favourite-list .select-favourite-pop-box{
+    
+}
+.fav-stallion-img {
+    width: 48px;
+    height: 48px;
+}
+.select-favourite-list {
+    padding-bottom: 3px;
+  }
+  .select-favourite-list .MuiListItemButton-root:focus {
+    background: #E2E7E1;
+}
+
+.Search-Mare-HypoMate .StallionPedigree {
+    background: #F4F1EF;
+}
+.pedegree-overlap-left-wrapper .StallionPedigree {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    padding-left: 10px;
+    padding-bottom: 0;
+}
+.pedegree-overlap-right-wrapper .StallionPedigree {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0px;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {
+    background: #F4F1EF;
+   
+}
+.pedegree-overlap-left-wrapper .PredegreeWrapperBoxInner {
+    width: 95%;
+   
+}
+.PredegreeWhiteBox .MuiAvatar-root.MuiAvatar-circular {
+    width: 32px;
+    height: 32px;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {
+  
+    box-sizing: border-box;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+   
+}
+.pedegree-overlap-left-wrapper {
+ 
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #eae4e0;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.pedegree-overlap-left-wrapper .SPtreechat {
+    background: none;
+}
+.line.main-line-wrapper {
+    position: static;
+    width: 536px;
+    margin: 0px auto;
+    padding: 12px 0px;
+}
+
+.pedegree-overlap-right-wrapper {
+    height: 100%;
+    position: relative;
+}
+.pedegree-overlap-right-head {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+.pedegree-overlap-right-wrapper .SPtreechat {   
+     height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(5) {
+    margin-top: 4px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(7) {
+    position: relative;
+    top: 5px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(8) {
+    position: relative;
+    top: 4px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(9) {
+    position: relative;
+    top: 10px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(10) {
+    position: relative;
+    top: 10px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(11) {
+    position: relative;
+    top: 13px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(12) {
+    position: relative;
+    top: 14px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(13) {
+    position: relative;
+    top: 17px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(14) {
+    position: relative;
+    top: 19px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(15) {
+    position: relative;
+    top: 23px;
+}
+
+.fifthColumnblock .Pedigree .MuiBox-root:nth-child(16) {
+    position: relative;
+    top: 23px;
+}
+
+.SPtreechat .Pedigree .MuiBox-root {
+    position: relative;
+}
+
+
+.PredegreeWrapperBox.SPtreechat .HorseName  .pedegree-user {
+    display: none;
+}
+
+.PredegreeWrapperBox.SPtreechat .oneColumnblock  .HorseName  .pedegree-user {
+    display: flex;
+    margin: 0;
+    width: 88.69px;
+    height: 88.69px;
+    margin-bottom: 2px;
+    background: #bdbdbd;
+}
+.PredegreeWrapperBox.SPtreechat .oneColumnblock .HorseName  .pedegree-user svg {
+    color: #fff;
+}
+.oneColumnblock .HorseName {
+    z-index: 1;
+    padding: 0;
+    background: none;
+    margin-top: 52px;
+}
+
+.PredegreeWrapperBox.SPtreechat .oneColumnblock .HorseName h5 {
+    background: none;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+
+.oneColumnblock .HorseName .g1pro-text {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.pedegreeButtonOnclick {
+    margin-top: 10px;
+}
+.HorseDetailsPopover {
+    width: 100%;
+    min-width: 165px;
+}
+.pedegreebtn {
+    color: #161716;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Synthese-Bold';
+    min-width: inherit;
+    padding: 0;
+    margin: 0;
+    background: none !important;
+}
+.pedigreebtnWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F4F1EF;
+    padding: 0px 10px;
+}
+.pedegreebtn:hover{
+    text-decoration: none;
+    background: none;
+}
+
+.pedegreeButtonOnclick {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #f4f1ef;
+    margin: 0;
+    margin-top: -23px;
+    padding: 0px 10px;
+    min-height: 23.35px;
+}
+.PredegreeWhiteBox .pedigreebtnWrapper {
+    width: 130px;
+}
+.sixthColumnblock .Pedigree .pedegreebtn {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.seventhColumnblock {
+    display: none;
+}
+
+
+
+.search-stallion-pop-box .MuiAutocomplete-endAdornment {
+    top: 4px;
+}
+p.search-stallion-error {
+    padding: 0px 0px 5px;
+    margin: 0;
+    line-height: 15px;
+}
+.submit-new-bg{
+    margin: 0px;
+    background: #FAF8F7;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    flex-direction: row;
+    /* box-sizing: border-box; */
+    margin-left: -17px;
+}
+.submit-new-bg .lr-btn-outline{
+    height: 36px !important;
+    min-width: 175px !important;
+    font-size: 14px !important;
+    padding: 5.6px 10px 7.26px !important;
+    margin: 0px 0px 0px 16px;
+    color: #161716 !important;
+    line-height: 0px;
+    text-transform: inherit !important;
+    border: 1px solid #007142 !important;
+    border-radius: 4px !important;
+    font-family: 'Synthese-Regular';
+}
+.submit-new-bg .lr-btn-outline:hover{
+    color: #fff !important;
+    background: #007142 !important;
+    border: 1px solid #007142 !important;
+}
+
+
+.sorry-message{
+    padding: 10px 0px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626E60;
+    margin-bottom: 10px !important;
+}
+
+.scroll-submit-stallion-wrp{
+    box-sizing: border-box;
+    
+}
+
+.scroll-submit-stallion-wrp span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #626E60;
+    font-family: 'Synthese-Book';
+    padding: 0px !important;
+}
+
+
+
+.search-stallion-pop-box .MuiBox-root {
+    padding: 0px 0px 0px;
+    position: relative;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-paper {
+    padding: 0;
+    padding-right: 5px;
+}
+.add-favourite {
+    padding-top: 8px;
+}
+.search-stallion-pop-box .MuiOutlinedInput-root {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox {
+    min-height: 110px;
+    padding: 8px 0px;
+    padding-right: 10px;
+    padding-left: 0;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li.MuiAutocomplete-option {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    min-height: 34px;
+    justify-content: center;
+    margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: lowercase;
+    display: block;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li.MuiAutocomplete-option::first-letter {
+    text-transform: capitalize;
+}
+
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li.Mui-focused {
+    background: #E2E7E1 !important;
+    border-radius: 0px;
+}
+
+.stallionListBoxHead {
+    color: #161716;
+    text-transform:capitalize;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Regular';
+}
+.DrawerLeftModal .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option{
+    min-height: 36px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.edit-field.mareDropdown .MuiAutocomplete-papper{
+    max-height:205px !important;
+}
+.edit-field.mareDropdown .MuiAutocomplete-listbox{
+    max-height: 205px;
+}
+.edit-field.mareDropdown .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option{
+    min-height: 50px !important;
+}
+.DrawerLeftModal .stallionListBoxpara p{
+    width: 50%;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.DrawerLeftModal .stallionListBoxpara strong{
+    font-size: 11px;
+    color: #005632;
+}
+.DrawerLeftModal .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-focused{
+    background-color:#F0F3F0;
+    border-radius: 0px !important;
+}
+.DrawerLeftModal .MuiAutocomplete-popper .MuiAutocomplete-listbox .MuiAutocomplete-option.Mui-selected{
+    background-color:#F0F3F0 !important;
+    border-radius: 0px !important;
+}
+.DrawerLeftModal .stallionListBoxHead {
+    color: #161716;
+    text-transform:capitalize;
+    display: block;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Book';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.stallionListBoxHead::first-letter, .stallionListBoxpara p::first-letter {
+    text-transform: capitalize;
+}
+.stallionListBoxpara p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: lowercase;
+    color: #161716;
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+    font-family: 'Synthese-Book';
+}
+
+.stallionListBoxpara  {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-listbox li  strong {
+    color: #007142;
+    font-weight: 400;
+}
+
+.stallionListBoxHead span,.stallionListBoxpara span {
+    text-transform: uppercase;
+}
+.search-stallion-pop-box .MuiAutocomplete-endAdornment .MuiButtonBase-root {
+    color: #161716;
+}
+.search-stallion-pop-box .MuiAutocomplete-endAdornment .MuiButtonBase-root svg {
+    font-size: 26px;
+    margin-right: 2px;
+}
+.search-couldnot .sorry-message {
+    min-height: 59px;
+    width: 100%;
+    display: block;
+    margin: 0 !important;
+    padding: 10px 0px 0px !important;
+}
+.orderReport .search-couldnot .sorry-message {
+    padding: 0px !important;
+    min-height: 0px !important;
+
+}
+.search-stallion-pop-box-inner .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+    padding-bottom: 0;
+}
+
+.selecthorseModal .search-stallion-pop-box .MuiBox-root {
+    margin-top: 3px;
+}
+
+.search-stallion-pop-box .selectBtn{
+margin-top: 4rem !important;
+}
+
+.selecthorseModal .search-stallion-pop-box-inner .MuiAutocomplete-paper .MuiAutocomplete-noOptions {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.selectHorseDropdown .selectBtn{
+    margin-top: 5rem;
+}
+.selectHorseDropdown .stallionListBoxpara p{
+    font-size: 14px !important;
+}
+.selectHorseDropdown .stallionListBoxpara{
+    font-size: 13px !important;
+}
+.selectHorseDropdown .MuiAutocomplete-endAdornment .MuiButtonBase-root {
+    top:5px;
+}
+
+/* media-query */
+@media only screen and (max-width: 1024px) {
+    .SPtabs header{
+        z-index: 1;
+        top: 92px;
+     }
+}
+@media only screen and (max-width: 767px) {
+   
+    .stallion-page-header-button .ListBtn {
+        padding: 6px 8px;
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .stallion-page-header-button .css-1meeb1d-MuiStack-root>:not(style)+:not(style) {
+        margin-left: 5px;
+    }
+    .PredegreeWrapperBoxInner {
+        width: 100%;
+    }
+    .middayPredegreeWrp {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .middayPredegreeWrp .MuiGrid-grid-md-6{
+        width: 100%;
+        flex: 1;
+        flex-wrap: nowrap;
+        display: flex;
+        white-space: nowrap;
+        min-width: 500px;
+    }
+    
+    .middayPredegreeWrp .SPtreechatLeft {
+        width: 100%;
+    }
+    .middayPredegreeWrp .SPtreechatRight {
+        width: 100%;
+    }
+    
+    
+    .middayPredegreeWrp .SPtreechatRight .ListBtn {
+        position: absolute;
+        right: 30px;
+        margin-right: 38px;
+    }
+    
+    .middayPredegreeWrp .SPtreechatRight .ListBtn.css-88djgp-MuiButtonBase-root-MuiButton-root {margin-right: 0;}
+    .stackWinnerTable {
+        white-space: pre-line;
+        overflow-y: scroll;
+        width: 770px;
+        min-width: 770px;
+    }
+    
+    
+    .stakes-winner-wrapper {
+        overflow-x: auto;
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+   
+
+.select-stallion-modal .MuiInputLabel-root {
+    white-space: pre-line;
+    line-height: 28px;
+}
+
+.select-favourite-list .MuiListItemButton-root {
+    height: auto;
+    min-height: 76px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pedegree-overlap-right-wrapper {
+    width: 0100%;
+}
+
+.line.main-line-wrapper {
+    width: 460px;
+}
+
+.pedegree-overlap-left-wrapper .SPtreechat {
+    width: 100%;
+}
+
+.pedegree-overlap-left-wrapper {
+    width: 100%;
+}
+
+  
+    
+}
+
+@media only screen and (max-width: 330px) {
+    .stallion-page-header-button .ListBtn {
+        padding: 6px 3.5px;
+    }
+
+    .stallion-page-header-button .css-1meeb1d-MuiStack-root>:not(style)+:not(style) {
+        margin-left: 3px;
+    }
+
+    .stallion-page-header-button .ListBtn i {
+        font-size: 13px;
+        margin-right: 3px;
+    }
+}

@@ -1,0 +1,17 @@
+/* custom-tree.css */
+
+.node__root > rect {
+    fill: red;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .node__branch > rect {
+    fill: yellow;
+  }
+  
+  .node__leaf > rect {
+    fill: green;
+    /* Let's also make the radius of leaf nodes larger */
+    
+  }

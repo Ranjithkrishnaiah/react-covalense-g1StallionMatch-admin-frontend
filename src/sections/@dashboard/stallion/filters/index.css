@@ -1,0 +1,20 @@
+.stallion-feerange-values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.min-max {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.clear-icon {
+    position: relative;
+    margin-left: -55px;
+    margin-bottom: -5px;
+    padding: 2px;
+    cursor: pointer;
+}

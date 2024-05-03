@@ -1,0 +1,360 @@
+.genSlider{
+    color: #007142;
+    width:90%;
+    display: flex;
+    margin: 0 auto;
+    height: 9px;
+}
+
+.genSlider .MuiSlider-thumb{
+    width: 20px;
+    height: 20px;
+}
+
+.genClmn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    width: 93%;
+    height: 20%;
+}
+
+.genClmn span{
+    font-family:'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #161716;
+    text-transform: uppercase;
+}
+
+
+.genBtn .rd3t-node{
+    cursor: pointer;
+    fill: #F4F1EF;
+    stroke: #000;
+    stroke-width: 0;
+    font-size: 12px;
+}
+
+.genBtn .rd3t-leaf-node{
+    cursor: pointer;
+    fill: #F4F1EF;
+    stroke: #000;
+    stroke-width: 0;
+    font-size: 12px;
+}
+.genBtn .rd3t-link{
+    stroke: none;
+}
+
+
+.horse-leftbar h6.MuiTypography-root {font-family: 'Synthese-Bold';
+    font-size: 14px;
+    color: #1D472E;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.horse-leftbar .edit-field {border: 0;box-shadow: initial !important;width: 100%;}
+
+.horse-leftbar .MuiSwitch-sizeMedium {margin-right: 0;}
+
+.save-changes-btn button {width: 100%;box-shadow: inherit;     font-family: 'Synthese-Regular'; font-weight: 400;}
+.information-horse-block  .MuiAccordionDetails-root {padding: 0px 0px 0px;}
+.information-horse-block .MuiAccordionDetails-root p {    white-space: nowrap;font-size: 14px;color: #161716;padding: 5px 0px;    font-family: 'Synthese-Book';}
+
+
+.information-horse-block .MuiAccordionDetails-root p label {    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Synthese-Bold';
+    line-height: 20px;}
+
+    .information-horse-block .MuiAccordionDetails-root p label u {
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+        text-underline-offset: 1.5px;
+    }
+.horse-rightbar .closeBtn {
+    padding: 8px 0px 0;
+    background: none !important;
+}
+
+
+
+
+
+
+/* *****************************Pedegree-HeadStyle************************** */
+
+.Horse-Detail-Pedegree-Header {
+    margin-bottom: 4px;
+}
+
+.Detail-Pedegree-Headr-Left h6 {
+    font-family: 'Synthese-Book';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #161716;
+}
+
+.Detail-Pedegree-Headr-Left .ProgressBar-Line span.MuiLinearProgress-root {
+    height: 6px;
+}
+
+.Detail-Pedegree-Headr-Left h6 b {
+    font-family: 'Synthese-Bold';
+}
+.header-button-pegdegree {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-button-pegdegree .add-btn {
+    min-width: 32px;
+    height: 32px;
+    background: none;
+    margin-left: 10px;
+    color: #161716;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px 5px;
+}
+
+.header-button-pegdegree .add-btn:hover {
+    background: #BD9A68;
+}
+
+.header-button-pegdegree .add-btn-outline {
+    border-color: #007142;
+    min-width: 60px;
+    padding: 5px 8px 7px;
+}
+
+.header-button-pegdegree .add-btn-outline:hover {
+    background: #007142;
+    color: #fff;
+}
+.header-button-pegdegree .add-btn i {
+    font-size: 17px;
+}
+.Detail-Pedegree-Headr-Left i.icon-Info-circle {
+    cursor: pointer;
+    color: #161716;
+}
+.main-container 
+ .horsepegreePage {
+    margin-top: 0;
+}
+.BoldText {
+    text-transform: uppercase;
+    color: #161716;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: 'Synthese-Bold';
+}
+
+
+
+
+
+
+
+/* **********************Alias-Popover ******************************/
+
+.aliasPopover {
+    width: 330px;
+    background: #fff;
+    z-index: 1;
+    border-radius: 6.53743px;
+    border: 0;
+    min-height: inherit;
+    height: auto;
+    /* margin-left: 65px !important; */
+    overflow: hidden;
+    padding-bottom: 20px;
+    max-height: 416px;
+}
+.alias-btn {
+    min-width: inherit;
+    background: none !important;
+    padding: 0;
+    position: absolute;
+    right: -30px;
+    height: 38px;
+    margin: auto;
+}
+.alias-btn:hover{
+    background: none !important;
+}
+.AliasHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #E2E7E1;
+    padding: 0px 10px 0px 20px;
+    height: 48px;
+}
+.horse-leftbar .userIconRight {
+    display: flex;
+    align-items: center;
+}
+.userIconRight-wrap  .errorMsg {
+    position: relative;
+    top: -4px;
+}
+.horse-leftbar .userIconRight i.user-ico-right {
+    position: static;
+}
+.AliasHeader button.MuiButtonBase-root {
+    position: static;
+}
+.AliasHeader h4 {
+    color: #1D472E;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-size: 15.6898px;
+    line-height: 26px;
+    font-family: 'Synthese-Regular';
+}
+.AliasBody {
+    padding: 0px 20px;
+    padding-right: 4px;
+}
+.AliasBody .select-favourite-list {
+    height: auto;
+    padding-right: 6px;
+    max-height: 148px;
+    min-height: inherit;
+    padding-bottom: 0;
+}
+.AliasBody .RadioGroupWrapper {
+    padding: 0;
+}
+
+
+.AliasBody .MuiFormControl-root {
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.AliasBody .RadioList {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.AliasBody .RadioList .aliasRadioList {
+    width: 100%;
+    padding: 5px 4px 6px 10px;
+    margin: 4px 0px;
+    border: 1px solid #B0B6AF;
+    border-radius: 8px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.AliasBody .RadioList .aliasRadioList span.MuiTypography-root {
+    font-size: 14px;
+    line-height: 24px;
+    color: #161716;
+    text-transform: capitalize;
+    padding-left: 0;
+}
+.AliasBody .search-stallion-pop-box {
+    margin-top: 14px;
+    padding-right: 16px;
+}
+.AliasBody .lr-btn {
+    height: 40px;
+}
+.AliasBody .popper-footer {
+    padding-right: 16px;
+}
+.AliasBody .search-stallion-pop-box label {
+    color: #161716;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Synthese-Regular';
+    margin-bottom: 10px;
+}
+.AliasBody .RadioList .aliasRadioList span.MuiRadio-root.MuiRadio-colorPrimary {
+    min-width: 18px !important;
+    min-height: 18px !important;
+    width: 18px;
+    height: 18px;
+}
+
+.AliasBody .search-stallion-pop-box .edit-field {
+    margin-bottom: 16px;
+}
+.AliasRows {
+    width: 100%;
+    display: flex;
+}
+.AliasBody .MuiFormControl-root .MuiOutlinedInput-root {
+    width: 100%;
+}
+.IconDeleteGreyed {
+    opacity: .5;
+    pointer-events: none;
+}
+.DeleteBtn {
+    min-width: inherit;
+    padding: 0px 8px;
+    font-size: 40px;
+    color: #626E60;
+    background: none !important;
+}
+.DeleteBtn img {
+    width: 30px;
+}
+.EyeBtn {
+    background: none;
+    min-width: inherit;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    background: none !important;
+}
+
+.EyeBtn img {
+    width: 30px;
+}
+.aliasPopover .popper-footer {
+    padding: 0px 20px;
+}
+
+.aliasPopover .popper-footer .lr-btn {
+    height: 40px;
+    margin-top: 0px;
+    padding: 10px 10px 11px;
+}
+
+.EditBtn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    color: #007142;
+    text-transform: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Synthese-Regular';
+    padding: 0;
+    min-width: inherit;
+    background: none !important;
+}

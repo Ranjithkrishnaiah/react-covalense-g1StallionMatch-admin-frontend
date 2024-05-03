@@ -1,0 +1,65 @@
+.App {
+    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #legend li span {
+    width: 36px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 5px 8px 0;
+    vertical-align: -9.4px;
+  }
+  #legend ul {
+    list-style: none;
+    font: 12px Verdana;
+    font-family: 'Inter', sans-serif;
+    white-space: nowrap;
+  }
+
+  .doughnutChart-Wrapper {
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.doughnutChart-Wrapper .doughnut-nodata{
+  height: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: end;
+  font-size: 16px;
+  justify-content: center;
+}
+.pieContainer{
+ width: 40%;
+ height: 40%;
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%, -50%);
+}
+
+
+
+.ViewAnalyticsPageBody .Linechart-StMatchActvty {
+  height: auto;
+  min-height: 410px;
+  box-sizing: border-box;
+}
+
+.ViewAnalyticsPageBody .lineBarChart-Wrapper {
+  height: 360px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled .SPtreechat  .lineBarChart-Wrapper {
+  height: 100%;
+}
+.stallion-match-activity .fullscreen.fullscreen-enabled .Linechart-StMatchActvty {
+    min-height: initial;
+    height: 100%;
+}

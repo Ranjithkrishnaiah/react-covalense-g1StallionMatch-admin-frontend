@@ -1,0 +1,545 @@
+@font-face {
+    font-family: 'Synthese-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Synthese-Bold'), url('../../../public/fonts/Synthese-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Synthese-Book';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Synthese-Book'), url('../../../public/fonts/Synthese-Book.ttf') format('truetype');
+  }
+
+ 
+
+.rdrDateDisplayWrapper {
+    display: none; 
+  }
+  .customDateRangepicker {
+    z-index:9999 !important;
+    font-family: 'Synthese-Book';
+    margin-top: 4px !important;
+    margin-right: -12px !important;
+  }
+  .customDRpicker {
+    background: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  
+}
+
+.customDRpicker .rdrCalendarWrapper {
+    width: 100%;
+    color: #005632;
+}
+
+.customDRpicker .rdrMonthAndYearPickers select {
+    text-align: center;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Synthese-Bold';
+    color: #005632;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    padding: 0px 5px;
+    border: 0;
+    overflow: scroll;
+    background: #fff;
+    position: absolute;
+    border: 0;
+    margin: 7px 0px;
+    
+}
+.customDRpicker .rdrMonthAndYearPickers select option{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-family: 'Synthese-Book';
+    font-weight: 300;
+    color: #626E60;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    min-height: 34px;
+}
+
+.rdrMonthAndYearPickers select option:hover,
+.rdrMonthAndYearPickers select option:checked,
+.rdrMonthAndYearPickers select option:active,
+.rdrMonthAndYearPickers select option:focus {
+    background: #fff;
+    position: relative;
+    color: #161716;
+}
+
+.rdrMonthAndYearPickers select option:hover {
+    cursor: pointer;
+    background-color: rgb(240, 243, 240) !important;
+    box-shadow: 0 0 100px 100px #F0F3F0 inset !important;
+    color: #161716;
+}
+.rdrMonthAndYearPickers select option:checked{
+ background: none !important;
+ color: #161716;
+}
+
+
+ 
+ .rdrMonthAndYearPickers select option:checked {
+
+     color: rgb(22, 23, 22) !important;
+ }
+
+
+.rdrMonthAndYearPickers select option {
+    padding: 5px 10px;
+}
+
+
+.rdrMonthAndYearPickers select:-internal-list-box option:selected  {
+    color: rgb(22, 23, 22) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.rdrMonthAndYearPickers select:-internal-list-box:focus  option:checked  {
+    color: rgb(22, 23, 22) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.rdrMonthAndYearPickers select:-internal-list-box:focus  option:selected  {
+    color: rgb(22, 23, 22) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.rdrMonthAndYearPickers select:-internal-list-box:focus option::selection  {
+    color: rgb(22, 23, 22) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+.rdrMonthAndYearPickers select:-internal-list-box option:checked {
+    color: rgb(22, 23, 22) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+.customDRpicker .rdrMonthAndYearPickers select.active-dropdown {
+    border: solid 1px #161716;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+}
+
+
+.rdrMonthPicker, .rdrYearPicker {
+    margin: 0;
+    position: relative;
+    height: 40px;
+  
+}
+
+.customDRpicker span.rdrYearPicker {
+    padding: 0;
+    margin: 0;
+}
+.rdrMonthPicker {
+    min-width: 57px;
+}
+.rdrMonthPicker select {
+    overflow: hidden !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 60px;
+}
+
+.rdrMonthPicker select.active-dropdown {
+    max-width:130px;
+}
+
+
+.rdrYearPicker {
+    min-width: 47px;
+}
+.customDRpicker .rdrMonth {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.customDRpicker .rdrNextPrevButton,.customDRpicker .rdrNextPrevButton {
+    width: 50px;
+    height: 49px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+}
+
+.customDRpicker .rdrNextButton i {
+    margin: 0;
+}
+.customDRpicker .rdrMonthAndYearWrapper {
+    padding: 0;
+    margin-bottom: 24px;
+    height: 49px;
+}
+.customDRpicker .rdrDay {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Synthese-Bold';
+    height: 45px;
+    color: #007142 !important;
+    margin: 2px 0px;
+}
+
+
+.customDRpicker .rdrDayNumber span {
+    color: #161716;
+}
+
+
+.customDRpicker .rdrDayPassive .rdrDayNumber span {
+    color: #CCCCCC;
+}
+
+.customDRpicker .rdrWeekDay {
+    color: #979797;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Synthese-Regular';
+    line-height: 16px;
+}
+.customDRpicker .rdrMonth .rdrWeekDays {
+    margin-bottom: 12px;
+}
+
+.customDRpicker .rdrStartEdge {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: #007142;
+}
+  
+.customDRpicker .rdrEndEdge{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+   
+}
+
+
+.rdrDayStartOfMonth .rdrInRange, .rdrDayStartOfMonth .rdrEndEdge, .rdrDayStartOfWeek .rdrInRange, .rdrDayStartOfWeek .rdrEndEdge{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+   
+  }
+
+.rdrDayEndOfMonth .rdrInRange,  .rdrDayEndOfMonth .rdrStartEdge,  .rdrDayEndOfWeek .rdrInRange,  .rdrDayEndOfWeek .rdrStartEdge{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    right: 0;
+  }
+
+.rdrDayStartOfMonth .rdrDayInPreview, .rdrDayStartOfMonth .rdrDayEndPreview, .rdrDayStartOfWeek .rdrDayInPreview, .rdrDayStartOfWeek .rdrDayEndPreview{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+  }
+
+.rdrDayEndOfMonth .rdrDayInPreview, .rdrDayEndOfMonth .rdrDayStartPreview, .rdrDayEndOfWeek .rdrDayInPreview, .rdrDayEndOfWeek .rdrDayStartPreview{
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+
+ }
+
+
+ .customDRpicker .rdrPprevButton i {
+    background-image: url(../../assets/Vectors/chevron-left.svg);
+    border: 0;
+    background-size: 20px;
+    transform: inherit;
+    background-size: 30px;
+    transform: inherit;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+    background-position: center;
+}
+
+.customDRpicker .rdrNextButton i {
+    background-image: url(../../assets/Vectors/chevron-right.svg);
+    border: 0;
+    background-size: 20px;
+    transform: inherit;
+    background-size: 30px;
+    transform: inherit;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+    background-position: center;
+}
+
+.rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge {
+    background: #F4F1EF;
+    height: 45px;
+    top: 0;
+    bottom: 0;
+    border-radius: 4px;
+    border-left: solid 2px #fff;
+    border-right: solid 2px #fff;
+}
+.rdrDayNumber {
+    top: 0;
+    bottom: 0;
+    height: 45px;
+}
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span, .rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span, .rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span, .rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+    color: #161716;
+  
+}
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span,.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span {
+    color: #fff;
+}
+
+.rdrDayEndOfMonth .rdrInRange{
+    background: #007142;
+}
+.rdrDayEndOfMonth:not(.rdrDayPassive) .rdrInRange ~ span.rdrDayNumber span {
+    color: #fff;
+}
+.rdrDayToday .rdrDayNumber span:after {
+    background: #007142;
+}
+.rdrDayStartPreview {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.rdrDayStartPreview, .rdrDayInPreview, .rdrDayEndPreview {
+    height: 45px;
+    top: 0;
+    bottom: 0;
+}
+
+
+
+.rdrStartEdge {
+    left: 0;
+}
+.rdrDayEndPreview {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+
+.customDRpicker .rdrMonthAndYearPickers select::-webkit-scrollbar {
+    width: 12px;
+  
+  }
+  
+  .customDRpicker .rdrMonthAndYearPickers select::-webkit-scrollbar-track {
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+  }
+   
+  
+  .customDRpicker .rdrMonthAndYearPickers select::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: #B0B6AF;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 36px;
+  }
+  
+  span.rdrEndEdge {
+    color: #007142;
+    background: #007142;
+}
+
+.customDateRangepicker .customDRpicker{
+    border: none;
+    padding: 0 !important;
+}
+
+.rmdp-shadow{
+    box-shadow: none !important;
+}
+.rmdp-wrapper{
+    border-radius: 8px !important;
+}
+.rmdp-day{
+    width: 45px !important;
+    height: 45px !important;
+
+}
+.rmp-day:hover{
+    background-color: #C5CFC4;
+}
+.rmdp-day .rmdp-today{
+    background-color: #F4F1EF !important;
+}
+.rmdp-arrow {
+    border: solid #005632 !important;
+    border-width: 0 1px 1px 0px !important;
+    display: inline-block;
+    height: 6px;
+    margin-top: 5px;
+    padding: 2px;
+    width: 6px;
+}
+.rmdp-arrow-container {
+    border-radius: 4px !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height:50px !important;
+    justify-content: center;
+    width: 50px !important;
+    box-sizing: border-box;
+    border: solid 1px #F2F2F2;
+}
+.rmdp-calendar{
+    padding: 20px !important;
+}
+.rmdp-header-values {
+    color: #005632;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Synthese-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px; 
+}
+.rmdp-arrow-container:hover {
+    background-color: #F4F1EF !important;
+    box-shadow: none !important;
+}
+.rmdp-arrow-container:hover .rmdp-arrow {
+    border: solid #005632 !important;
+    border-width: 0 1px 1px 0px !important;
+}
+.rmdp-week-day {
+    cursor: default;
+    font-family: 'Synthese-Regular';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 11px !important;
+    line-height: 16px;
+    color: #979797 !important;
+}
+.rmdp-day span{
+    font-family: 'Synthese-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #161716;
+}
+.rmdp-day.rmdp-today span {
+    background-color: #F4F1EF !important;
+    color: #161716 !important;
+    border-radius: 4px;
+}
+.rmdp-day.rmdp-today.rmdp-range.start span {
+    background-color: #007142 !important;
+    color: #ffffff !important;
+    border-radius: 4px;
+}
+.rmdp-day.rmdp-today.rmdp-range.start span:hover {
+    background-color: #007142 !important;
+    color: #ffffff !important;
+    border-radius: 4px;
+}
+.rmdp-day.rmdp-range span:hover{
+    background-color: #F4F1EF !important;
+}
+.rmdp-day.rmdp-range.end span:hover {
+    background: #007142 !important;
+    color: #ffffff !important;
+    border-radius: 4px;
+}
+
+.rmdp-day span:hover {
+    color: #161716 !important;
+    background: #c5cfc4 !important;
+    border-radius: 4px;
+}
+.rmdp-range {
+    background-color: #F4F1EF !important;
+    box-shadow: none !important;
+    border-radius: 4px;
+    margin: 1px;
+}
+.rmdp-range span{
+    color: #161716 !important;
+}
+.rmdp-range-hover.start, .rmdp-range.start {
+    border-radius: 4px !important;
+    background-color: #007142 !important;
+    color: #ffffff !important;
+}
+.rmdp-range-hover.start, .rmdp-range.end {
+    border-radius: 4px !important;
+    background-color: #007142 !important;
+
+}
+.rmdp-range-hover.start, .rmdp-range.start span{
+    color: #ffffff !important;
+}
+.rmdp-range-hover.start, .rmdp-range.start span:hover{
+    background-color: #007142 !important;
+}
+.rmdp-range-hover.start, .rmdp-range.end span{
+    color: #ffffff !important;
+    background-color: #007142 !important;
+}
+.rmdp-range-hover{
+    background-color: #F4F1EF !important;
+
+}
+.rmdp-range-hover.start{
+    border-radius: 4px !important;
+    background-color: #F4F1EF !important;
+}
+.rmdp-range-hover.end{
+    border-radius: 4px !important;
+    background-color: #F4F1EF !important;
+}
+.rmdp-ym{
+    height: 20% !important;
+}
+.rmdp-ym .rmdp-day span{
+    font-family: 'Synthese-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #161716;
+}
+.rmdp-day.rmdp-selected span:not(.highlight){
+    box-shadow: none !important;
+    border-radius: 4px;
+    background-color: #007142 !important;
+    color: #ffffff !important;
+}

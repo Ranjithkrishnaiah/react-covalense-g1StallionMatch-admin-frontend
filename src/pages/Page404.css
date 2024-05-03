@@ -1,0 +1,64 @@
+.errorBg{
+    background:url(../assets/Images/Errorpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(55%) calc(30%);
+    position: relative;
+    width: 100%;
+    height:100vh;
+}
+.errorBg h2{
+    margin: 0px;
+    font-family: FlechaM-Medium;
+    color: rgb(29, 71, 46);
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1.28571;
+    letter-spacing: 0px;
+    padding-top: 40px;
+}
+
+.errorBg .Return{
+    background-color: #2EFFB4;
+    color: #1D472E;
+    font-family: 'Synthese-Regular';
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 4px;
+    width: 210px;
+    height: 48px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.01rem;
+    padding: 10px 0px 14px;
+}
+
+.errorBg .Return:hover{
+    background-color: #00DE8E;
+    color:#1D472E;
+}
+
+.errorBg span{
+    font-family: 'Synthese-Book';
+    font-size: 20px;
+    color: #1d472e;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.01rem;
+    line-height: 32px;
+} 
+.errorGreenTiles{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background:url(../assets/Images/bottomGreenTiles.svg);
+    width: 612px;
+    height: 90px;
+}
+
+
+
+.Page404Body {
+    padding: 0;
+}
